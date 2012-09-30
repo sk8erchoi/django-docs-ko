@@ -11,6 +11,7 @@ BUILDDIR      = _build
 PAPEROPT_a4     = -D latex_paper_size=a4
 PAPEROPT_letter = -D latex_paper_size=letter
 ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
+GETTEXTOPTS     = -d $(BUILDDIR)/gettextdoctrees $(SPHINXOPTS) .
 
 .PHONY: help clean html dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest
 
@@ -40,6 +41,12 @@ html:
 	$(SPHINXBUILD) -b djangohtml $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
+
+gettext:
+	$(SPHINXBUILD) -b gettext $(GETTEXTOPTS) $(BUILDDIR)/gettext
+	@echo
+	@echo "Build finished. The POT files are in $(BUILDDIR)/gettext."
+
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml

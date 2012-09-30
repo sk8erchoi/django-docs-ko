@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Django Software Foundation and contributors
+# This file is distributed under the same license as the Django package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-29 22:44\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../contents.txt:5
+# 064cd9d95451481097efa549b80d9c21
+msgid "Django documentation contents"
+msgstr ""
+
+#: ../../contents.txt:26
+# 7fb47bd5f25e45a683746b885761c333
+msgid "Indices, glossary and tables"
+msgstr ""
+
+#: ../../contents.txt:28
+# 01756475d83f46e285ff0524f3308456
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../contents.txt:29
+# ab9f7fc3e69f4297ad5f49a2f3ea6e76
+msgid ":ref:`modindex`"
+msgstr ""
+
+#: ../../contents.txt:30
+# 9a16f6c06714443490715c5c995f3659
+msgid ":ref:`glossary`"
+msgstr ""
+
+#: ../../contents.txt:33
+# d7c275df0797474f89e5033c40e411a9
+msgid "Deprecated/obsolete documentation"
+msgstr ""
+
+#: ../../contents.txt:35
+# c85e570170324950b77e9445a3d77695
+msgid "The following documentation covers features that have been deprecated or that have been replaced in newer versions of Django."
+msgstr ""
+

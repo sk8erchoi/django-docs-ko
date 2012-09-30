@@ -1,0 +1,2510 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Django Software Foundation and contributors
+# This file is distributed under the same license as the Django package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-29 22:44\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../intro/index.txt:2
+# daad91c5cc3e4c0091d4ad9a87bdfcc3
+msgid "Getting started"
+msgstr ""
+
+#: ../../intro/index.txt:4
+# bfee6d9311a546129bf66b758586d86c
+msgid "New to Django? Or to Web development in general? Well, you came to the right place: read this material to quickly get up and running."
+msgstr ""
+
+#: ../../intro/index.txt:20
+# 717f0c40ac354b3eba83514b11f20dd5
+msgid "If you're new to Python_, you might want to start by getting an idea of what the language is like. Django is 100% Python, so if you've got minimal comfort with Python you'll probably get a lot more out of Django."
+msgstr ""
+
+#: ../../intro/index.txt:24
+# b1af163566c0445891904b37cb86dbfd
+msgid "If you're new to programming entirely, you might want to start with this `list of Python resources for non-programmers`_"
+msgstr ""
+
+#: ../../intro/index.txt:27
+# bc8f43201fb74efaa1abbc4e2449b14b
+msgid "If you already know a few other languages and want to get up to speed with Python quickly, we recommend `Dive Into Python`_ (also available in a `dead-tree version`_). If that's not quite your style, there are quite a few other `books about Python`_."
+msgstr ""
+
+#: ../../intro/install.txt:2
+# e6e2c319db1748439d72ac3c8d592e68
+msgid "Quick install guide"
+msgstr ""
+
+#: ../../intro/install.txt:4
+# 298b089be8264c999c80c0c65f76a3a6
+msgid "Before you can use Django, you'll need to get it installed. We have a :doc:`complete installation guide </topics/install>` that covers all the possibilities; this guide will guide you to a simple, minimal installation that'll work while you walk through the introduction."
+msgstr ""
+
+#: ../../intro/install.txt:10
+# 5b456288eded4cb1996f8210e4ef299d
+msgid "Install Python"
+msgstr ""
+
+#: ../../intro/install.txt:12
+# 850eb637dcf44ab0a87b0a31125df6d1
+msgid "Being a Python Web framework, Django requires Python. It works with any Python version from 2.5 to 2.7 (due to backwards incompatibilities in Python 3.0, Django does not currently work with Python 3.0; see :doc:`the Django FAQ </faq/install>` for more information on supported Python versions and the 3.0 transition), these versions of Python include a lightweight database called SQLite_ so you won't need to set up a database just yet."
+msgstr ""
+
+#: ../../intro/install.txt:21
+# 14f7414dc7af40f3a00b05021f57ab0b
+msgid "Get Python at http://www.python.org. If you're running Linux or Mac OS X, you probably already have it installed."
+msgstr ""
+
+#: ../../intro/install.txt:26
+# bd3f069a9b1a403093190ed0a930be7a
+msgid "If you use Jython_ (a Python implementation for the Java platform), you'll need to follow a few additional steps. See :doc:`/howto/jython` for details."
+msgstr ""
+
+#: ../../intro/install.txt:31
+# f1eed042a1594f0bb4dbd32bc9cb8dd8
+msgid "You can verify that Python is installed by typing ``python`` from your shell; you should see something like::"
+msgstr ""
+
+#: ../../intro/install.txt:40
+# 6c305630ec4f42129b4115a2a64cd24c
+msgid "Set up a database"
+msgstr ""
+
+#: ../../intro/install.txt:42
+# 73b1e53f9b3548f4b34dc591b2b5ebea
+msgid "If you installed Python 2.5 or later, you can skip this step for now."
+msgstr ""
+
+#: ../../intro/install.txt:44
+# 0177b8c9ca3845bbbdce7d1a94f4ee46
+msgid "If not, or if you'd like to work with a \"large\" database engine like PostgreSQL, MySQL, or Oracle, consult the :ref:`database installation information <database-installation>`."
+msgstr ""
+
+#: ../../intro/install.txt:49
+# 0b2bb23392294242914f6740cb03b1da
+msgid "Remove any old versions of Django"
+msgstr ""
+
+#: ../../intro/install.txt:51
+# 2cc14e85e53a4befac523794c27cc8ff
+msgid "If you are upgrading your installation of Django from a previous version, you will need to :ref:`uninstall the old Django version before installing the new version <removing-old-versions-of-django>`."
+msgstr ""
+
+#: ../../intro/install.txt:56
+# 26cb9a14061e4915a08bdcd452cba916
+msgid "Install Django"
+msgstr ""
+
+#: ../../intro/install.txt:58
+# 3d0234e3022641fa90f1300e3d6f041c
+msgid "You've got three easy options to install Django:"
+msgstr ""
+
+#: ../../intro/install.txt:60
+# 6c910855f2cf44ad8f6d484513e4fd9e
+msgid "Install a version of Django :doc:`provided by your operating system distribution </misc/distributions>`. This is the quickest option for those who have operating systems that distribute Django."
+msgstr ""
+
+#: ../../intro/install.txt:64
+# 5df38a9117e04d2b8bc4adb48d04462d
+msgid ":ref:`Install an official release <installing-official-release>`. This is the best approach for users who want a stable version number and aren't concerned about running a slightly older version of Django."
+msgstr ""
+
+#: ../../intro/install.txt:68
+# 456b5cd9c2844d028adbbea45d8edf8c
+msgid ":ref:`Install the latest development version <installing-development-version>`. This is best for users who want the latest-and-greatest features and aren't afraid of running brand-new code."
+msgstr ""
+
+#: ../../intro/install.txt:75
+# 85bcca4030c84885af40d9923247bf9a
+msgid "If you do either of the first two steps, keep an eye out for parts of the documentation marked **new in development version**. That phrase flags features that are only available in development versions of Django, and they likely won't work with an official release."
+msgstr ""
+
+#: ../../intro/install.txt:82
+# 4692b536652b460984deb651ee3b0625
+msgid "Verifying"
+msgstr ""
+
+#: ../../intro/install.txt:84
+# 97fd367227bb45d4a9184314eb7e9e79
+msgid "To verify that Django can be seen by Python, type ``python`` from your shell. Then at the Python prompt, try to import Django::"
+msgstr ""
+
+#: ../../intro/install.txt:93
+# 24e3b6575b164996ad4ba8fd8c827e03
+msgid "That's it!"
+msgstr ""
+
+#: ../../intro/install.txt:95
+# 9d03cde9e7994cbfb78d495fddddc537
+msgid "That's it -- you can now :doc:`move onto the tutorial </intro/tutorial01>`."
+msgstr ""
+
+#: ../../intro/overview.txt:3
+# 2c7e2fd1c4dc4df3a8cef4860933e4ee
+msgid "Django at a glance"
+msgstr ""
+
+#: ../../intro/overview.txt:5
+# 45dda6f3fecc4d80bee027d4349ce819
+msgid "Because Django was developed in a fast-paced newsroom environment, it was designed to make common Web-development tasks fast and easy. Here's an informal overview of how to write a database-driven Web app with Django."
+msgstr ""
+
+#: ../../intro/overview.txt:9
+# 6b4ecd66ae144025a3ece091362dfc91
+msgid "The goal of this document is to give you enough technical specifics to understand how Django works, but this isn't intended to be a tutorial or reference -- but we've got both! When you're ready to start a project, you can :doc:`start with the tutorial </intro/tutorial01>` or :doc:`dive right into more detailed documentation </topics/index>`."
+msgstr ""
+
+#: ../../intro/overview.txt:16
+# 257b7937960b49a39dadc9303eb6de71
+msgid "Design your model"
+msgstr ""
+
+#: ../../intro/overview.txt:18
+# 64cecf86baaa4226863f0caf94074b66
+msgid "Although you can use Django without a database, it comes with an object-relational mapper in which you describe your database layout in Python code."
+msgstr ""
+
+#: ../../intro/overview.txt:22
+# 979d7975f4fe4957a2540e1e9cf8a9ff
+msgid "The :doc:`data-model syntax </topics/db/models>` offers many rich ways of representing your models -- so far, it's been solving two years' worth of database-schema problems. Here's a quick example, which might be saved in the file ``mysite/news/models.py``::"
+msgstr ""
+
+#: ../../intro/overview.txt:43
+# f85d7625c0764a33be4cd1399ed86cdf
+msgid "Install it"
+msgstr ""
+
+#: ../../intro/overview.txt:45
+# 04774667f27b47ef859687e04373d93d
+msgid "Next, run the Django command-line utility to create the database tables automatically:"
+msgstr ""
+
+#: ../../intro/overview.txt:52
+# 625d982832e24534beeda80ab1e38ea8
+msgid "The :djadmin:`syncdb` command looks at all your available models and creates tables in your database for whichever tables don't already exist."
+msgstr ""
+
+#: ../../intro/overview.txt:56
+# 8172713f55f947c6bc2422e4c267e25f
+msgid "Enjoy the free API"
+msgstr ""
+
+#: ../../intro/overview.txt:58
+# fbbc5b039d4e4c13b16db050bedd39d1
+msgid "With that, you've got a free, and rich, :doc:`Python API </topics/db/queries>` to access your data. The API is created on the fly, no code generation necessary::"
+msgstr ""
+
+#: ../../intro/overview.txt:131
+# d1d5a8c0e4584da6b3b13d679f88ed08
+msgid "A dynamic admin interface: it's not just scaffolding -- it's the whole house"
+msgstr ""
+
+#: ../../intro/overview.txt:133
+# ae452acf15a84e169630758411979bbd
+msgid "Once your models are defined, Django can automatically create a professional, production ready :doc:`administrative interface </ref/contrib/admin/index>` -- a Web site that lets authenticated users add, change and delete objects. It's as easy as registering your model in the admin site::"
+msgstr ""
+
+#: ../../intro/overview.txt:156
+# 9619af6fd9694ccfa2101f51413e4fca
+msgid "The philosophy here is that your site is edited by a staff, or a client, or maybe just you -- and you don't want to have to deal with creating backend interfaces just to manage content."
+msgstr ""
+
+#: ../../intro/overview.txt:160
+# 2923cf08ef144fa58390b98eabd800c9
+msgid "One typical workflow in creating Django apps is to create models and get the admin sites up and running as fast as possible, so your staff (or clients) can start populating data. Then, develop the way data is presented to the public."
+msgstr ""
+
+#: ../../intro/overview.txt:165
+#: ../../intro/tutorial03.txt:45
+# fb1852c9157f415980456ce69f06a717
+# 8be1c143cbcd4510b72e49cff2fdbc5e
+msgid "Design your URLs"
+msgstr ""
+
+#: ../../intro/overview.txt:167
+# b32afb88dbdd4c7c8fdcf2304d0111c7
+msgid "A clean, elegant URL scheme is an important detail in a high-quality Web application. Django encourages beautiful URL design and doesn't put any cruft in URLs, like ``.php`` or ``.asp``."
+msgstr ""
+
+#: ../../intro/overview.txt:171
+# e649fcadbb4649bc83fdcc84c46b9834
+msgid "To design URLs for an app, you create a Python module called a :doc:`URLconf </topics/http/urls>`. A table of contents for your app, it contains a simple mapping between URL patterns and Python callback functions. URLconfs also serve to decouple URLs from Python code."
+msgstr ""
+
+#: ../../intro/overview.txt:176
+# c59a63f06b5a46208be9708b2922f09d
+msgid "Here's what a URLconf might look like for the ``Reporter``/``Article`` example above::"
+msgstr ""
+
+#: ../../intro/overview.txt:187
+# d9a755e3f14941bcb9b91d8b32a33538
+msgid "The code above maps URLs, as simple regular expressions, to the location of Python callback functions (\"views\"). The regular expressions use parenthesis to \"capture\" values from the URLs. When a user requests a page, Django runs through each pattern, in order, and stops at the first one that matches the requested URL. (If none of them matches, Django calls a special-case 404 view.) This is blazingly fast, because the regular expressions are compiled at load time."
+msgstr ""
+
+#: ../../intro/overview.txt:195
+# c01a972ebd314d89a0f5b53b76383807
+msgid "Once one of the regexes matches, Django imports and calls the given view, which is a simple Python function. Each view gets passed a request object -- which contains request metadata -- and the values captured in the regex."
+msgstr ""
+
+#: ../../intro/overview.txt:199
+# e9eb0aaf9f4944388f878ed4ef434318
+msgid "For example, if a user requested the URL \"/articles/2005/05/39323/\", Django would call the function ``news.views.article_detail(request, '2005', '05', '39323')``."
+msgstr ""
+
+#: ../../intro/overview.txt:204
+# 28455629d268416aa6b993679a32b1cd
+msgid "Write your views"
+msgstr ""
+
+#: ../../intro/overview.txt:206
+# 8b5bdbb99d544a4d911fca2ae6b59aa3
+msgid "Each view is responsible for doing one of two things: Returning an :class:`~django.http.HttpResponse` object containing the content for the requested page, or raising an exception such as :class:`~django.http.Http404`. The rest is up to you."
+msgstr ""
+
+#: ../../intro/overview.txt:211
+# ca8281aa0adb489fae2cb21c7529820c
+msgid "Generally, a view retrieves data according to the parameters, loads a template and renders the template with the retrieved data. Here's an example view for ``year_archive`` from above::"
+msgstr ""
+
+#: ../../intro/overview.txt:219
+# be3473e49e424540b37f49c0cbe9d998
+msgid "This example uses Django's :doc:`template system </topics/templates>`, which has several powerful features but strives to stay simple enough for non-programmers to use."
+msgstr ""
+
+#: ../../intro/overview.txt:224
+# 725282fdeaa24b1196cc5567b5e873e9
+msgid "Design your templates"
+msgstr ""
+
+#: ../../intro/overview.txt:226
+# 11d2e7a4451a4e559a65e63a149fd281
+msgid "The code above loads the ``news/year_archive.html`` template."
+msgstr ""
+
+#: ../../intro/overview.txt:228
+# f4d43978032e4be59290babd453b6381
+msgid "Django has a template search path, which allows you to minimize redundancy among templates. In your Django settings, you specify a list of directories to check for templates. If a template doesn't exist in the first directory, it checks the second, and so on."
+msgstr ""
+
+#: ../../intro/overview.txt:233
+# 20f76567230d424d8f476af9910746a0
+msgid "Let's say the ``news/year_archive.html`` template was found. Here's what that might look like:"
+msgstr ""
+
+#: ../../intro/overview.txt:252
+# 11773a1ee85f4e029a04a43a64ea75ce
+msgid "Variables are surrounded by double-curly braces. ``{{ article.headline }}`` means \"Output the value of the article's headline attribute.\" But dots aren't used only for attribute lookup: They also can do dictionary-key lookup, index lookup and function calls."
+msgstr ""
+
+#: ../../intro/overview.txt:257
+# eeb3d7e6dde443e190e34e9582934c53
+msgid "Note ``{{ article.pub_date|date:\"F j, Y\" }}`` uses a Unix-style \"pipe\" (the \"|\" character). This is called a template filter, and it's a way to filter the value of a variable. In this case, the date filter formats a Python datetime object in the given format (as found in PHP's date function; yes, there is one good idea in PHP)."
+msgstr ""
+
+#: ../../intro/overview.txt:263
+# 12e8f6c1836840baac1ca7f97ebf3237
+msgid "You can chain together as many filters as you'd like. You can write custom filters. You can write custom template tags, which run custom Python code behind the scenes."
+msgstr ""
+
+#: ../../intro/overview.txt:267
+# d58dea6b4fb94651a91a74b3bc480c08
+msgid "Finally, Django uses the concept of \"template inheritance\": That's what the ``{% extends \"base.html\" %}`` does. It means \"First load the template called 'base', which has defined a bunch of blocks, and fill the blocks with the following blocks.\" In short, that lets you dramatically cut down on redundancy in templates: each template has to define only what's unique to that template."
+msgstr ""
+
+#: ../../intro/overview.txt:273
+# f10c9589a1d4446b98be7c485ec09e5e
+msgid "Here's what the \"base.html\" template might look like:"
+msgstr ""
+
+#: ../../intro/overview.txt:287
+# eec5360e035c4ad6ace1ea8f9d66bea1
+msgid "Simplistically, it defines the look-and-feel of the site (with the site's logo), and provides \"holes\" for child templates to fill. This makes a site redesign as easy as changing a single file -- the base template."
+msgstr ""
+
+#: ../../intro/overview.txt:291
+# e20c3585c63c4fbd8d2b334f63c55b13
+msgid "It also lets you create multiple versions of a site, with different base templates, while reusing child templates. Django's creators have used this technique to create strikingly different cell-phone editions of sites -- simply by creating a new base template."
+msgstr ""
+
+#: ../../intro/overview.txt:296
+# d8cd011acedf467f8882606bbb80cb04
+msgid "Note that you don't have to use Django's template system if you prefer another system. While Django's template system is particularly well-integrated with Django's model layer, nothing forces you to use it. For that matter, you don't have to use Django's database API, either. You can use another database abstraction layer, you can read XML files, you can read files off disk, or anything you want. Each piece of Django -- models, views, templates -- is decoupled from the next."
+msgstr ""
+
+#: ../../intro/overview.txt:305
+# 40adefd2a21945e3a90e607ce67145ac
+msgid "This is just the surface"
+msgstr ""
+
+#: ../../intro/overview.txt:307
+# 0c5d5f35c9ab46309c745cdcdaf72ef1
+msgid "This has been only a quick overview of Django's functionality. Some more useful features:"
+msgstr ""
+
+#: ../../intro/overview.txt:310
+# d2a51566eb5548f4939cc1e03bc546d6
+msgid "A :doc:`caching framework </topics/cache>` that integrates with memcached or other backends."
+msgstr ""
+
+#: ../../intro/overview.txt:313
+# d6ddc159013e443db2f32eec957874a4
+msgid "A :doc:`syndication framework </ref/contrib/syndication>` that makes creating RSS and Atom feeds as easy as writing a small Python class."
+msgstr ""
+
+#: ../../intro/overview.txt:316
+# a9abffa7ddc54bd3a97e13031fd915ff
+msgid "More sexy automatically-generated admin features -- this overview barely scratched the surface."
+msgstr ""
+
+#: ../../intro/overview.txt:319
+# 9bcad5fdf89e46f3aca15928d25179de
+msgid "The next obvious steps are for you to `download Django`_, read :doc:`the tutorial </intro/tutorial01>` and join `the community`_. Thanks for your interest!"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:3
+# f266863190d347f6bede9b9d06666525
+msgid "Writing your first Django app, part 1"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:5
+# 722cb2c833b440f59032ba7c9a93e7a8
+msgid "Let's learn by example."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:7
+# 2e9b50069d5e4bddb8ff13b29330b131
+msgid "Throughout this tutorial, we'll walk you through the creation of a basic poll application."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:10
+# c4d3722f4fe34211a137cb1d0b6b2e62
+msgid "It'll consist of two parts:"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:12
+# 57a9cdc1f299499b86c32876f0b2b514
+msgid "A public site that lets people view polls and vote in them."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:13
+# f95fd3e680944ad986476a5c1d0a70c2
+msgid "An admin site that lets you add, change and delete polls."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:15
+# 11683146a463422bae71c873af5b40d4
+msgid "We'll assume you have :doc:`Django installed </intro/install>` already. You can tell Django is installed by running the Python interactive interpreter and typing ``import django``. If that command runs successfully, with no errors, Django is installed."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:22
+# 636e5e9b76914fd88b5614896cb8e487
+msgid "If you're having trouble going through this tutorial, please post a message to `django-users`__ or drop by `#django on irc.freenode.net`__ to chat with other Django users who might be able to help."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:30
+# 312676ca94024d9c962e8f32f1423f05
+msgid "Creating a project"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:32
+# 56cbc187de3044c4a2d09eba8032d5cb
+msgid "If this is your first time using Django, you'll have to take care of some initial setup. Namely, you'll need to auto-generate some code that establishes a Django :term:`project` -- a collection of settings for an instance of Django, including database configuration, Django-specific options and application-specific settings."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:38
+# 0b9ee19a295845dcad50ab6d81c1d98d
+msgid "From the command line, ``cd`` into a directory where you'd like to store your code, then run the following command:"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:45
+# a7c64c867935415ba5c8fbed50488494
+msgid "This will create a ``mysite`` directory in your current directory."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:49
+# aefb34df15fc432faa11e5fc7594e131
+msgid "If you installed Django using a Linux distribution's package manager (e.g. apt-get or yum) ``django-admin.py`` may have been renamed to ``django-admin``. You may continue through this documentation by omitting ``.py`` from each command."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:56
+# 85fc6ffb079840769d7740de5b1132d3
+msgid "If you're using Mac OS X, you may see the message \"permission denied\" when you try to run ``django-admin.py startproject``. This is because, on Unix-based systems like OS X, a file must be marked as \"executable\" before it can be run as a program. To do this, open Terminal.app and navigate (using the ``cd`` command) to the directory where :doc:`django-admin.py </ref/django-admin>` is installed, then run the command ``sudo chmod +x django-admin.py``."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:66
+# 499f70c636e44616bfe1bf2e431b2f4b
+msgid "You'll need to avoid naming projects after built-in Python or Django components. In particular, this means you should avoid using names like ``django`` (which will conflict with Django itself) or ``test`` (which conflicts with a built-in Python package)."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:71
+# 958556eef6004f0c9971e0f6d3a68f4a
+msgid ":doc:`django-admin.py </ref/django-admin>` should be on your system path if you installed Django via ``python setup.py``. If it's not on your path, you can find it in ``site-packages/django/bin``, where ``site-packages`` is a directory within your Python installation. Consider symlinking to :doc:`django-admin.py </ref/django-admin>` from some place on your path, such as :file:`/usr/local/bin`."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:80
+# de1a9fc132364f6a830fdda1903c180f
+msgid "If your background is in PHP, you're probably used to putting code under the Web server's document root (in a place such as ``/var/www``). With Django, you don't do that. It's not a good idea to put any of this Python code within your Web server's document root, because it risks the possibility that people may be able to view your code over the Web. That's not good for security."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:87
+# c20510c17a8940d49d3f088aa2fc6f63
+msgid "Put your code in some directory **outside** of the document root, such as :file:`/home/mycode`."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:90
+# 66d74315ef9b4bfd8b2da03440529580
+msgid "Let's look at what :djadmin:`startproject` created::"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:102
+# 21c70bedd4d2462ab88d6bf00d2fb95b
+msgid "The default project layout recently changed. If you're seeing a \"flat\" layout (with no inner :file:`mysite/` directory), you're probably using a version of Django that doesn't match this tutorial version.  You'll want to either switch to the older tutorial or the newer Django version."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:107
+# ad88f6af632a42cfae55e1aa1ade4051
+msgid "These files are:"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:109
+# c63a8b214c4c4d40bc33e33c3b0b92b7
+msgid "The outer :file:`mysite/` directory is just a container for your project. Its name doesn't matter to Django; you can rename it to anything you like."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:113
+# b7a89ab55f014f4cb9706719b7eb7624
+msgid ":file:`manage.py`: A command-line utility that lets you interact with this Django project in various ways. You can read all the details about :file:`manage.py` in :doc:`/ref/django-admin`."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:117
+# ecde926f10a345d3b1126da04d2cdd48
+msgid "The inner :file:`mysite/` directory is the actual Python package for your project. Its name is the Python package name you'll need to use to import anything inside it (e.g. ``import mysite.settings``)."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:121
+# 7d00a1cca591435a99f385bf264c4cb1
+msgid ":file:`mysite/__init__.py`: An empty file that tells Python that this directory should be considered a Python package. (Read `more about packages`_ in the official Python docs if you're a Python beginner.)"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:125
+# 5f0cac959dce4f1bafc0d70c91b4c106
+msgid ":file:`mysite/settings.py`: Settings/configuration for this Django project.  :doc:`/topics/settings` will tell you all about how settings work."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:129
+# f4a1a6fe1bd44cb090019daa80118ad7
+msgid ":file:`mysite/urls.py`: The URL declarations for this Django project; a \"table of contents\" of your Django-powered site. You can read more about URLs in :doc:`/topics/http/urls`."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:133
+# ae26b0ace3ef4fd9aec74d8a9e6deb42
+msgid ":file:`mysite/wsgi.py`: An entry-point for WSGI-compatible webservers to serve your project. See :doc:`/howto/deployment/wsgi/index` for more details."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:139
+# 004d136fcc6d45b7b7ccd0498084a815
+msgid "The development server"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:141
+# f92681cb00764ad1a2c0ed0f0f481e75
+msgid "Let's verify this worked. Change into the outer :file:`mysite` directory, if you haven't already, and run the command ``python manage.py runserver``. You'll see the following output on the command line::"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:152
+# f465572e19b64d14864f0c0f6467c39d
+msgid "You've started the Django development server, a lightweight Web server written purely in Python. We've included this with Django so you can develop things rapidly, without having to deal with configuring a production server -- such as Apache -- until you're ready for production."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:157
+# 11645dbeccec46c19c8f6a071422efa6
+msgid "Now's a good time to note: DON'T use this server in anything resembling a production environment. It's intended only for use while developing. (We're in the business of making Web frameworks, not Web servers.)"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:161
+# f546ae0a7d92498ca6bab8a21f063b32
+msgid "Now that the server's running, visit http://127.0.0.1:8000/ with your Web browser. You'll see a \"Welcome to Django\" page, in pleasant, light-blue pastel. It worked!"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:167
+# ba8c0e74d61f4f49a8c76480599ae8f6
+msgid "By default, the :djadmin:`runserver` command starts the development server on the internal IP at port 8000."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:170
+# 44621ab6b89444c990e2ff03da1b45fc
+msgid "If you want to change the server's port, pass it as a command-line argument. For instance, this command starts the server on port 8080:"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:178
+# 38a0cfe2693643d8aa427e29df80a502
+msgid "If you want to change the server's IP, pass it along with the port. So to listen on all public IPs (useful if you want to show off your work on other computers), use:"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:186
+# 42e760d423f0464a9a737164fae3933f
+msgid "Full docs for the development server can be found in the :djadmin:`runserver` reference."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:190
+# cd551e600a164536ae082d1250710a79
+msgid "Database setup"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:192
+# 4bcabbd2a2a34f4d862ff43d37de706a
+msgid "Now, edit :file:`mysite/settings.py`. It's a normal Python module with module-level variables representing Django settings. Change the following keys in the :setting:`DATABASES` ``'default'`` item to match your database connection settings."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:197
+# 1f680418bbbd4eedb1bbfc84e9cfc64b
+msgid ":setting:`ENGINE <DATABASE-ENGINE>` -- Either ``'django.db.backends.postgresql_psycopg2'``, ``'django.db.backends.mysql'``, ``'django.db.backends.sqlite3'`` or ``'django.db.backends.oracle'``. Other backends are :setting:`also available <DATABASE-ENGINE>`."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:203
+# 4c63619e732e4531bd48cbef9c03bee3
+msgid ":setting:`NAME` -- The name of your database. If you're using SQLite, the database will be a file on your computer; in that case, :setting:`NAME` should be the full absolute path, including filename, of that file. If the file doesn't exist, it will automatically be created when you synchronize the database for the first time (see below)."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:210
+# aad6cc192c0a4664a9edb49792cebfe5
+msgid "When specifying the path, always use forward slashes, even on Windows (e.g. ``C:/homes/user/mysite/sqlite3.db``)."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:213
+# b90d93b4f9ce42ce99b0ee4417f6c21f
+msgid ":setting:`USER` -- Your database username (not used for SQLite)."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:215
+# 4391349dd9bc424f87c54e898b625f08
+msgid ":setting:`PASSWORD` -- Your database password (not used for SQLite)."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:218
+# 11ff0ea74e584f85a15de2d5a8e09a07
+msgid ":setting:`HOST` -- The host your database is on. Leave this as an empty string if your database server is on the same physical machine (not used for SQLite)."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:222
+# 9946abc6b3144244a9030f23cb148924
+msgid "If you're new to databases, we recommend simply using SQLite by setting :setting:`ENGINE` to ``'django.db.backends.sqlite3'`` and :setting:`NAME` to the place where you'd like to store the database. SQLite is included as part of Python 2.5 and later, so you won't need to install anything else to support your database."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:230
+# bd99162924b74600912e9b46baaccd28
+msgid "If you're using PostgreSQL or MySQL, make sure you've created a database by this point. Do that with \"``CREATE DATABASE database_name;``\" within your database's interactive prompt."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:234
+# 98b1fab176c3457da1350766e61904d7
+msgid "If you're using SQLite, you don't need to create anything beforehand - the database file will be created automatically when it is needed."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:237
+# 594285b5e4e4439e8e3fa6188e165ad8
+msgid "While you're editing :file:`settings.py`, set :setting:`TIME_ZONE` to your time zone. The default value is the Central time zone in the U.S. (Chicago)."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:240
+# 4425ecf8e6184033a0ab4ba73b94ac28
+msgid "Also, note the :setting:`INSTALLED_APPS` setting toward the bottom of the file. That holds the names of all Django applications that are activated in this Django instance. Apps can be used in multiple projects, and you can package and distribute them for use by others in their projects."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:245
+# 098b6036f8a84e66bcc759b5d7fd667d
+msgid "By default, :setting:`INSTALLED_APPS` contains the following apps, all of which come with Django:"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:248
+# bc49f7885c204bbbbe3fe1eedf69bc3b
+msgid ":mod:`django.contrib.auth` -- An authentication system."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:250
+# 231a1b04ed9f4df68069d22d4ebb1d26
+msgid ":mod:`django.contrib.contenttypes` -- A framework for content types."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:252
+# 9165a06c1a0642cab00e1e0c85104bbf
+msgid ":mod:`django.contrib.sessions` -- A session framework."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:254
+# a855a658a7954041b7c131c7183f8659
+msgid ":mod:`django.contrib.sites` -- A framework for managing multiple sites with one Django installation."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:257
+# 31a02f6155cb43ebaad8b773d4fe7c3c
+msgid ":mod:`django.contrib.messages` -- A messaging framework."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:259
+# be38301f9e934744a9c0602061b69b80
+msgid ":mod:`django.contrib.staticfiles` -- A framework for managing static files."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:262
+# 48e65e6f6ed04928ac4069ac598e2e96
+msgid "These applications are included by default as a convenience for the common case."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:264
+# d603d92e1421425ba00be703b39602a5
+msgid "Each of these applications makes use of at least one database table, though, so we need to create the tables in the database before we can use them. To do that, run the following command:"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:272
+# bc45367b250c4b45838e2028894c110b
+msgid "The :djadmin:`syncdb` command looks at the :setting:`INSTALLED_APPS` setting and creates any necessary database tables according to the database settings in your :file:`settings.py` file. You'll see a message for each database table it creates, and you'll get a prompt asking you if you'd like to create a superuser account for the authentication system. Go ahead and do that."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:278
+# 3534949a40934c1a8093035cd808a4e0
+msgid "If you're interested, run the command-line client for your database and type ``\\dt`` (PostgreSQL), ``SHOW TABLES;`` (MySQL), or ``.schema`` (SQLite) to display the tables Django created."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:284
+# 59dc663776674da596c9254bcad786ba
+msgid "Like we said above, the default applications are included for the common case, but not everybody needs them. If you don't need any or all of them, feel free to comment-out or delete the appropriate line(s) from :setting:`INSTALLED_APPS` before running :djadmin:`syncdb`. The :djadmin:`syncdb` command will only create tables for apps in :setting:`INSTALLED_APPS`."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:294
+# e72101c209cb4c61a8dcb75f69c4671f
+msgid "Creating models"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:296
+# 882d4c67ab6e4799a1b50cdcfeffa590
+msgid "Now that your environment -- a \"project\" -- is set up, you're set to start doing work."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:299
+# 3f9a1e844d7c43c58fbdda4019c9ce27
+msgid "Each application you write in Django consists of a Python package, somewhere on your `Python path`_, that follows a certain convention. Django comes with a utility that automatically generates the basic directory structure of an app, so you can focus on writing code rather than creating directories."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:306
+# 7c48eab9d4944d2ca14951a398c3e03f
+msgid "What's the difference between a project and an app? An app is a Web application that does something -- e.g., a Weblog system, a database of public records or a simple poll app. A project is a collection of configuration and apps for a particular Web site. A project can contain multiple apps. An app can be in multiple projects."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:312
+# d129e914cc954aa883b0fa577a7c4acc
+msgid "Your apps can live anywhere on your `Python path`_. In this tutorial, we'll create our poll app right next to your :file:`manage.py` file so that it can be imported as its own top-level module, rather than a submodule of ``mysite``."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:316
+# ee64629b0c5c498d9e359653df0dc952
+msgid "To create your app, make sure you're in the same directory as :file:`manage.py` and type this command:"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:323
+# d84b574e8448402187c49812197aa69c
+msgid "That'll create a directory :file:`polls`, which is laid out like this::"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:331
+# 55e574eb693041e6b1c268a7b87eb4f2
+msgid "This directory structure will house the poll application."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:333
+# 18725ef648804e3fb8cee1caed7c54fc
+msgid "The first step in writing a database Web app in Django is to define your models -- essentially, your database layout, with additional metadata."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:338
+# cefb20365d394f6392ab7af7d3fbcea3
+msgid "A model is the single, definitive source of data about your data. It contains the essential fields and behaviors of the data you're storing. Django follows the :ref:`DRY Principle <dry>`. The goal is to define your data model in one place and automatically derive things from it."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:343
+# fd9bd7845c7b451dbf6718246925c307
+msgid "In our simple poll app, we'll create two models: polls and choices. A poll has a question and a publication date. A choice has two fields: the text of the choice and a vote tally. Each choice is associated with a poll."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:347
+# 6c2ff0eae64b4ff7840254f9e3a275dc
+msgid "These concepts are represented by simple Python classes. Edit the :file:`polls/models.py` file so it looks like this::"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:361
+# 488a98f1436240f5b335a4b852dc1ca2
+msgid "The code is straightforward. Each model is represented by a class that subclasses :class:`django.db.models.Model`. Each model has a number of class variables, each of which represents a database field in the model."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:365
+# 36b4c43e961a433484908671192e188d
+msgid "Each field is represented by an instance of a :class:`~django.db.models.Field` class -- e.g., :class:`~django.db.models.CharField` for character fields and :class:`~django.db.models.DateTimeField` for datetimes. This tells Django what type of data each field holds."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:370
+# fe173d5d64c148699a02324d44ce5f4c
+msgid "The name of each :class:`~django.db.models.Field` instance (e.g. ``question`` or ``pub_date`` ) is the field's name, in machine-friendly format. You'll use this value in your Python code, and your database will use it as the column name."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:374
+# ae3087ea71c147d1bfe80d6477212d92
+msgid "You can use an optional first positional argument to a :class:`~django.db.models.Field` to designate a human-readable name. That's used in a couple of introspective parts of Django, and it doubles as documentation. If this field isn't provided, Django will use the machine-readable name. In this example, we've only defined a human-readable name for ``Poll.pub_date``. For all other fields in this model, the field's machine-readable name will suffice as its human-readable name."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:382
+# c088ad199e8345feb30b86f2a92fcedc
+msgid "Some :class:`~django.db.models.Field` classes have required elements. :class:`~django.db.models.CharField`, for example, requires that you give it a :attr:`~django.db.models.Field.max_length`. That's used not only in the database schema, but in validation, as we'll soon see."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:387
+# c4fda3752e4f4d73859c9268e419454e
+msgid "Finally, note a relationship is defined, using :class:`~django.db.models.ForeignKey`. That tells Django each Choice is related to a single Poll. Django supports all the common database relationships: many-to-ones, many-to-manys and one-to-ones."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:395
+# 8682cdddd9a744378340fd5f62523eef
+msgid "Activating models"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:397
+# 7d609931b9274936b618d6f96ceca620
+msgid "That small bit of model code gives Django a lot of information. With it, Django is able to:"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:400
+# 54ac285bc3464e6a90077f7da1dafb0d
+msgid "Create a database schema (``CREATE TABLE`` statements) for this app."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:401
+# 770a00d34c294938bba26703f39f3006
+msgid "Create a Python database-access API for accessing Poll and Choice objects."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:403
+# a5f9fb237f7f4fe98d84fe19064998a1
+msgid "But first we need to tell our project that the ``polls`` app is installed."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:407
+# 49dcf7f406534b8e96f76854d6789242
+msgid "Django apps are \"pluggable\": You can use an app in multiple projects, and you can distribute apps, because they don't have to be tied to a given Django installation."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:411
+# 4374f170f29e4c2ba10bc5aa1fa38e0f
+msgid "Edit the :file:`settings.py` file again, and change the :setting:`INSTALLED_APPS` setting to include the string ``'polls'``. So it'll look like this::"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:429
+# 80de35977cca4eff90546756a0aa1644
+msgid "Now Django knows to include the ``polls`` app. Let's run another command:"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:436
+# 62da4bbbbc7d4abcb877ca57a3e86b2f
+msgid "You should see something similar to the following (the ``CREATE TABLE`` SQL statements for the polls app):"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:455
+# b6b90d2637aa4ae3a2c613e053de9d5b
+msgid "Note the following:"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:457
+# 8171f61ba4ce4542a416664affcbc71e
+msgid "The exact output will vary depending on the database you are using."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:459
+# b404b395264d48d7bc5725c3c5ca6ee2
+msgid "Table names are automatically generated by combining the name of the app (``polls``) and the lowercase name of the model -- ``poll`` and ``choice``. (You can override this behavior.)"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:463
+# c02beb140c9645be879879b04b74bb74
+msgid "Primary keys (IDs) are added automatically. (You can override this, too.)"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:465
+# 87ab955caf0941f8a62e4342ef1ad828
+msgid "By convention, Django appends ``\"_id\"`` to the foreign key field name. (Yes, you can override this, as well.)"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:468
+# 2d0d6e14ca9b4601b2a5cf8b9f34d374
+msgid "The foreign key relationship is made explicit by a ``REFERENCES`` statement."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:471
+# 76c35d878281497d97da4593d26bc902
+msgid "It's tailored to the database you're using, so database-specific field types such as ``auto_increment`` (MySQL), ``serial`` (PostgreSQL), or ``integer primary key`` (SQLite) are handled for you automatically. Same goes for quoting of field names -- e.g., using double quotes or single quotes. The author of this tutorial runs PostgreSQL, so the example output is in PostgreSQL syntax."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:478
+# 6352faeb76134edda5505ee5bf3b9945
+msgid "The :djadmin:`sql` command doesn't actually run the SQL in your database - it just prints it to the screen so that you can see what SQL Django thinks is required. If you wanted to, you could copy and paste this SQL into your database prompt. However, as we will see shortly, Django provides an easier way of committing the SQL to the database."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:484
+# 052647f1f9ca4664b75463ccbcce1369
+msgid "If you're interested, also run the following commands:"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:486
+# 998eefe2ae15454f93e099dab0c0fc93
+msgid ":djadmin:`python manage.py validate <validate>` -- Checks for any errors in the construction of your models."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:489
+# d7a9d6dbbdbb42e0ae76c62844f21ff5
+msgid ":djadmin:`python manage.py sqlcustom polls <sqlcustom>` -- Outputs any :ref:`custom SQL statements <initial-sql>` (such as table modifications or constraints) that are defined for the application."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:493
+# 7558ab1e991d4129b62b527b20d46b74
+msgid ":djadmin:`python manage.py sqlclear polls <sqlclear>` -- Outputs the necessary ``DROP TABLE`` statements for this app, according to which tables already exist in your database (if any)."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:497
+# a43ce55ac183408dad178f0078b3766d
+msgid ":djadmin:`python manage.py sqlindexes polls <sqlindexes>` -- Outputs the ``CREATE INDEX`` statements for this app."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:500
+# 2f18a40eef92495fabb89db3d5615cc7
+msgid ":djadmin:`python manage.py sqlall polls <sqlall>` -- A combination of all the SQL from the :djadmin:`sql`, :djadmin:`sqlcustom`, and :djadmin:`sqlindexes` commands."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:504
+# 46db888a29904216bc011c3313fdb179
+msgid "Looking at the output of those commands can help you understand what's actually happening under the hood."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:507
+# e2296576fdab4fc59793959340c1d2bb
+msgid "Now, run :djadmin:`syncdb` again to create those model tables in your database:"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:513
+# cae6545cc5fa4790b494c457ccdb2f98
+msgid "The :djadmin:`syncdb` command runs the SQL from :djadmin:`sqlall` on your database for all apps in :setting:`INSTALLED_APPS` that don't already exist in your database. This creates all the tables, initial data and indexes for any apps you've added to your project since the last time you ran syncdb. :djadmin:`syncdb` can be called as often as you like, and it will only ever create the tables that don't exist."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:520
+# 47cc7d4a22f3492aa78c190c33a992a3
+msgid "Read the :doc:`django-admin.py documentation </ref/django-admin>` for full information on what the ``manage.py`` utility can do."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:524
+# 930276ea0dd94942a7a0a65185f262c7
+msgid "Playing with the API"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:526
+# 98d07996eb7c4d4ca3698457ffbef5f7
+msgid "Now, let's hop into the interactive Python shell and play around with the free API Django gives you. To invoke the Python shell, use this command:"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:533
+# ca891fdfd223468dbb27c15eab66a77a
+msgid "We're using this instead of simply typing \"python\", because :file:`manage.py` sets the ``DJANGO_SETTINGS_MODULE`` environment variable, which gives Django the Python import path to your :file:`settings.py` file."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:539
+# 7289da92eac746dd9a00dc088f3c977f
+msgid "If you'd rather not use :file:`manage.py`, no problem. Just set the ``DJANGO_SETTINGS_MODULE`` environment variable to ``mysite.settings`` and run ``python`` from the same directory :file:`manage.py` is in (or ensure that directory is on the Python path, so that ``import mysite`` works)."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:544
+# 62d2ff599956422f889509fda4e6a732
+msgid "For more information on all of this, see the :doc:`django-admin.py documentation </ref/django-admin>`."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:547
+# 201f67f6f19b40c5bee4a29dfd561d49
+msgid "Once you're in the shell, explore the :doc:`database API </topics/db/queries>`::"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:587
+# 0a246406046a4ad58800d5d3b436b3d6
+msgid "Wait a minute. ``<Poll: Poll object>`` is, utterly, an unhelpful representation of this object. Let's fix that by editing the polls model (in the ``polls/models.py`` file) and adding a :meth:`~django.db.models.Model.__unicode__` method to both ``Poll`` and ``Choice``::"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:603
+# 20fce35654c64da1ae3ab1a6bb52f934
+msgid "It's important to add :meth:`~django.db.models.Model.__unicode__` methods to your models, not only for your own sanity when dealing with the interactive prompt, but also because objects' representations are used throughout Django's automatically-generated admin."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:611
+# 05fc633d05e44a4c83af0b30a64bdfb7
+msgid "If you're familiar with Python, you might be in the habit of adding :meth:`~django.db.models.Model.__str__` methods to your classes, not :meth:`~django.db.models.Model.__unicode__` methods. We use :meth:`~django.db.models.Model.__unicode__` here because Django models deal with Unicode by default. All data stored in your database is converted to Unicode when it's returned."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:618
+# 7ade62d242aa46a6a398ef64fbfc338a
+msgid "Django models have a default :meth:`~django.db.models.Model.__str__` method that calls :meth:`~django.db.models.Model.__unicode__` and converts the result to a UTF-8 bytestring. This means that ``unicode(p)`` will return a Unicode string, and ``str(p)`` will return a normal string, with characters encoded as UTF-8."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:624
+# fe6d32b0050a426394fb31a628ce1121
+msgid "If all of this is gibberish to you, just remember to add :meth:`~django.db.models.Model.__unicode__` methods to your models. With any luck, things should Just Work for you."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:628
+# d681a55b3fe8463c9077829631f27a74
+msgid "Note these are normal Python methods. Let's add a custom method, just for demonstration::"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:639
+# f17f917a13e34c549201f008a6075033
+msgid "Note the addition of ``import datetime`` and ``from django.utils import timezone``, to reference Python's standard :mod:`datetime` module and Django's time-zone-related utilities in :mod:`django.utils.timezone`, respectively. If you aren't familiar with time zone handling in Python, you can learn more in the :doc:`time zone support docs </topics/i18n/timezones>`."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:645
+# 982760de2793475288dea1712287a7db
+msgid "Save these changes and start a new Python interactive shell by running ``python manage.py shell`` again::"
+msgstr ""
+
+#: ../../intro/tutorial01.txt:720
+# 187e881b109c4883975d079ed699f4cf
+msgid "For more information on model relations, see :doc:`Accessing related objects </ref/models/relations>`. For more on how to use double underscores to perform field lookups via the API, see :ref:`Field lookups <field-lookups-intro>`. For full details on the database API, see our :doc:`Database API reference </topics/db/queries>`."
+msgstr ""
+
+#: ../../intro/tutorial01.txt:726
+# a04bb925d5d34e8fa58374a3119b7b86
+msgid "When you're comfortable with the API, read :doc:`part 2 of this tutorial </intro/tutorial02>` to get Django's automatic admin working."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:3
+# 0dd475bad1f442e39a36fe5a866e84ae
+msgid "Writing your first Django app, part 2"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:5
+# 416094cab938482891e534ec4b8282e5
+msgid "This tutorial begins where :doc:`Tutorial 1 </intro/tutorial01>` left off. We're continuing the Web-poll application and will focus on Django's automatically-generated admin site."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:11
+# 281b5c119f494aa6b07b6336f425b3b2
+msgid "Generating admin sites for your staff or clients to add, change and delete content is tedious work that doesn't require much creativity. For that reason, Django entirely automates creation of admin interfaces for models."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:15
+# f20e7403677b4e3299d2023426539bde
+msgid "Django was written in a newsroom environment, with a very clear separation between \"content publishers\" and the \"public\" site. Site managers use the system to add news stories, events, sports scores, etc., and that content is displayed on the public site. Django solves the problem of creating a unified interface for site administrators to edit content."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:21
+# a445dadfb4dd4bab8b7974585ce3c727
+msgid "The admin isn't intended to be used by site visitors. It's for site managers."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:25
+# 8649073c83c14e7e86c244c9f5a1770a
+msgid "Activate the admin site"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:27
+# 3ff0cc3667b44420a01013d5582e946a
+msgid "The Django admin site is not activated by default -- it's an opt-in thing. To activate the admin site for your installation, do these three things:"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:30
+# 61adf7411fcf4dd5945188212b6e1b51
+msgid "Uncomment ``\"django.contrib.admin\"`` in the :setting:`INSTALLED_APPS` setting."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:32
+# 75bd29b2ea1643f0871acd1dca78fd41
+msgid "Run ``python manage.py syncdb``. Since you have added a new application to :setting:`INSTALLED_APPS`, the database tables need to be updated."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:35
+# 7598a39bdc7b4b40ab81db278fe1e9c7
+msgid "Edit your ``mysite/urls.py`` file and uncomment the lines that reference the admin -- there are three lines in total to uncomment. This file is a URLconf; we'll dig into URLconfs in the next tutorial. For now, all you need to know is that it maps URL roots to applications. In the end, you should have a ``urls.py`` file that looks like this:"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:61
+# 4eae338d2713443884d963db3cc522ad
+msgid "(The bold lines are the ones that needed to be uncommented.)"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:64
+# 5cec7e9504aa4acd9842169b1bc05c45
+msgid "Start the development server"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:66
+# af4d2f761f4d4791ba8cf7a51530c005
+msgid "Let's start the development server and explore the admin site."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:68
+# ec43bde1adc94c39b81e744033df7573
+msgid "Recall from Tutorial 1 that you start the development server like so:"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:74
+# a0e1625eeea64a2cb6bfdeca778185db
+msgid "Now, open a Web browser and go to \"/admin/\" on your local domain -- e.g., http://127.0.0.1:8000/admin/. You should see the admin's login screen:"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:82
+# 5b773bd120c34537ab24de485733c078
+msgid "If at this point, instead of the above login page, you get an error page reporting something like::"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:89
+# 7be4e387c1504ffc9ba8cc4f0df23884
+msgid "then you're probably using a version of Django that doesn't match this tutorial version. You'll want to either switch to the older tutorial or the newer Django version."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:94
+# efa643ec4442493da5c93728de6af514
+msgid "Enter the admin site"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:96
+# 7df814f4e50c4d3ab0ab3d48b23edffe
+msgid "Now, try logging in. (You created a superuser account in the first part of this tutorial, remember?  If you didn't create one or forgot the password you can :ref:`create another one <topics-auth-creating-superusers>`.) You should see the Django admin index page:"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:104
+# d3a44a1748884b4ea62cd3bc01cdfed2
+msgid "You should see a few types of editable content, including groups, users and sites. These are core features Django ships with by default."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:108
+# 3642228dd7684dc79db95162243139f3
+msgid "Make the poll app modifiable in the admin"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:110
+# f118ac577700415e874b3a3fbccf7ae8
+msgid "But where's our poll app? It's not displayed on the admin index page."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:112
+# fe8038c188d542338a60d621c2dc169d
+msgid "Just one thing to do: We need to tell the admin that ``Poll`` objects have an admin interface. To do this, create a file called ``admin.py`` in your ``polls`` directory, and edit it to look like this::"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:121
+# e008a3bdc0d349c18114c8cd8094fd6f
+msgid "You'll need to restart the development server to see your changes. Normally, the server auto-reloads code every time you modify a file, but the action of creating a new file doesn't trigger the auto-reloading logic."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:126
+# 25c05d06835242268f2b96a11b127edf
+msgid "Explore the free admin functionality"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:128
+# 23bc517299994388a59a85ea7b062b29
+msgid "Now that we've registered ``Poll``, Django knows that it should be displayed on the admin index page:"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:134
+# 66fa336012da4606b18371b62dc39450
+msgid "Click \"Polls.\" Now you're at the \"change list\" page for polls. This page displays all the polls in the database and lets you choose one to change it. There's the \"What's up?\" poll we created in the first tutorial:"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:141
+# 22c56f07565e4ec1a6e294776e4095f8
+msgid "Click the \"What's up?\" poll to edit it:"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:146
+# 8110877ef346415794d16a3dbaa43e78
+msgid "Things to note here:"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:148
+# a5a7adb1574b4e7eb0509d4a2d4c9fd7
+msgid "The form is automatically generated from the Poll model."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:150
+# da66d757c0994c0ca1eb71411cafb811
+msgid "The different model field types (:class:`~django.db.models.DateTimeField`, :class:`~django.db.models.CharField`) correspond to the appropriate HTML input widget. Each type of field knows how to display itself in the Django admin."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:155
+# 0a80a7d557c74f7299a26e6b04d9083d
+msgid "Each :class:`~django.db.models.DateTimeField` gets free JavaScript shortcuts. Dates get a \"Today\" shortcut and calendar popup, and times get a \"Now\" shortcut and a convenient popup that lists commonly entered times."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:159
+# 1a36112a065546f983c0b534bfbf16bf
+msgid "The bottom part of the page gives you a couple of options:"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:161
+# 956214d296204496834805d976cc201f
+msgid "Save -- Saves changes and returns to the change-list page for this type of object."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:164
+# 7aa6e696c6ff4bcba7b01a7bcbdf9714
+msgid "Save and continue editing -- Saves changes and reloads the admin page for this object."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:167
+# b4c392c9accc4f41a38325016a7db73f
+msgid "Save and add another -- Saves changes and loads a new, blank form for this type of object."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:170
+# 74dcbef0e2d546eb9930928c180cbde1
+msgid "Delete -- Displays a delete confirmation page."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:172
+# 61e7fedb653044a28596c886a1bcf0f0
+msgid "If the value of \"Date published\" doesn't match the time when you created the poll in Tutorial 1, it probably means you forgot to set the correct value for the :setting:`TIME_ZONE` setting. Change it, reload the page and check that the correct value appears."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:177
+# 2cdd492eccdb4cb0a950ed74c7d852e7
+msgid "Change the \"Date published\" by clicking the \"Today\" and \"Now\" shortcuts. Then click \"Save and continue editing.\" Then click \"History\" in the upper right. You'll see a page listing all changes made to this object via the Django admin, with the timestamp and username of the person who made the change:"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:186
+# ae43a534252d4a78a6769d34cd5fccfe
+msgid "Customize the admin form"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:188
+# 9f320b97e6b240d081561eaa5914e963
+msgid "Take a few minutes to marvel at all the code you didn't have to write. By registering the Poll model with ``admin.site.register(Poll)``, Django was able to construct a default form representation. Often, you'll want to customize how the admin form looks and works. You'll do this by telling Django the options you want when you register the object."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:194
+# 2b391dee3c274ac39d26558f006d75b7
+msgid "Let's see how this works by re-ordering the fields on the edit form. Replace the ``admin.site.register(Poll)`` line with::"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:202
+# 2adcbb401d6f48bb91419cff681268fb
+msgid "You'll follow this pattern -- create a model admin object, then pass it as the second argument to ``admin.site.register()`` -- any time you need to change the admin options for an object."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:206
+# 670d1addab384ff1b1bf419d47bd824d
+msgid "This particular change above makes the \"Publication date\" come before the \"Question\" field:"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:212
+# 5b8017b5137a4fbcb88b15efd6eb45a2
+msgid "This isn't impressive with only two fields, but for admin forms with dozens of fields, choosing an intuitive order is an important usability detail."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:215
+# 07d0d62229a74c9b962450a7d6acccdf
+msgid "And speaking of forms with dozens of fields, you might want to split the form up into fieldsets::"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:226
+# 922d88e4b1b345799ad7ba364f3ed68c
+msgid "The first element of each tuple in ``fieldsets`` is the title of the fieldset. Here's what our form looks like now:"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:232
+# 3abd24f03782450bb98cd1c7d7fcc2f3
+msgid "You can assign arbitrary HTML classes to each fieldset. Django provides a ``\"collapse\"`` class that displays a particular fieldset initially collapsed. This is useful when you have a long form that contains a number of fields that aren't commonly used::"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:247
+# 2edca66f79be4c85a6b9c2e4adf28216
+msgid "Adding related objects"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:249
+# 479930b51e4c43459e64365ab1b863c5
+msgid "OK, we have our Poll admin page. But a ``Poll`` has multiple ``Choices``, and the admin page doesn't display choices."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:252
+# 1fcb8c47068048d58f6a1bc5579733f9
+msgid "Yet."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:254
+# c93dbd41baca4b1a969a7877d2e1ff64
+msgid "There are two ways to solve this problem. The first is to register ``Choice`` with the admin just as we did with ``Poll``. That's easy::"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:261
+# 3f14807817cc4cb5812dc605884735a3
+msgid "Now \"Choices\" is an available option in the Django admin. The \"Add choice\" form looks like this:"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:267
+# a5033aab5201413abe605352dee3f36d
+msgid "In that form, the \"Poll\" field is a select box containing every poll in the database. Django knows that a :class:`~django.db.models.ForeignKey` should be represented in the admin as a ``<select>`` box. In our case, only one poll exists at this point."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:272
+# c130c48ea03f45bd81a24f549d7a95db
+msgid "Also note the \"Add Another\" link next to \"Poll.\" Every object with a ``ForeignKey`` relationship to another gets this for free. When you click \"Add Another,\" you'll get a popup window with the \"Add poll\" form. If you add a poll in that window and click \"Save,\" Django will save the poll to the database and dynamically add it as the selected choice on the \"Add choice\" form you're looking at."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:279
+# 212841bee0a246a5b36c98d0d767026e
+msgid "But, really, this is an inefficient way of adding Choice objects to the system. It'd be better if you could add a bunch of Choices directly when you create the Poll object. Let's make that happen."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:283
+# 4d309654f5524dada5e2c955e4f8ac86
+msgid "Remove the ``register()`` call for the Choice model. Then, edit the ``Poll`` registration code to read::"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:299
+# 169cad55682c481cae122dbc6cf09590
+msgid "This tells Django: \"Choice objects are edited on the Poll admin page. By default, provide enough fields for 3 choices.\""
+msgstr ""
+
+#: ../../intro/tutorial02.txt:302
+# d9f67c8ec3134372a965160b36129870
+msgid "Load the \"Add poll\" page to see how that looks, you may need to restart your development server:"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:307
+# cd5e33367ab441c3be6e8bb7a94b883e
+msgid "It works like this: There are three slots for related Choices -- as specified by ``extra`` -- and each time you come back to the \"Change\" page for an already-created object, you get another three extra slots."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:311
+# 2c16361d6b6f4ae78e1145f6316d8e38
+msgid "One small problem, though. It takes a lot of screen space to display all the fields for entering related Choice objects. For that reason, Django offers a tabular way of displaying inline related objects; you just need to change the ``ChoiceInline`` declaration to read::"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:319
+# 399cc6d178704d468b4af76f0a8e07f5
+msgid "With that ``TabularInline`` (instead of ``StackedInline``), the related objects are displayed in a more compact, table-based format:"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:326
+# 691cdfc55def4f7181c5a46c5cc99f89
+msgid "Customize the admin change list"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:328
+# b6b2ba2d5e8f4f31ae0a53be6960153d
+msgid "Now that the Poll admin page is looking good, let's make some tweaks to the \"change list\" page -- the one that displays all the polls in the system."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:331
+# 536e35417ae8435eb5dc4d13e9d38355
+msgid "Here's what it looks like at this point:"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:336
+# 72821b4cd5f04661b70a5bafb318de2c
+msgid "By default, Django displays the ``str()`` of each object. But sometimes it'd be more helpful if we could display individual fields. To do that, use the ``list_display`` admin option, which is a tuple of field names to display, as columns, on the change list page for the object::"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:345
+# ddb1c13c5f0440fd823b4db3b99111c2
+msgid "Just for good measure, let's also include the ``was_published_recently`` custom method from Tutorial 1::"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:352
+# 6d59c8bae2184fa486f559858d23bf90
+msgid "Now the poll change list page looks like this:"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:357
+# 3c9091f0d026454ab79e2bb983be011c
+msgid "You can click on the column headers to sort by those values -- except in the case of the ``was_published_recently`` header, because sorting by the output of an arbitrary method is not supported. Also note that the column header for ``was_published_recently`` is, by default, the name of the method (with underscores replaced with spaces), and that each line contains the string representation of the output."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:364
+# bdadd03bf40744459e053019c3e6cadc
+msgid "You can improve that by giving that method (in ``models.py``) a few attributes, as follows::"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:375
+# 6cc0a41d4a1e47bb8660dda1b74e2e84
+msgid "Edit your admin.py file again and add an improvement to the Poll change list page: Filters. Add the following line to ``PollAdmin``::"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:380
+# 8d2467350cea4d2ab59de00e100dc2e1
+msgid "That adds a \"Filter\" sidebar that lets people filter the change list by the ``pub_date`` field:"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:386
+# cf4008797abb47dc8ba9be2650c2c4b0
+msgid "The type of filter displayed depends on the type of field you're filtering on. Because ``pub_date`` is a :class:`~django.db.models.fields.DateTimeField`, Django knows to give appropriate filter options: \"Any date,\" \"Today,\" \"Past 7 days,\" \"This month,\" \"This year.\""
+msgstr ""
+
+#: ../../intro/tutorial02.txt:391
+# ef29ecc48c9644df87a2fbae704c3df3
+msgid "This is shaping up well. Let's add some search capability::"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:395
+# ca697bda4d164cbeaa6011ef1e42535c
+msgid "That adds a search box at the top of the change list. When somebody enters search terms, Django will search the ``question`` field. You can use as many fields as you'd like -- although because it uses a ``LIKE`` query behind the scenes, keep it reasonable, to keep your database happy."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:400
+# 1a5bd7819ef94124b88c59e0a334ee41
+msgid "Finally, because Poll objects have dates, it'd be convenient to be able to drill down by date. Add this line::"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:405
+# b8c9a625759947a8ba1e716786bda1a3
+msgid "That adds hierarchical navigation, by date, to the top of the change list page. At top level, it displays all available years. Then it drills down to months and, ultimately, days."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:409
+# d2ade23bd4d54d5083cc949d02289276
+msgid "Now's also a good time to note that change lists give you free pagination. The default is to display 100 items per page. Change-list pagination, search boxes, filters, date-hierarchies and column-header-ordering all work together like you think they should."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:415
+# f3c93c1ae6c3413195900b2c431fb716
+msgid "Customize the admin look and feel"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:417
+# 21bb5899fbfa4b9593832d6eb5c5758c
+msgid "Clearly, having \"Django administration\" at the top of each admin page is ridiculous. It's just placeholder text."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:420
+# 630f056912e44ea78b3cd5529d2f362d
+msgid "That's easy to change, though, using Django's template system. The Django admin is powered by Django itself, and its interfaces use Django's own template system."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:424
+# e2d73cb2665c412b9301f89dfd9ecdc6
+msgid "Open your settings file (``mysite/settings.py``, remember) and look at the :setting:`TEMPLATE_DIRS` setting. :setting:`TEMPLATE_DIRS` is a tuple of filesystem directories to check when loading Django templates. It's a search path."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:429
+# ea5d79cf56a445d4be78f440145362c1
+msgid "By default, :setting:`TEMPLATE_DIRS` is empty. So, let's add a line to it, to tell Django where our templates live::"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:436
+# 13dc9690b872401e9c30468661c349dc
+msgid "Now copy the template ``admin/base_site.html`` from within the default Django admin template directory in the source code of Django itself (``django/contrib/admin/templates``) into an ``admin`` subdirectory of whichever directory you're using in :setting:`TEMPLATE_DIRS`. For example, if your :setting:`TEMPLATE_DIRS` includes ``'/home/my_username/mytemplates'``, as above, then copy ``django/contrib/admin/templates/admin/base_site.html`` to ``/home/my_username/mytemplates/admin/base_site.html``. Don't forget that ``admin`` subdirectory."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:445
+# 7962c0db121f4877a2f2759fed5d9074
+msgid "Then, just edit the file and replace the generic Django text with your own site's name as you see fit."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:448
+# 8e1fc7b7960941448e61b3e6c7fcb153
+msgid "This template file contains lots of text like ``{% block branding %}`` and ``{{ title }}``. The ``{%`` and ``{{`` tags are part of Django's template language. When Django renders ``admin/base_site.html``, this template language will be evaluated to produce the final HTML page. Don't worry if you can't make any sense of the template right now -- we'll delve into Django's templating language in Tutorial 3."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:455
+# 125e651b43084dbfa087d132f51d1863
+msgid "Note that any of Django's default admin templates can be overridden. To override a template, just do the same thing you did with ``base_site.html`` -- copy it from the default directory into your custom directory, and make changes."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:460
+# 8dc4bae0f0df459ba470511cd1ffe72b
+msgid "Astute readers will ask: But if :setting:`TEMPLATE_DIRS` was empty by default, how was Django finding the default admin templates? The answer is that, by default, Django automatically looks for a ``templates/`` subdirectory within each app package, for use as a fallback. See the :ref:`template loader documentation <template-loaders>` for full information."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:467
+# 4c993ecf3c6f48fdb69c353576f8ce98
+msgid "Customize the admin index page"
+msgstr ""
+
+#: ../../intro/tutorial02.txt:469
+# 42d5b0284ef4402e97b26d57499787cd
+msgid "On a similar note, you might want to customize the look and feel of the Django admin index page."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:472
+# 134244fdbfb546d98839bfbf26b616e7
+msgid "By default, it displays all the apps in :setting:`INSTALLED_APPS` that have been registered with the admin application, in alphabetical order. You may want to make significant changes to the layout. After all, the index is probably the most important page of the admin, and it should be easy to use."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:477
+# a42bd1c9d44f46649c70d26534195a94
+msgid "The template to customize is ``admin/index.html``. (Do the same as with ``admin/base_site.html`` in the previous section -- copy it from the default directory to your custom template directory.) Edit the file, and you'll see it uses a template variable called ``app_list``. That variable contains every installed Django app. Instead of using that, you can hard-code links to object-specific admin pages in whatever way you think is best. Again, don't worry if you can't understand the template language -- we'll cover that in more detail in Tutorial 3."
+msgstr ""
+
+#: ../../intro/tutorial02.txt:486
+# d8f7952edebe48a491ff4367e4c293ec
+msgid "When you're comfortable with the admin site, read :doc:`part 3 of this tutorial </intro/tutorial03>` to start working on public poll views."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:3
+# da2ceb931f124ec0a42f9eb22cc86e60
+msgid "Writing your first Django app, part 3"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:5
+# 89704ceabe3a4d64a94d835ffe8e0a9e
+msgid "This tutorial begins where :doc:`Tutorial 2 </intro/tutorial02>` left off. We're continuing the Web-poll application and will focus on creating the public interface -- \"views.\""
+msgstr ""
+
+#: ../../intro/tutorial03.txt:10
+# 35eb1a38331f46b18f94ccae3e754103
+msgid "Philosophy"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:12
+# e268cc9bcf174d8cbd4cf6d239d5497b
+msgid "A view is a \"type\" of Web page in your Django application that generally serves a specific function and has a specific template. For example, in a Weblog application, you might have the following views:"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:16
+# 74fd56958f7c4b9e84de402b4432d473
+msgid "Blog homepage -- displays the latest few entries."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:18
+# 33999cfd9a7b456c91c82821415a8779
+msgid "Entry \"detail\" page -- permalink page for a single entry."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:20
+# e48c2e3d1b544cbbbda3adc1143b14c1
+msgid "Year-based archive page -- displays all months with entries in the given year."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:23
+# 198a4b62f7174356a2b88a76983c81c9
+msgid "Month-based archive page -- displays all days with entries in the given month."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:26
+# f4fff51e57894d3995aeb56a190d4aa6
+msgid "Day-based archive page -- displays all entries in the given day."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:28
+# 533d892dd710487b87e025e6b0ca93a6
+msgid "Comment action -- handles posting comments to a given entry."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:30
+# 9e2dedf4ade442499142ad8c875f9599
+msgid "In our poll application, we'll have the following four views:"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:32
+# c7c4caf6a43140a3b01743675067f2dd
+msgid "Poll \"index\" page -- displays the latest few polls."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:34
+# a3d944fc2ffc473c9984454f20444b98
+msgid "Poll \"detail\" page -- displays a poll question, with no results but with a form to vote."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:37
+# 845053f6d352433bae5f04e88b4b0f0b
+msgid "Poll \"results\" page -- displays results for a particular poll."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:39
+# 2c7091913695489c8bce46ddbbddf8d3
+msgid "Vote action -- handles voting for a particular choice in a particular poll."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:42
+# 4359a34d56d2494696abe0a956f76a33
+msgid "In Django, each view is represented by a simple Python function."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:47
+# f3d5aca48fc847d180376c2013995620
+msgid "The first step of writing views is to design your URL structure. You do this by creating a Python module, called a URLconf. URLconfs are how Django associates a given URL with given Python code."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:51
+# b5acdacc01c64f31a0dc95d74e4a1c06
+msgid "When a user requests a Django-powered page, the system looks at the :setting:`ROOT_URLCONF` setting, which contains a string in Python dotted syntax. Django loads that module and looks for a module-level variable called ``urlpatterns``, which is a sequence of tuples in the following format::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:58
+# d6d0fcfee2284793a8328330895dc1e8
+msgid "Django starts at the first regular expression and makes its way down the list, comparing the requested URL against each regular expression until it finds one that matches."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:62
+# 00e14a519a814b95b81259df1e8f6f18
+msgid "When it finds a match, Django calls the Python callback function, with an :class:`~django.http.HttpRequest` object as the first argument, any \"captured\" values from the regular expression as keyword arguments, and, optionally, arbitrary keyword arguments from the dictionary (an optional third item in the tuple)."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:68
+# 932a2247239b45518877df1ef7b87125
+msgid "For more on :class:`~django.http.HttpRequest` objects, see the :doc:`/ref/request-response`. For more details on URLconfs, see the :doc:`/topics/http/urls`."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:72
+# 1255e15d756749caa2b9247c254fecca
+msgid "When you ran ``django-admin.py startproject mysite`` at the beginning of Tutorial 1, it created a default URLconf in ``mysite/urls.py``. It also automatically set your :setting:`ROOT_URLCONF` setting (in ``settings.py``) to point at that file::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:79
+# e2df035bab6d4d1298d3b1111781a1ed
+msgid "Time for an example. Edit ``mysite/urls.py`` so it looks like this::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:94
+# 723626f58bc341cd8ba64b090aa00a8b
+msgid "This is worth a review. When somebody requests a page from your Web site -- say, \"/polls/23/\", Django will load this Python module, because it's pointed to by the :setting:`ROOT_URLCONF` setting. It finds the variable named ``urlpatterns`` and traverses the regular expressions in order. When it finds a regular expression that matches -- ``r'^polls/(?P<poll_id>\\d+)/$'`` -- it loads the function ``detail()`` from ``polls/views.py``. Finally, it calls that ``detail()`` function like so::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:104
+# 4acd653a00d54355b25d14e21ff14851
+msgid "The ``poll_id='23'`` part comes from ``(?P<poll_id>\\d+)``. Using parentheses around a pattern \"captures\" the text matched by that pattern and sends it as an argument to the view function; the ``?P<poll_id>`` defines the name that will be used to identify the matched pattern; and ``\\d+`` is a regular expression to match a sequence of digits (i.e., a number)."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:110
+# 6983b7980cb845a590b2d78e42be4ae9
+msgid "Because the URL patterns are regular expressions, there really is no limit on what you can do with them. And there's no need to add URL cruft such as ``.php`` -- unless you have a sick sense of humor, in which case you can do something like this::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:117
+# 58d776ae0a6d422c859326dafad64654
+msgid "But, don't do that. It's silly."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:119
+# 57e88e955f11420fa573a3d12b8f843f
+msgid "Note that these regular expressions do not search GET and POST parameters, or the domain name. For example, in a request to ``http://www.example.com/myapp/``, the URLconf will look for ``myapp/``. In a request to ``http://www.example.com/myapp/?page=3``, the URLconf will look for ``myapp/``."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:124
+# 1272d16557ea46be994afce1cbf1b6f7
+msgid "If you need help with regular expressions, see `Wikipedia's entry`_ and the documentation of the :mod:`re` module. Also, the O'Reilly book \"Mastering Regular Expressions\" by Jeffrey Friedl is fantastic."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:128
+# a0e6f2143dd84898a5950b8ccbed86f5
+msgid "Finally, a performance note: these regular expressions are compiled the first time the URLconf module is loaded. They're super fast."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:134
+# 52991f5a002b44028b8928d4eaa16e9d
+msgid "Write your first view"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:136
+# 0a305f7ee89b4539aca7f71eda285d6a
+msgid "Well, we haven't created any views yet -- we just have the URLconf. But let's make sure Django is following the URLconf properly."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:139
+# 79819609e3484ea48bc10d060a3a7fae
+msgid "Fire up the Django development Web server:"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:145
+# f2f6e5631f4a41ba91c7d6c5a377ceea
+msgid "Now go to \"http://localhost:8000/polls/\" on your domain in your Web browser. You should get a pleasantly-colored error page with the following message::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:152
+# 902a8005b29c4cc8832f56ca7cfa7baf
+msgid "This error happened because you haven't written a function ``index()`` in the module ``polls/views.py``."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:155
+# 345cb482f21b479e802288043313de62
+msgid "Try \"/polls/23/\", \"/polls/23/results/\" and \"/polls/23/vote/\". The error messages tell you which view Django tried (and failed to find, because you haven't written any views yet)."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:159
+# fbfa7995fcd541b5ae9d6e970cae995b
+msgid "Time to write the first view. Open the file ``polls/views.py`` and put the following Python code in it::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:167
+# 738e6d573f834356b84fa8778a3564eb
+msgid "This is the simplest view possible. Go to \"/polls/\" in your browser, and you should see your text."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:170
+# 50bbf0ad293547e1a9536b109bbe9c48
+msgid "Now lets add a few more views. These views are slightly different, because they take an argument (which, remember, is passed in from whatever was captured by the regular expression in the URLconf)::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:183
+# a3a7fe5cb6174589b9d70f107eb7591c
+msgid "Take a look in your browser, at \"/polls/34/\". It'll run the `detail()` method and display whatever ID you provide in the URL. Try \"/polls/34/results/\" and \"/polls/34/vote/\" too -- these will display the placeholder results and voting pages."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:189
+# ac180ca7ba0f4976b0f9f9f6048c8c0a
+msgid "Write views that actually do something"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:191
+# c3261cf4836a4809ab7580bc08783408
+msgid "Each view is responsible for doing one of two things: Returning an :class:`~django.http.HttpResponse` object containing the content for the requested page, or raising an exception such as :exc:`~django.http.Http404`. The rest is up to you."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:196
+# a396b035f471428584fa00a48cc0830e
+msgid "Your view can read records from a database, or not. It can use a template system such as Django's -- or a third-party Python template system -- or not. It can generate a PDF file, output XML, create a ZIP file on the fly, anything you want, using whatever Python libraries you want."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:201
+# e9a4e60096134d968fa4436eeeb126ac
+msgid "All Django wants is that :class:`~django.http.HttpResponse`. Or an exception."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:203
+# e761f75e477f48bbaf4a4e98ad3047f5
+msgid "Because it's convenient, let's use Django's own database API, which we covered in :doc:`Tutorial 1 </intro/tutorial01>`. Here's one stab at the ``index()`` view, which displays the latest 5 poll questions in the system, separated by commas, according to publication date::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:216
+# 0fc9d20ab5734bf19f51097147373c19
+msgid "There's a problem here, though: The page's design is hard-coded in the view. If you want to change the way the page looks, you'll have to edit this Python code. So let's use Django's template system to separate the design from Python::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:232
+# 5ee4931e142347ae87a6e3fb0560f56a
+msgid "That code loads the template called \"polls/index.html\" and passes it a context. The context is a dictionary mapping template variable names to Python objects."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:235
+# 0bfe7075f979404d8e85e9734fba31ff
+msgid "Reload the page. Now you'll see an error::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:240
+# 0a50e72189ec4fe09bc3d62a2190028c
+msgid "Ah. There's no template yet. First, create a directory, somewhere on your filesystem, whose contents Django can access. (Django runs as whatever user your server runs.) Don't put them under your document root, though. You probably shouldn't make them public, just for security's sake. Then edit :setting:`TEMPLATE_DIRS` in your ``settings.py`` to tell Django where it can find templates -- just as you did in the \"Customize the admin look and feel\" section of Tutorial 2."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:248
+# efd113acf7e7405392c5cf76c1f3d584
+msgid "When you've done that, create a directory ``polls`` in your template directory. Within that, create a file called ``index.html``. Note that our ``loader.get_template('polls/index.html')`` code from above maps to \"[template_directory]/polls/index.html\" on the filesystem."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:253
+# ddfa0d45a3d640939a1fd02475628345
+msgid "Put the following code in that template:"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:267
+# 9a0930678ec84f219dc4c1e479ec1ee5
+msgid "Load the page in your Web browser, and you should see a bulleted-list containing the \"What's up\" poll from Tutorial 1. The link points to the poll's detail page."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:272
+# b6c5fc79cd704af1a5b0791b2803ff27
+msgid "A shortcut: render_to_response()"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:274
+# 643b2998e67f4f10beadeabf1b803761
+msgid "It's a very common idiom to load a template, fill a context and return an :class:`~django.http.HttpResponse` object with the result of the rendered template. Django provides a shortcut. Here's the full ``index()`` view, rewritten::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:286
+# 3f27dc57cb06480caf4b217f7b3aec9f
+msgid "Note that once we've done this in all these views, we no longer need to import :mod:`~django.template.loader`, :class:`~django.template.Context` and :class:`~django.http.HttpResponse`."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:290
+# 2198c5cdeb0f49a5bc7485b14ec22bdd
+msgid "The :func:`~django.shortcuts.render_to_response` function takes a template name as its first argument and a dictionary as its optional second argument. It returns an :class:`~django.http.HttpResponse` object of the given template rendered with the given context."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:296
+# c82e2488ef5d4d6cbbc215a19bd8fbb9
+msgid "Raising 404"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:298
+# b8b2b0f058e34850b1357b951d3e48ee
+msgid "Now, let's tackle the poll detail view -- the page that displays the question for a given poll. Here's the view::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:310
+# 1168d821bb9448c2a8cc6e740ad3b98b
+msgid "The new concept here: The view raises the :exc:`~django.http.Http404` exception if a poll with the requested ID doesn't exist."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:313
+# 20619ea3bbad4b37b71d56fe34949bd4
+msgid "We'll discuss what you could put in that ``polls/detail.html`` template a bit later, but if you'd like to quickly get the above example working, just::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:318
+# 6642fb76a05642c28ccf9648cf55b078
+msgid "will get you started for now."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:321
+# fe354b1949e44f4eafb9e02bc622ebdf
+msgid "A shortcut: get_object_or_404()"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:323
+# f78a6dde033b44409867e564a72952f5
+msgid "It's a very common idiom to use :meth:`~django.db.models.query.QuerySet.get` and raise :exc:`~django.http.Http404` if the object doesn't exist. Django provides a shortcut. Here's the ``detail()`` view, rewritten::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:333
+# c2ff13d0c83b407f9c2ae8ac36d59535
+msgid "The :func:`~django.shortcuts.get_object_or_404` function takes a Django model as its first argument and an arbitrary number of keyword arguments, which it passes to the module's :meth:`~django.db.models.query.QuerySet.get` function. It raises :exc:`~django.http.Http404` if the object doesn't exist."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:340
+# e96b6a693a12473395bd866845c5a9af
+msgid "Why do we use a helper function :func:`~django.shortcuts.get_object_or_404` instead of automatically catching the :exc:`~django.core.exceptions.ObjectDoesNotExist` exceptions at a higher level, or having the model API raise :exc:`~django.http.Http404` instead of :exc:`~django.core.exceptions.ObjectDoesNotExist`?"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:346
+# 4f0ad0a4c1af427797bb7a7a1114a69e
+msgid "Because that would couple the model layer to the view layer. One of the foremost design goals of Django is to maintain loose coupling."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:349
+# 7346bb03ebb647a583fe0391a1c727b7
+msgid "There's also a :func:`~django.shortcuts.get_list_or_404` function, which works just as :func:`~django.shortcuts.get_object_or_404` -- except using :meth:`~django.db.models.query.QuerySet.filter` instead of :meth:`~django.db.models.query.QuerySet.get`. It raises :exc:`~django.http.Http404` if the list is empty."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:356
+# b63b8ab7d4a84c05b526286a10d995e7
+msgid "Write a 404 (page not found) view"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:358
+# e7a564d727cf4f5d8b9be31b980e2c5b
+msgid "When you raise :exc:`~django.http.Http404` from within a view, Django will load a special view devoted to handling 404 errors. It finds it by looking for the variable ``handler404`` in your root URLconf (and only in your root URLconf; setting ``handler404`` anywhere else will have no effect), which is a string in Python dotted syntax -- the same format the normal URLconf callbacks use. A 404 view itself has nothing special: It's just a normal view."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:366
+# 31a0bf17736e43a894110a1bb251e8df
+msgid "You normally won't have to bother with writing 404 views. If you don't set ``handler404``, the built-in view :func:`django.views.defaults.page_not_found` is used by default. In this case, you still have one obligation: create a ``404.html`` template in the root of your template directory. The default 404 view will use that template for all 404 errors. If :setting:`DEBUG` is set to ``False`` (in your settings module) and if you didn't create a ``404.html`` file, an ``Http500`` is raised instead. So remember to create a ``404.html``."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:374
+# 7f6a820e6be849288f9000928950b8cc
+msgid "A couple more things to note about 404 views:"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:376
+# aef929b2383e41d08b2d7f7ef5c3871c
+msgid "If :setting:`DEBUG` is set to ``True`` (in your settings module) then your 404 view will never be used (and thus the ``404.html`` template will never be rendered) because the traceback will be displayed instead."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:380
+# c1663f2cadd24af795044a189a00f0c3
+msgid "The 404 view is also called if Django doesn't find a match after checking every regular expression in the URLconf."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:384
+# b39a3603402e43fbb005d308581434d0
+msgid "Write a 500 (server error) view"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:386
+# 655ca7daaa8341f3bc907822e64df564
+msgid "Similarly, your root URLconf may define a ``handler500``, which points to a view to call in case of server errors. Server errors happen when you have runtime errors in view code."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:391
+# d1f115d77a9443b4aaf1a7f3e42d8010
+msgid "Use the template system"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:393
+# dea60fb5b8644477884af61680a5ad85
+msgid "Back to the ``detail()`` view for our poll application. Given the context variable ``poll``, here's what the \"polls/detail.html\" template might look like:"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:406
+# c1ad40d8711f4dc8b694e85760654334
+msgid "The template system uses dot-lookup syntax to access variable attributes. In the example of ``{{ poll.question }}``, first Django does a dictionary lookup on the object ``poll``. Failing that, it tries an attribute lookup -- which works, in this case. If attribute lookup had failed, it would've tried a list-index lookup."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:412
+# 7f42078ac9f24d339c96cf0d0ae4e4b9
+msgid "Method-calling happens in the :ttag:`{% for %}<for>` loop: ``poll.choice_set.all`` is interpreted as the Python code ``poll.choice_set.all()``, which returns an iterable of Choice objects and is suitable for use in the :ttag:`{% for %}<for>` tag."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:417
+# f9b9d615d32947369ca3d6a2e144c1a3
+msgid "See the :doc:`template guide </topics/templates>` for more about templates."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:420
+# 126ac2aec65a47ceb8c8e952f2b28087
+msgid "Simplifying the URLconfs"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:422
+# e77e7bbe99dd4ddcb3486f5a56464f60
+msgid "Take some time to play around with the views and template system. As you edit the URLconf, you may notice there's a fair bit of redundancy in it::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:432
+# 64fdf922b48e47d5bbdd11bdb56b5730
+msgid "Namely, ``polls.views`` is in every callback."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:434
+# a30cfe45ad4a427db1cf5319bb40e507
+msgid "Because this is a common case, the URLconf framework provides a shortcut for common prefixes. You can factor out the common prefixes and add them as the first argument to :func:`~django.conf.urls.patterns`, like so::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:445
+# 1b0272f8ecb04fcda02b8897c5ac3a95
+msgid "This is functionally identical to the previous formatting. It's just a bit tidier."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:448
+# 9967d28ac1734098af83180654514086
+msgid "Since you generally don't want the prefix for one app to be applied to every callback in your URLconf, you can concatenate multiple :func:`~django.conf.urls.patterns`. Your full ``mysite/urls.py`` might now look like this::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:470
+# 97e58d4b14cf4963b78b1f50f6431b2d
+msgid "Decoupling the URLconfs"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:472
+# f7fdf0a6b93248d3b5084d14c1c2f1f2
+msgid "While we're at it, we should take the time to decouple our poll-app URLs from our Django project configuration. Django apps are meant to be pluggable -- that is, each particular app should be transferable to another Django installation with minimal fuss."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:477
+# 2ac7f703bad842718cfc3177f6e9f879
+msgid "Our poll app is pretty decoupled at this point, thanks to the strict directory structure that ``python manage.py startapp`` created, but one part of it is coupled to the Django settings: The URLconf."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:481
+# 6d6bdd04059a48768509bb2405943858
+msgid "We've been editing the URLs in ``mysite/urls.py``, but the URL design of an app is specific to the app, not to the Django installation -- so let's move the URLs within the app directory."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:485
+# 1d8a95c6507e41d1bad4def3a9a63a4b
+msgid "Copy the file ``mysite/urls.py`` to ``polls/urls.py``. Then, change ``mysite/urls.py`` to remove the poll-specific URLs and insert an :func:`~django.conf.urls.include`, leaving you with::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:499
+# 3b3487d102eb4899b8caf48d398050a6
+msgid ":func:`~django.conf.urls.include` simply references another URLconf. Note that the regular expression doesn't have a ``$`` (end-of-string match character) but has the trailing slash. Whenever Django encounters :func:`~django.conf.urls.include`, it chops off whatever part of the URL matched up to that point and sends the remaining string to the included URLconf for further processing."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:506
+# d9993c2ad2184577bd129773da51da25
+msgid "Here's what happens if a user goes to \"/polls/34/\" in this system:"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:508
+# 8e69bbe965524991ab47c1bd63963597
+msgid "Django will find the match at ``'^polls/'``"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:510
+# c415e7378ee645038fa29d02041d1012
+msgid "Then, Django will strip off the matching text (``\"polls/\"``) and send the remaining text -- ``\"34/\"`` -- to the 'polls.urls' URLconf for further processing."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:514
+# a1fa62464b574b7db5c4134816562ce4
+msgid "Now that we've decoupled that, we need to decouple the ``polls.urls`` URLconf by removing the leading \"polls/\" from each line, and removing the lines registering the admin site. Your ``polls/urls.py`` file should now look like this::"
+msgstr ""
+
+#: ../../intro/tutorial03.txt:528
+# 084b6d8a085c4b5b80d720d872465617
+msgid "The idea behind :func:`~django.conf.urls.include` and URLconf decoupling is to make it easy to plug-and-play URLs. Now that polls are in their own URLconf, they can be placed under \"/polls/\", or under \"/fun_polls/\", or under \"/content/polls/\", or any other path root, and the app will still work."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:533
+# 7857543bed56485b81374ddc250ccdd3
+msgid "All the poll app cares about is its relative path, not its absolute path."
+msgstr ""
+
+#: ../../intro/tutorial03.txt:535
+# 1e486398c00f4b1f9eb5c0f5c879be2c
+msgid "When you're comfortable with writing views, read :doc:`part 4 of this tutorial </intro/tutorial04>` to learn about simple form processing and generic views."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:3
+# df9a4def7cd847e3a1f714453e0b41d7
+msgid "Writing your first Django app, part 4"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:5
+# 4248d55bb5984fed8e4c266d63bdb294
+msgid "This tutorial begins where :doc:`Tutorial 3 </intro/tutorial03>` left off. We're continuing the Web-poll application and will focus on simple form processing and cutting down our code."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:10
+# 8578785c14a14e8c9c7d08bef74248c2
+msgid "Write a simple form"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:12
+# dcd0f3e9b3e14c788887e81bce7bc1be
+msgid "Let's update our poll detail template (\"polls/detail.html\") from the last tutorial, so that the template contains an HTML ``<form>`` element:"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:30
+# fa5313b7514941cdb1da18de327398e5
+msgid "A quick rundown:"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:32
+# 9cc32f9fee384cd58f1874fffd00eedb
+msgid "The above template displays a radio button for each poll choice. The ``value`` of each radio button is the associated poll choice's ID. The ``name`` of each radio button is ``\"choice\"``. That means, when somebody selects one of the radio buttons and submits the form, it'll send the POST data ``choice=3``. This is HTML Forms 101."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:38
+# db1d735ffcb74dcdbf3a18ff6205f3b2
+msgid "We set the form's ``action`` to ``/polls/{{ poll.id }}/vote/``, and we set ``method=\"post\"``. Using ``method=\"post\"`` (as opposed to ``method=\"get\"``) is very important, because the act of submitting this form will alter data server-side. Whenever you create a form that alters data server-side, use ``method=\"post\"``. This tip isn't specific to Django; it's just good Web development practice."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:45
+# 925930d558754bedb72443f0dd67c30a
+msgid "``forloop.counter`` indicates how many times the :ttag:`for` tag has gone through its loop"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:48
+# 819d5885e29a47b2a7ab2fcd772ac39f
+msgid "Since we're creating a POST form (which can have the effect of modifying data), we need to worry about Cross Site Request Forgeries. Thankfully, you don't have to worry too hard, because Django comes with a very easy-to-use system for protecting against it. In short, all POST forms that are targeted at internal URLs should use the :ttag:`{% csrf_token %}<csrf_token>` template tag."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:55
+# be4c9087783547f399efad595ef29e02
+msgid "The :ttag:`{% csrf_token %}<csrf_token>` tag requires information from the request object, which is not normally accessible from within the template context. To fix this, a small adjustment needs to be made to the ``detail`` view, so that it looks like the following::"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:67
+# 1f9fbdc033854f2abe0a6bdf97aeb47b
+msgid "The details of how this works are explained in the documentation for :ref:`RequestContext <subclassing-context-requestcontext>`."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:70
+# 9f140db3986a4bd49b32dcbd044b9bc5
+msgid "Now, let's create a Django view that handles the submitted data and does something with it. Remember, in :doc:`Tutorial 3 </intro/tutorial03>`, we created a URLconf for the polls application that includes this line::"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:76
+# 99d22f9ed88c4d57ae34a774027fd9d7
+msgid "We also created a dummy implementation of the ``vote()`` function. Let's create a real version. Add the following to ``polls/views.py``::"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:103
+# 7f3339ae75cb45f3a14a374951cbccbe
+msgid "This code includes a few things we haven't covered yet in this tutorial:"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:105
+# bdf4afa4f8e043539f311be278cbd470
+msgid ":attr:`request.POST <django.http.HttpRequest.POST>` is a dictionary-like object that lets you access submitted data by key name. In this case, ``request.POST['choice']`` returns the ID of the selected choice, as a string. :attr:`request.POST <django.http.HttpRequest.POST>` values are always strings."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:111
+# 7b2a58b3f5774767b24cc75fa15bf707
+msgid "Note that Django also provides :attr:`request.GET <django.http.HttpRequest.GET>` for accessing GET data in the same way -- but we're explicitly using :attr:`request.POST <django.http.HttpRequest.POST>` in our code, to ensure that data is only altered via a POST call."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:117
+# 4dbfea49dba8448b91feda307869cea0
+msgid "``request.POST['choice']`` will raise :exc:`KeyError` if ``choice`` wasn't provided in POST data. The above code checks for :exc:`KeyError` and redisplays the poll form with an error message if ``choice`` isn't given."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:121
+# f9d329c0be91491c8ca0d5f0595095f0
+msgid "After incrementing the choice count, the code returns an :class:`~django.http.HttpResponseRedirect` rather than a normal :class:`~django.http.HttpResponse`. :class:`~django.http.HttpResponseRedirect` takes a single argument: the URL to which the user will be redirected (see the following point for how we construct the URL in this case)."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:128
+# 011978d2c8da40968f9f3ca2403ba0ae
+msgid "As the Python comment above points out, you should always return an :class:`~django.http.HttpResponseRedirect` after successfully dealing with POST data. This tip isn't specific to Django; it's just good Web development practice."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:133
+# 0669a92d09c540159ae5b8fbab216dbe
+msgid "We are using the :func:`~django.core.urlresolvers.reverse` function in the :class:`~django.http.HttpResponseRedirect` constructor in this example. This function helps avoid having to hardcode a URL in the view function. It is given the name of the view that we want to pass control to and the variable portion of the URL pattern that points to that view. In this case, using the URLconf we set up in Tutorial 3, this :func:`~django.core.urlresolvers.reverse` call will return a string like ::"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:144
+# 0154cc8f3ef745ceafd9d05804305cb6
+msgid "... where the ``3`` is the value of ``p.id``. This redirected URL will then call the ``'results'`` view to display the final page. Note that you need to use the full name of the view here (including the prefix)."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:148
+# c4e96be1a7de4796829bcd45a73fe560
+msgid "As mentioned in Tutorial 3, ``request`` is a :class:`~django.http.HttpRequest` object. For more on :class:`~django.http.HttpRequest` objects, see the :doc:`request and response documentation </ref/request-response>`."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:152
+# 2d8983b7ff0a4087b60653dd40e72405
+msgid "After somebody votes in a poll, the ``vote()`` view redirects to the results page for the poll. Let's write that view::"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:159
+# 91d038f6f2644b9b9ed987ca5e19ae8f
+msgid "This is almost exactly the same as the ``detail()`` view from :doc:`Tutorial 3 </intro/tutorial03>`. The only difference is the template name. We'll fix this redundancy later."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:163
+# cb8a0022bee449c7ab6a3520a49956cd
+msgid "Now, create a ``results.html`` template:"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:177
+# 9238501d370d4b209f07b3b92a16d906
+msgid "Now, go to ``/polls/1/`` in your browser and vote in the poll. You should see a results page that gets updated each time you vote. If you submit the form without having chosen a choice, you should see the error message."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:182
+# 031a86b26d7e40389cc038d330e19a7f
+msgid "Use generic views: Less code is better"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:184
+# 15ac9c2adffe405497dac2930243b5ad
+msgid "The ``detail()`` (from :doc:`Tutorial 3 </intro/tutorial03>`) and ``results()`` views are stupidly simple -- and, as mentioned above, redundant. The ``index()`` view (also from Tutorial 3), which displays a list of polls, is similar."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:188
+# 46afcd1e5c48457dbc2dbb73b3f83c4f
+msgid "These views represent a common case of basic Web development: getting data from the database according to a parameter passed in the URL, loading a template and returning the rendered template. Because this is so common, Django provides a shortcut, called the \"generic views\" system."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:193
+# 7caa7a7348f341f69745951e41b9698f
+msgid "Generic views abstract common patterns to the point where you don't even need to write Python code to write an app."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:196
+# d4b9dd97ba21402785cfa1cd6b29e6ff
+msgid "Let's convert our poll app to use the generic views system, so we can delete a bunch of our own code. We'll just have to take a few steps to make the conversion. We will:"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:200
+# 1c0d995ca9c841bf86a44744c29cc6fa
+msgid "Convert the URLconf."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:202
+# d8d0f076d8a843b385910c2a9caed548
+msgid "Delete some of the old, unneeded views."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:204
+# efd1029c94c342a8a62aaabc517025eb
+msgid "Fix up URL handling for the new views."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:206
+# 8357747ab9184346a89d0a6136309f36
+msgid "Read on for details."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:210
+# 2ac959dc08ea42a9a41aba50c6ff9d08
+msgid "Generally, when writing a Django app, you'll evaluate whether generic views are a good fit for your problem, and you'll use them from the beginning, rather than refactoring your code halfway through. But this tutorial intentionally has focused on writing the views \"the hard way\" until now, to focus on core concepts."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:216
+# c6d58c5231c341e8a94a6cdd8a7c1057
+msgid "You should know basic math before you start using a calculator."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:218
+# 2df59230dedc48d2ae4d9cdc0ae9dce9
+msgid "First, open the ``polls/urls.py`` URLconf. It looks like this, according to the tutorial so far::"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:230
+# 4f7f1e9e31c14646829a5c870d91f99f
+msgid "Change it like so::"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:254
+# 601b09aedf4b42bebfe27806b6aedbe5
+msgid "We're using two generic views here: :class:`~django.views.generic.list.ListView` and :class:`~django.views.generic.detail.DetailView`. Respectively, those two views abstract the concepts of \"display a list of objects\" and \"display a detail page for a particular type of object.\""
+msgstr ""
+
+#: ../../intro/tutorial04.txt:260
+# ccf9851c42f146289f6a0522a62e7c51
+msgid "Each generic view needs to know what model it will be acting upon. This is provided using the ``model`` parameter."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:263
+# 2b02318904a04268b8a2698627db42d6
+msgid "The :class:`~django.views.generic.list.DetailView` generic view expects the primary key value captured from the URL to be called ``\"pk\"``, so we've changed ``poll_id`` to ``pk`` for the generic views."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:268
+# f2aff5fedb4349b2b5eabfd05bc5cca8
+msgid "We've added a name, ``poll_results``, to the results view so that we have a way to refer to its URL later on (see the documentation about :ref:`naming URL patterns <naming-url-patterns>` for information). We're also using the :func:`~django.conf.urls.url` function from :mod:`django.conf.urls` here. It's a good habit to use :func:`~django.conf.urls.url` when you are providing a pattern name like this."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:277
+# ef2b62eddfac44b79ab6bf5499e5b5cd
+msgid "By default, the :class:`~django.views.generic.list.DetailView` generic view uses a template called ``<app name>/<model name>_detail.html``. In our case, it'll use the template ``\"polls/poll_detail.html\"``. The ``template_name`` argument is used to tell Django to use a specific template name instead of the autogenerated default template name. We also specify the ``template_name`` for the ``results`` list view -- this ensures that the results view and the detail view have a different appearance when rendered, even though they're both a :class:`~django.views.generic.list.DetailView` behind the scenes."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:287
+# 534ba2c961a246d0a46ec7dd9ad90e8f
+msgid "Similarly, the :class:`~django.views.generic.list.ListView` generic view uses a default template called ``<app name>/<model name>_list.html``; we use ``template_name`` to tell :class:`~django.views.generic.list.ListView` to use our existing ``\"polls/index.html\"`` template."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:293
+# 2e069b942ad0439f8714262f595c6394
+msgid "In previous parts of the tutorial, the templates have been provided with a context that contains the ``poll`` and ``latest_poll_list`` context variables. For DetailView the ``poll`` variable is provided automatically -- since we're using a Django model (``Poll``), Django is able to determine an appropriate name for the context variable. However, for ListView, the automatically generated context variable is ``poll_list``. To override this we provide the ``context_object_name`` option, specifying that we want to use ``latest_poll_list`` instead. As an alternative approach, you could change your templates to match the new default context variables -- but it's a lot easier to just tell Django to use the variable you want."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:305
+# 9f4aa2889e7d44c89a11012a9a9347d1
+msgid "You can now delete the ``index()``, ``detail()`` and ``results()`` views from ``polls/views.py``. We don't need them anymore -- they have been replaced by generic views."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:309
+# 856b40a1ad1b45088074d352e533a329
+msgid "The last thing to do is fix the URL handling to account for the use of generic views. In the vote view above, we used the :func:`~django.core.urlresolvers.reverse` function to avoid hard-coding our URLs. Now that we've switched to a generic view, we'll need to change the :func:`~django.core.urlresolvers.reverse` call to point back to our new generic view. We can't simply use the view function anymore -- generic views can be (and are) used multiple times -- but we can use the name we've given::"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:320
+# dae3a6f5bf4d49ab8dcb9a17a7f28a05
+msgid "Run the server, and use your new polling app based on generic views."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:322
+# 383060ee54be42148fcf52f4439c342d
+msgid "For full details on generic views, see the :doc:`generic views documentation </topics/http/generic-views>`."
+msgstr ""
+
+#: ../../intro/tutorial04.txt:326
+# 1a14dc51842548edbbe64f836047b2b4
+msgid "Coming soon"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:328
+# 648c7638b72648a68df2a8ba7509d61d
+msgid "The tutorial ends here for the time being. Future installments of the tutorial will cover:"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:331
+# 9118949a0b534eaeba70a4200b0230e5
+msgid "Advanced form processing"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:332
+# cba5341b1e8c4a88a4a35670f83695e0
+msgid "Using the RSS framework"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:333
+# c179379ec0c24303b23708ee718e5810
+msgid "Using the cache framework"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:334
+# a829facff40040ffb6791e2d50535b2c
+msgid "Using the comments framework"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:335
+# c342979846f44ab8b819706029779942
+msgid "Advanced admin features: Permissions"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:336
+# 7fbdba2c42d544f19657cb52ae4d1244
+msgid "Advanced admin features: Custom JavaScript"
+msgstr ""
+
+#: ../../intro/tutorial04.txt:338
+# 7c09c816606d49308a81591937842b39
+msgid "In the meantime, you might want to check out some pointers on :doc:`where to go from here </intro/whatsnext>`"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:3
+# 6225f090873b48f3b6cfc70171e901f5
+msgid "What to read next"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:5
+# 2139f291e3fe44938b22ad066d5351c9
+msgid "So you've read all the :doc:`introductory material </intro/index>` and have decided you'd like to keep using Django. We've only just scratched the surface with this intro (in fact, if you've read every single word you've still read less than 10% of the overall documentation)."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:10
+# fb81c6f769db4685810e8a681448d940
+msgid "So what's next?"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:12
+# 087e76fe586f48ffb7f1519df30d6d7d
+msgid "Well, we've always been big fans of learning by doing. At this point you should know enough to start a project of your own and start fooling around. As you need to learn new tricks, come back to the documentation."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:16
+# 0f61555c3f64429687d4ca972a1c114b
+msgid "We've put a lot of effort into making Django's documentation useful, easy to read and as complete as possible. The rest of this document explains more about how the documentation works so that you can get the most out of it."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:20
+# ba833efd640d418aa0634e7eabcfedfc
+msgid "(Yes, this is documentation about documentation. Rest assured we have no plans to write a document about how to read the document about documentation.)"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:24
+# deb24637a815447bb4f85667933fd603
+msgid "Finding documentation"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:26
+# 1cf85b9d1d6c43bbadab8e2caf6a0ede
+msgid "Django's got a *lot* of documentation -- almost 200,000 words -- so finding what you need can sometimes be tricky. A few good places to start are the :ref:`search` and the :ref:`genindex`."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:30
+# 472b659479594a6fbc6732534c0426d0
+msgid "Or you can just browse around!"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:33
+# c255c97f868142c9b1b98472ce47208d
+msgid "How the documentation is organized"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:35
+# 26cfed9209ac4deea97d998934093f2d
+msgid "Django's main documentation is broken up into \"chunks\" designed to fill different needs:"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:38
+# 74e2d3d6cc0743b9b54ec3fb8f51465c
+msgid "The :doc:`introductory material </intro/index>` is designed for people new to Django -- or to Web development in general. It doesn't cover anything in depth, but instead gives a high-level overview of how developing in Django \"feels\"."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:43
+# 156ba1535b0446848a52b00ff109fbe7
+msgid "The :doc:`topic guides </topics/index>`, on the other hand, dive deep into individual parts of Django. There are complete guides to Django's :doc:`model system </topics/db/index>`, :doc:`template engine </topics/templates>`, :doc:`forms framework </topics/forms/index>`, and much more."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:49
+# e685f419bb7e44488a6c6150b5a972f6
+msgid "This is probably where you'll want to spend most of your time; if you work your way through these guides you should come out knowing pretty much everything there is to know about Django."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:53
+# 7c7e8ac82e1c4d42a1fc08b9188caec0
+msgid "Web development is often broad, not deep -- problems span many domains. We've written a set of :doc:`how-to guides </howto/index>` that answer common \"How do I ...?\" questions. Here you'll find information about :doc:`generating PDFs with Django </howto/outputting-pdf>`, :doc:`writing custom template tags </howto/custom-template-tags>`, and more."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:59
+# 73019a1380114298849cd1803ce30999
+msgid "Answers to really common questions can also be found in the :doc:`FAQ </faq/index>`."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:62
+# e5f741e3d89944ae8273ea921bde9e34
+msgid "The guides and how-to's don't cover every single class, function, and method available in Django -- that would be overwhelming when you're trying to learn. Instead, details about individual classes, functions, methods, and modules are kept in the :doc:`reference </ref/index>`. This is where you'll turn to find the details of a particular function or whathaveyou."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:69
+# cf37ec35a25a43298b290404dad387f6
+msgid "Finally, there's some \"specialized\" documentation not usually relevant to most developers. This includes the :doc:`release notes </releases/index>`, :doc:`documentation of obsolete features </obsolete/index>`, :doc:`internals documentation </internals/index>` for those who want to add code to Django itself, and a :doc:`few other things that simply don't fit elsewhere </misc/index>`."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:78
+# 52638dabe47349cfa978758c784db380
+msgid "How documentation is updated"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:80
+# 747288984e64410e832169d92353e70e
+msgid "Just as the Django code base is developed and improved on a daily basis, our documentation is consistently improving. We improve documentation for several reasons:"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:84
+# 3ceaf3078baa404ab3f9de2a5ae021af
+msgid "To make content fixes, such as grammar/typo corrections."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:86
+# 14a95428d70745e28052c1bb3ca63cc4
+msgid "To add information and/or examples to existing sections that need to be expanded."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:89
+# 10b7fb81abcc4c82bd062a94004b3e4f
+msgid "To document Django features that aren't yet documented. (The list of such features is shrinking but exists nonetheless.)"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:92
+# 3a5885f962d24283838f82d0baf8f4be
+msgid "To add documentation for new features as new features get added, or as Django APIs or behaviors change."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:95
+# 24376d08d12f4b4197e274e5d1ef4938
+msgid "Django's documentation is kept in the same source control system as its code. It lives in the `django/trunk/docs`_ directory of our Subversion repository. Each document online is a separate text file in the repository."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:102
+# 845b452e3f9a4cee98bd91be69ca80b7
+msgid "Where to get it"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:104
+# 440dd8dd9cd84a70812f3c79d1c2ae7c
+msgid "You can read Django documentation in several ways. They are, in order of preference:"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:108
+# a58025489032498db45073c31d12b8f3
+msgid "On the Web"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:110
+# 5a993c49fd40485a9647b1e0809f4663
+msgid "The most recent version of the Django documentation lives at http://docs.djangoproject.com/en/dev/. These HTML pages are generated automatically from the text files in source control. That means they reflect the \"latest and greatest\" in Django -- they include the very latest corrections and additions, and they discuss the latest Django features, which may only be available to users of the Django development version. (See \"Differences between versions\" below.)"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:118
+# 28c0344fc0f345ffb8995c0afbd67967
+msgid "We encourage you to help improve the docs by submitting changes, corrections and suggestions in the `ticket system`_. The Django developers actively monitor the ticket system and use your feedback to improve the documentation for everybody."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:122
+# a334269d0a8f4cf79cb0cc66f7519469
+msgid "Note, however, that tickets should explicitly relate to the documentation, rather than asking broad tech-support questions. If you need help with your particular Django setup, try the `django-users mailing list`_ or the `#django IRC channel`_ instead."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:132
+# 74df29ccc81a4f62b97e68ab19cf6e64
+msgid "In plain text"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:134
+# 78be127407fb45e9b10da8ea18529daa
+msgid "For offline reading, or just for convenience, you can read the Django documentation in plain text."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:137
+# a123aa6d18cd40fb8e6e8821e47cdc65
+msgid "If you're using an official release of Django, note that the zipped package (tarball) of the code includes a ``docs/`` directory, which contains all the documentation for that release."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:141
+# df2f32980ccb4d9d8d6fe566c7ca1558
+msgid "If you're using the development version of Django (aka the Subversion \"trunk\"), note that the ``docs/`` directory contains all of the documentation. You can ``svn update`` it, just as you ``svn update`` the Python code, in order to get the latest changes."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:146
+# 5f0bb52842964d2dbf3c29b6e9d05011
+msgid "You can check out the latest Django documentation from Subversion using this shell command:"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:153
+# 0c30033f7618446c9a0fd97be5225ffd
+msgid "One low-tech way of taking advantage of the text documentation is by using the Unix ``grep`` utility to search for a phrase in all of the documentation. For example, this will show you each mention of the phrase \"max_length\" in any Django document:"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:163
+# d084c9b4dffd44d9a11da6dfe585ce36
+msgid "As HTML, locally"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:165
+# b2feb218d8544c65b349f443bc13fbdf
+msgid "You can get a local copy of the HTML documentation following a few easy steps:"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:167
+# 9dfa315e251d4aceaf187651cf97a6e2
+msgid "Django's documentation uses a system called Sphinx__ to convert from plain text to HTML. You'll need to install Sphinx by either downloading and installing the package from the Sphinx Web site, or with ``pip``:"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:175
+# 750373f1f8c1463dbfb08ad0cccd68cf
+msgid "Then, just use the included ``Makefile`` to turn the documentation into HTML:"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:183
+# b548b9407ae34f78911c2e52e4759a57
+msgid "You'll need `GNU Make`__ installed for this."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:185
+# 7a9516004f2749aa9c5432c6b79fc118
+msgid "If you're on Windows you can alternatively use the included batch file:"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:192
+# 555c1dbfec664878b9d9b0f80a5663dd
+msgid "The HTML documentation will be placed in ``docs/_build/html``."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:196
+# 68b3062741674834808f4fe3a5d1ed45
+msgid "Generation of the Django documentation will work with Sphinx version 0.6 or newer, but we recommend going straight to Sphinx 1.0.2 or newer."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:203
+# d80a6889465b46d78dba4cf0f7f7e79b
+msgid "Differences between versions"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:205
+# 42a85708d54d49dc92f6c94c7154f2f4
+msgid "As previously mentioned, the text documentation in our Subversion repository contains the \"latest and greatest\" changes and additions. These changes often include documentation of new features added in the Django development version -- the Subversion (\"trunk\") version of Django. For that reason, it's worth pointing out our policy on keeping straight the documentation for various versions of the framework."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:212
+# b76636b0715f4a2e9b39c6c1a90938f7
+msgid "We follow this policy:"
+msgstr ""
+
+#: ../../intro/whatsnext.txt:214
+# 4c11a4d1142845c3a720e67f1852dee6
+msgid "The primary documentation on djangoproject.com is an HTML version of the latest docs in Subversion. These docs always correspond to the latest official Django release, plus whatever features we've added/changed in the framework *since* the latest release."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:219
+# a995288bb00e4ef995757b171e9e2484
+msgid "As we add features to Django's development version, we try to update the documentation in the same Subversion commit transaction."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:222
+# a3b5bd32871e4a02b40ca09264083a18
+msgid "To distinguish feature changes/additions in the docs, we use the phrase: \"New in version X.Y\", being X.Y the next release version (hence, the one being developed)."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:226
+# bda640a6f26347eea5104250cafc35fb
+msgid "Documentation for a particular Django release is frozen once the version has been released officially. It remains a snapshot of the docs as of the moment of the release. We will make exceptions to this rule in the case of retroactive security updates or other such retroactive changes. Once documentation is frozen, we add a note to the top of each frozen document that says \"These docs are frozen for Django version XXX\" and links to the current version of that document."
+msgstr ""
+
+#: ../../intro/whatsnext.txt:234
+# fa63b21a4a9844a8a7ee1675e53bc71e
+msgid "The `main documentation Web page`_ includes links to documentation for all previous versions."
+msgstr ""
+

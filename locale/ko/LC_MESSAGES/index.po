@@ -1,0 +1,408 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Django Software Foundation and contributors
+# This file is distributed under the same license as the Django package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-29 22:44\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../index.txt:6
+# 315fc62b279440e1956fdac6b5a0ca97
+msgid "Django documentation"
+msgstr ""
+
+#: ../../index.txt:9
+# 602d70749052472d879185685f9f7e63
+msgid "Everything you need to know about Django (and then some)."
+msgstr ""
+
+#: ../../index.txt:11
+# eb273753222a4d4e8a8dfe19306fe93e
+msgid "Getting help"
+msgstr ""
+
+#: ../../index.txt:13
+# 597b6dace6364261957e76e7ee8fcfc5
+msgid "Having trouble? We'd like to help!"
+msgstr ""
+
+#: ../../index.txt:15
+# 4f450055592e408e9f252bd85ba141bf
+msgid "Try the :doc:`FAQ <faq/index>` -- it's got answers to many common questions."
+msgstr ""
+
+#: ../../index.txt:17
+# 965b9197cf024336b036063da3a12574
+msgid "Looking for specific information? Try the :ref:`genindex`, :ref:`modindex` or the :doc:`detailed table of contents <contents>`."
+msgstr ""
+
+#: ../../index.txt:20
+# 90bac54ca4f04be8a36d85f585f7858a
+msgid "Search for information in the `archives of the django-users mailing list`_, or `post a question`_."
+msgstr ""
+
+#: ../../index.txt:23
+# f9a25c727fb24ef9ad41362f010d333e
+msgid "Ask a question in the `#django IRC channel`_, or search the `IRC logs`_ to see if it's been asked before."
+msgstr ""
+
+#: ../../index.txt:26
+# dd7a6b51b1d440f181dfb38a0b357593
+msgid "Report bugs with Django in our `ticket tracker`_."
+msgstr ""
+
+#: ../../index.txt:35
+# d9af9a71b64b4e65ab39b844bfd297ce
+msgid "First steps"
+msgstr ""
+
+#: ../../index.txt:37
+# cc5676910c2644858f031c73c4107efb
+msgid "**From scratch:** :doc:`Overview <intro/overview>` | :doc:`Installation <intro/install>`"
+msgstr ""
+
+#: ../../index.txt:41
+# 36b18976571e458c8659bb5f21629617
+msgid "**Tutorial:** :doc:`Part 1 <intro/tutorial01>` | :doc:`Part 2 <intro/tutorial02>` | :doc:`Part 3 <intro/tutorial03>` | :doc:`Part 4 <intro/tutorial04>`"
+msgstr ""
+
+#: ../../index.txt:48
+# 9ed6bfd0cc91471ab3948d8f7d341521
+msgid "The model layer"
+msgstr ""
+
+#: ../../index.txt:50
+# 272f78375d09424888ab33c20e01323f
+msgid "**Models:** :doc:`Model syntax <topics/db/models>` | :doc:`Field types <ref/models/fields>` | :doc:`Meta options <ref/models/options>`"
+msgstr ""
+
+#: ../../index.txt:55
+# dcd36efd81db47b1af1b904bc7c6bb00
+msgid "**QuerySets:** :doc:`Executing queries <topics/db/queries>` | :doc:`QuerySet method reference <ref/models/querysets>`"
+msgstr ""
+
+#: ../../index.txt:59
+# 441c24c4e1604df58afef85f7b6b71cb
+msgid "**Model instances:** :doc:`Instance methods <ref/models/instances>` | :doc:`Accessing related objects <ref/models/relations>`"
+msgstr ""
+
+#: ../../index.txt:63
+# a1f4c736022d4c468560b2876223c0aa
+msgid "**Advanced:** :doc:`Managers <topics/db/managers>` | :doc:`Raw SQL <topics/db/sql>` | :doc:`Transactions <topics/db/transactions>` | :doc:`Aggregation <topics/db/aggregation>` | :doc:`Custom fields <howto/custom-model-fields>` | :doc:`Multiple databases <topics/db/multi-db>`"
+msgstr ""
+
+#: ../../index.txt:71
+# 4268a03afaff4ca9af91987a42dacf95
+msgid "**Other:** :doc:`Supported databases <ref/databases>` | :doc:`Legacy databases <howto/legacy-databases>` | :doc:`Providing initial data <howto/initial-data>` | :doc:`Optimize database access <topics/db/optimization>`"
+msgstr ""
+
+#: ../../index.txt:78
+# f841945ab763451e90ceeede8172c317
+msgid "The template layer"
+msgstr ""
+
+#: ../../index.txt:80
+# 1b6c05550ba847c597015f4a03585713
+msgid "**For designers:** :doc:`Syntax overview <topics/templates>` | :doc:`Built-in tags and filters <ref/templates/builtins>`"
+msgstr ""
+
+#: ../../index.txt:84
+# cd96de47f9e84abb89c4aa6a3daee9c3
+msgid "**For programmers:** :doc:`Template API <ref/templates/api>` | :doc:`Custom tags and filters <howto/custom-template-tags>`"
+msgstr ""
+
+#: ../../index.txt:89
+# 24546040649a4be4bf5af971b8239c2d
+msgid "The view layer"
+msgstr ""
+
+#: ../../index.txt:91
+# a4841e7a983b4d84b35412f405587b23
+msgid "**The basics:** :doc:`URLconfs <topics/http/urls>` | :doc:`View functions <topics/http/views>` | :doc:`Shortcuts <topics/http/shortcuts>` | :doc:`Decorators <topics/http/decorators>`"
+msgstr ""
+
+#: ../../index.txt:97
+# 21f6dfe0197e4a58a34232909310448e
+msgid "**Reference:** :doc:`Request/response objects <ref/request-response>` | :doc:`TemplateResponse objects <ref/template-response>`"
+msgstr ""
+
+#: ../../index.txt:101
+# e26d5e70ac2344babf8b3838906df5b8
+msgid "**File uploads:** :doc:`Overview <topics/http/file-uploads>` | :doc:`File objects <ref/files/file>` | :doc:`Storage API <ref/files/storage>` | :doc:`Managing files <topics/files>` | :doc:`Custom storage <howto/custom-file-storage>`"
+msgstr ""
+
+#: ../../index.txt:108
+# e392f0dbd3444839b47e2fcb5de12bbd
+msgid "**Generic views:** :doc:`Overview<topics/class-based-views>` | :doc:`Built-in generic views<ref/class-based-views>`"
+msgstr ""
+
+#: ../../index.txt:112
+# 8b878c6ac5e54fe5a9f9c08bb58aaa4e
+msgid "**Advanced:** :doc:`Generating CSV <howto/outputting-csv>` | :doc:`Generating PDF <howto/outputting-pdf>`"
+msgstr ""
+
+#: ../../index.txt:116
+# 999ab8e610e2459f86132766e649f8d3
+msgid "**Middleware:** :doc:`Overview <topics/http/middleware>` | :doc:`Built-in middleware classes <ref/middleware>`"
+msgstr ""
+
+#: ../../index.txt:121
+# 5b8bc399ed8d451da6dcd03b64f0d436
+msgid "Forms"
+msgstr ""
+
+#: ../../index.txt:123
+# 59b705e5f2724e7286bfbe953cb6719c
+msgid "**The basics:** :doc:`Overview <topics/forms/index>` | :doc:`Form API <ref/forms/api>` | :doc:`Built-in fields <ref/forms/fields>` | :doc:`Built-in widgets <ref/forms/widgets>`"
+msgstr ""
+
+#: ../../index.txt:129
+# b9f2054d131345e980abcdb69cf38745
+msgid "**Advanced:** :doc:`Forms for models <topics/forms/modelforms>` | :doc:`Integrating media <topics/forms/media>` | :doc:`Formsets <topics/forms/formsets>` | :doc:`Customizing validation <ref/forms/validation>`"
+msgstr ""
+
+#: ../../index.txt:135
+# 8b624783e6914672932d47f9d24a4457
+msgid "**Extras:** :doc:`Form preview <ref/contrib/formtools/form-preview>` | :doc:`Form wizard <ref/contrib/formtools/form-wizard>`"
+msgstr ""
+
+#: ../../index.txt:140
+# 19f880e41a3d435499bd67d29de4a04f
+msgid "The development process"
+msgstr ""
+
+#: ../../index.txt:142
+# 782b0d26cad84d1ab7da071037ca0ac9
+msgid "**Settings:** :doc:`Overview <topics/settings>` | :doc:`Full list of settings <ref/settings>`"
+msgstr ""
+
+#: ../../index.txt:146
+# d53fc695de1e47e3b3570aeae42424a7
+msgid "**Exceptions:** :doc:`Overview <ref/exceptions>`"
+msgstr ""
+
+#: ../../index.txt:149
+# 2157064785ae45888459913cd00c51cf
+msgid "**django-admin.py and manage.py:** :doc:`Overview <ref/django-admin>` | :doc:`Adding custom commands <howto/custom-management-commands>`"
+msgstr ""
+
+#: ../../index.txt:153
+# ea5cd3f30ef648e788a47c2928d24b03
+msgid "**Testing:**  :doc:`Overview <topics/testing>`"
+msgstr ""
+
+#: ../../index.txt:155
+# 8aaa86597250408f87f2fd4ff4d596ab
+msgid "**Deployment:** :doc:`Overview <howto/deployment/index>` | :doc:`WSGI servers <howto/deployment/wsgi/index>` | :doc:`FastCGI/SCGI/AJP <howto/deployment/fastcgi>` | :doc:`Apache/mod_python (deprecated) <howto/deployment/modpython>` | :doc:`Apache authentication <howto/apache-auth>` | :doc:`Handling static files <howto/static-files>` | :doc:`Tracking code errors by email <howto/error-reporting>`"
+msgstr ""
+
+#: ../../index.txt:165
+# 98b85215b3e44aa081a3d2c6e41db90f
+msgid "Other batteries included"
+msgstr ""
+
+#: ../../index.txt:167
+# 3635c6907ace4b0187e0d7a8ad11e3f1
+msgid ":doc:`Admin site <ref/contrib/admin/index>` | :doc:`Admin actions <ref/contrib/admin/actions>` | :doc:`Admin documentation generator<ref/contrib/admin/admindocs>`"
+msgstr ""
+
+#: ../../index.txt:168
+# 129d4e63db2249a193c07f58837189e9
+msgid ":doc:`Authentication <topics/auth>`"
+msgstr ""
+
+#: ../../index.txt:169
+# 11ec764063fa45e0bfc92b91c1987d0d
+msgid ":doc:`Cache system <topics/cache>`"
+msgstr ""
+
+#: ../../index.txt:170
+# caf81cdf542848939e845c2131f10b84
+msgid ":doc:`Clickjacking protection <ref/clickjacking>`"
+msgstr ""
+
+#: ../../index.txt:171
+# 6d050dd1312142f6b94e3a11950e7a0b
+msgid ":doc:`Comments <ref/contrib/comments/index>` | :doc:`Moderation <ref/contrib/comments/moderation>` | :doc:`Custom comments <ref/contrib/comments/custom>`"
+msgstr ""
+
+#: ../../index.txt:172
+# dfe287ffcd83472d851ad33bb8dd42ab
+msgid ":doc:`Conditional content processing <topics/conditional-view-processing>`"
+msgstr ""
+
+#: ../../index.txt:173
+# 4693fbff376c49c59f74b28dc2ff1fdb
+msgid ":doc:`Content types and generic relations <ref/contrib/contenttypes>`"
+msgstr ""
+
+#: ../../index.txt:174
+# 624d2b95a73249fcbc3a7144c209be60
+msgid ":doc:`Cross Site Request Forgery protection <ref/contrib/csrf>`"
+msgstr ""
+
+#: ../../index.txt:175
+# 548c49503f91464ab754843d5bf788ed
+msgid ":doc:`Cryptographic signing <topics/signing>`"
+msgstr ""
+
+#: ../../index.txt:176
+# 7426ca8ed4d5458baa9efc67b5411cff
+msgid ":doc:`Databrowse <ref/contrib/databrowse>`"
+msgstr ""
+
+#: ../../index.txt:177
+# 07f2f4b5505a4a0db8bbf2d30ac12a84
+msgid ":doc:`E-mail (sending) <topics/email>`"
+msgstr ""
+
+#: ../../index.txt:178
+# 45293486541944d7ae48d92d6eac319f
+msgid ":doc:`Flatpages <ref/contrib/flatpages>`"
+msgstr ""
+
+#: ../../index.txt:179
+# a6c1689ecd8a4086b8c175fded194532
+msgid ":doc:`GeoDjango <ref/contrib/gis/index>`"
+msgstr ""
+
+#: ../../index.txt:180
+# 34e7f03e4fd44318afc51d3e58e7d3da
+msgid ":doc:`Humanize <ref/contrib/humanize>`"
+msgstr ""
+
+#: ../../index.txt:181
+# c6d922d4b7c241048b8eaf28a991bd11
+msgid ":doc:`Internationalization <topics/i18n/index>`"
+msgstr ""
+
+#: ../../index.txt:182
+# ff0fce0d55f34bfbbdb05c198af6d1fe
+msgid ":doc:`Jython support <howto/jython>`"
+msgstr ""
+
+#: ../../index.txt:183
+# 306d4b60f13a49dd979d5871b14d5c4f
+msgid ":doc:`\"Local flavor\" <ref/contrib/localflavor>`"
+msgstr ""
+
+#: ../../index.txt:184
+# 54023d4e4f204d859afe3bd38c346c55
+msgid ":doc:`Logging <topics/logging>`"
+msgstr ""
+
+#: ../../index.txt:185
+# e5493bd77066432d8526b5d2dd03c2c0
+msgid ":doc:`Messages <ref/contrib/messages>`"
+msgstr ""
+
+#: ../../index.txt:186
+# e2f342d1fd374906b3c30d742baf221e
+msgid ":doc:`Pagination <topics/pagination>`"
+msgstr ""
+
+#: ../../index.txt:187
+# 2bece54dedd040bbb6b10cb9e1de6235
+msgid ":doc:`Redirects <ref/contrib/redirects>`"
+msgstr ""
+
+#: ../../index.txt:188
+# 3bf8043a82bb48f5a78bb56e3f4efe1f
+msgid ":doc:`Security <topics/security>`"
+msgstr ""
+
+#: ../../index.txt:189
+# d64563d53cdc4c3d92a1ba76656d4c22
+msgid ":doc:`Serialization <topics/serialization>`"
+msgstr ""
+
+#: ../../index.txt:190
+# 1ba07838409e4403bfb487e996bb22cd
+msgid ":doc:`Sessions <topics/http/sessions>`"
+msgstr ""
+
+#: ../../index.txt:191
+# 58d1a18874e84133b725645cec1e5e38
+msgid ":doc:`Signals <topics/signals>`"
+msgstr ""
+
+#: ../../index.txt:192
+# 20cedee665c84324b8576c5a1974f524
+msgid ":doc:`Sitemaps <ref/contrib/sitemaps>`"
+msgstr ""
+
+#: ../../index.txt:193
+# 41aa8e9f42ff4dc58cc0ecd5b2efe953
+msgid ":doc:`Sites <ref/contrib/sites>`"
+msgstr ""
+
+#: ../../index.txt:194
+# 2e8590a265d746258e7bbacf9cd860b3
+msgid ":doc:`Static Files <ref/contrib/staticfiles>`"
+msgstr ""
+
+#: ../../index.txt:195
+# b22b0130ae88452092e99d72e4b61efc
+msgid ":doc:`Syndication feeds (RSS/Atom) <ref/contrib/syndication>`"
+msgstr ""
+
+#: ../../index.txt:196
+# a45b4c36440646c0898e5e0f7aa358a4
+msgid ":doc:`Unicode in Django <ref/unicode>`"
+msgstr ""
+
+#: ../../index.txt:197
+# 8145c0ac0a9c48b5b442ec637d552dcf
+msgid ":doc:`Web design helpers <ref/contrib/webdesign>`"
+msgstr ""
+
+#: ../../index.txt:198
+# a9cff7aaa564461f96a3e2e607a94310
+msgid ":doc:`Validators <ref/validators>`"
+msgstr ""
+
+#: ../../index.txt:199
+# f6390a806f3846eba0ca10f3b3e39fdb
+msgid "Function-based generic views (Deprecated) :doc:`Overview<topics/generic-views>` | :doc:`Built-in generic views<ref/generic-views>` | :doc:`Migration guide<topics/generic-views-migration>`"
+msgstr ""
+
+#: ../../index.txt:202
+# eb08284fc6d64b368386e1b9abeba13f
+msgid "The Django open-source project"
+msgstr ""
+
+#: ../../index.txt:204
+# 681fd42928f44781b3e2a6fbc542cfad
+msgid "**Community:** :doc:`How to get involved <internals/contributing/index>` | :doc:`The release process <internals/release-process>` | :doc:`Team of committers <internals/committers>` | :doc:`The Django source code repository <internals/svn>`"
+msgstr ""
+
+#: ../../index.txt:210
+# bc08be6072294d60b10b9af82eb997b3
+msgid "**Design philosophies:** :doc:`Overview <misc/design-philosophies>`"
+msgstr ""
+
+#: ../../index.txt:213
+# e59d03630f4c4d90a5597037fbb483d0
+msgid "**Documentation:** :doc:`About this documentation <internals/contributing/writing-documentation>`"
+msgstr ""
+
+#: ../../index.txt:216
+# 0f8239222e604e5ab1245d2d0f70f62d
+msgid "**Third-party distributions:** :doc:`Overview <misc/distributions>`"
+msgstr ""
+
+#: ../../index.txt:219
+# 57774d77c92c4b0886aa0db89ac74ecb
+msgid "**Django over time:** :doc:`API stability <misc/api-stability>` | :doc:`Release notes and upgrading instructions <releases/index>` | :doc:`Deprecation Timeline <internals/deprecation>`"
+msgstr ""
+

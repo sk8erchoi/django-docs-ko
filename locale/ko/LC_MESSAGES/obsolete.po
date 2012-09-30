@@ -1,0 +1,248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Django Software Foundation and contributors
+# This file is distributed under the same license as the Django package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-29 22:44\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../obsolete/admin-css.txt:3
+# 0709d49cc564421194038b49ca4f5ea2
+msgid "Customizing the Django admin interface"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:7
+# 58de7c755646411b926bd7c9671a1e24
+msgid "The design of the admin has changed somewhat since this document was written, and parts may not apply any more. This document is no longer maintained since an official API for customizing the Django admin interface is in development."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:12
+# 48087b30d0d144579cab5c246b761845
+msgid "Django's dynamic admin interface gives you a fully-functional admin for free with no hand-coding required. The dynamic admin is designed to be production-ready, not just a starting point, so you can use it as-is on a real site. While the underlying format of the admin pages is built in to Django, you can customize the look and feel by editing the admin stylesheet and images."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:18
+# e3a01c0834554e4faf4fa27d2db52cbc
+msgid "Here's a quick and dirty overview some of the main styles and classes used in the Django admin CSS."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:22
+# 595204acd8a040f984585930fbe67389
+msgid "Modules"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:24
+# 845ae70193394b60b579d9b180adc628
+msgid "The ``.module`` class is a basic building block for grouping content in the admin. It's generally applied to a ``div`` or a ``fieldset``. It wraps the content group in a box and applies certain styles to the elements within. An ``h2`` within a ``div.module`` will align to the top of the ``div`` as a header for the whole group."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:34
+# aafe6b0a4b5348a599e9c153e125c0a8
+msgid "Column Types"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:38
+# 67716aca25a84bd4bc6937492af7b97d
+msgid "All admin pages (except the dashboard) are fluid-width. All fixed-width classes from previous Django versions have been removed."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:41
+# 1bc1310f3f9347feac97a8199d097557
+msgid "The base template for each admin page has a block that defines the column structure for the page. This sets a class on the page content area (``div#content``) so everything on the page knows how wide it should be. There are three column types available."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:47
+# 2ba561bbc141472d8f1b279ea4bd7ee4
+msgid "This is the default column setting for all pages. The \"M\" stands for \"main\". Assumes that all content on the page is in one main column (``div#content-main``)."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:51
+# a7f915bd842b40dabdd40875cc969e87
+msgid "This is for pages with one main column and a sidebar on the right. The \"S\" stands for \"sidebar\". Assumes that main content is in ``div#content-main`` and sidebar content is in ``div#content-related``. This is used on the main admin page."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:56
+# 067ea700d6744da492501ca6150ce810
+msgid "Same as above, with the sidebar on the left. The source order of the columns doesn't matter."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:59
+# 5ff44ff363944458aa9894298a31d9c2
+msgid "For instance, you could stick this in a template to make a two-column page with the sidebar on the right:"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:67
+# 959bad16e0ad4bda8a6ef8cbf268e736
+msgid "Text Styles"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:70
+# 7bd858775a7b4e0a99ffcb84b3400e70
+msgid "Font Sizes"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:72
+# 4c2a07af389e4dfaa26a50b7c6cdf424
+msgid "Most HTML elements (headers, lists, etc.) have base font sizes in the stylesheet based on context. There are three classes are available for forcing text to a certain size in any context."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:77
+# a1c9c074b33143e187436fddbd9578bc
+msgid "11px"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:79
+# 610f6aad1c3b424192ba3447df36de2a
+msgid "10px"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:81
+# 6b537efa4ba341a0bfc0fa6fad6ae899
+msgid "9px (use sparingly)"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:84
+# 63b813b36fa3487fb18fb6ea564c8ade
+msgid "Font Styles and Alignment"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:86
+# 65dfed310f064dc1959156a37c64fb19
+msgid "There are also a few styles for styling text."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:89
+# 55f48ee347c54b30a070e15894e0c00d
+msgid "Sets font color to light gray. Good for side notes in instructions. Combine with ``.small`` or ``.tiny`` for sheer excitement."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:92
+# f6b70c1502c746aca1f619d5009a64ac
+msgid "This is a custom class for blocks of inline help text explaining the function of form elements. It makes text smaller and gray, and when applied to ``p`` elements within ``.form-row`` elements (see Form Styles below), it will offset the text to align with the form field. Use this for help text, instead of ``small quiet``. It works on other elements, but try to put the class on a ``p`` whenever you can."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:99
+# d702ce334ff04b7d9937bfc5389e4241
+msgid "It aligns the text left. Only works on block elements containing inline elements."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:102
+# 7aeaf9737d154ed98fc9a14af79388ff
+msgid "Are you paying attention?"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:104
+# 4c6095ed9da34523b48e3d74bfa1c59c
+msgid "Keeps text and inline objects from wrapping. Comes in handy for table headers you want to stay on one line."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:108
+# 57f9c03619fe43aa91e152fe76b79146
+msgid "Floats and Clears"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:111
+# 73db7080bb3d42c4872608847808ee53
+msgid "floats left"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:113
+# a5c5029db8e94943b0ab36203db83f76
+msgid "floats right"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:115
+# 9fccb4ef43a24cdca77b857e9cc1ba7b
+msgid "clears all"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:118
+# ec3901fe88e94e93980844678748cc07
+msgid "Object Tools"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:120
+# be9d5a3d49d74a92b787dbc1c2b4add7
+msgid "Certain actions which apply directly to an object are used in form and changelist pages. These appear in a \"toolbar\" row above the form or changelist, to the right of the page. The tools are wrapped in a ``ul`` with the class ``object-tools``. There are two custom tool types which can be defined with an additional class on the ``a`` for that tool. These are ``.addlink`` and ``.viewsitelink``."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:127
+# ac4fd83990044625a9753d3fe5b83758
+msgid "Example from a changelist page:"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:138
+# 0908ba53f2724681819b30d6cbde09d3
+msgid "and from a form page:"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:151
+# 86f51c4a47514fb98b9ea5f5a7752d6a
+msgid "Form Styles"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:154
+# df983f8242e54a25a87292123c24cf46
+msgid "Fieldsets"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:156
+# 5517da2af07c4513b775ffd78768b4e7
+msgid "Admin forms are broken up into groups by ``fieldset`` elements. Each form fieldset should have a class ``.module``. Each fieldset should have a header ``h2`` within the fieldset at the top (except the first group in the form, and in some cases where the group of fields doesn't have a logical label)."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:161
+# 67b18bfc734840fea517d3d6882a89c5
+msgid "Each fieldset can also take extra classes in addition to ``.module`` to apply appropriate formatting to the group of fields."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:165
+# a72a57c8080f4f259e63410ce24c3698
+msgid "This will align the labels and inputs side by side on the same line."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:167
+# 00327b882e364bca9e7283d36a8b3e35
+msgid "Used in combination with ``.aligned`` to widen the space available for the labels."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:171
+# e342f1c210f64bca8babb1341aefd8ad
+msgid "Form Rows"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:173
+# 92fb7c88710a4b51baae6e9f918c176c
+msgid "Each row of the form (within the ``fieldset``) should be enclosed in a ``div`` with class ``form-row``. If the field in the row is required, a class of ``required`` should also be added to the ``div.form-row``."
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:181
+# ccc154f6b03b449db39f97eb2958a9b6
+msgid "Labels"
+msgstr ""
+
+#: ../../obsolete/admin-css.txt:183
+# bde42105b6ff4c338ebca1ca33c73d61
+msgid "Form labels should always precede the field, except in the case of checkboxes and radio buttons, where the ``input`` should come first. Any explanation or help text should follow the ``label`` in a ``p`` with class ``.help``."
+msgstr ""
+
+#: ../../obsolete/index.txt:2
+# d2bffe6d63b543c886b626b2a82265e2
+msgid "Deprecated/obsolete documentation"
+msgstr ""
+
+#: ../../obsolete/index.txt:4
+# cea30d38f33d4d00813c9eeefbd0d4da
+msgid "These documents cover features that have been deprecated or that have been replaced in newer versions of Django. They're preserved here for folks using old versions of Django or those still using deprecated APIs. No new code based on these APIs should be written."
+msgstr ""
+

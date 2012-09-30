@@ -1,0 +1,3926 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Django Software Foundation and contributors
+# This file is distributed under the same license as the Django package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Django 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-29 22:44\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../internals/committers.txt:3
+# aef09ab1df714d4b9bdee2ef3e1fcd00
+msgid "Django committers"
+msgstr ""
+
+#: ../../internals/committers.txt:6
+# 4094384e963b4f10b006078e9b222443
+msgid "The original team"
+msgstr ""
+
+#: ../../internals/committers.txt:8
+# c1623de993d54e519ea88633fb9818d9
+msgid "Django originally started at World Online, the Web department of the `Lawrence Journal-World`_ of Lawrence, Kansas, USA."
+msgstr ""
+
+#: ../../internals/committers.txt:12
+# cd73ed3ef3d949f18309642c5d8958f2
+msgid "Adrian is a Web developer with a background in journalism. He's known in journalism circles as one of the pioneers of \"journalism via computer programming\", and in technical circles as \"the guy who invented Django.\""
+msgstr ""
+
+#: ../../internals/committers.txt:16
+# b14e0bfb2b974c08b87d5b198aa4c160
+msgid "He was lead developer at World Online for 2.5 years, during which time Django was developed and implemented on World Online's sites. He's now the leader and founder of EveryBlock_, a \"news feed for your block\"."
+msgstr ""
+
+#: ../../internals/committers.txt:20
+# c394e8d893184fcbbfa41db57e7f1686
+msgid "Adrian lives in Chicago, USA."
+msgstr ""
+
+#: ../../internals/committers.txt:23
+# a473840baeda4d07b8fffbf30cd7ca32
+msgid "Simon is a well-respected Web developer from England. He had a one-year internship at World Online, during which time he and Adrian developed Django from scratch. The most enthusiastic Brit you'll ever meet, he's passionate about best practices in Web development and maintains a well-read `web-development blog`_."
+msgstr ""
+
+#: ../../internals/committers.txt:29
+# 2e7ba96e562d40018d5d4a9b24a8e883
+msgid "Simon lives in Brighton, England."
+msgstr ""
+
+#: ../../internals/committers.txt:32
+# 80dbc183037c4a94ae3c05053d772e33
+msgid "Jacob is a partner at `Revolution Systems`_ which provides support services around Django and related open source technologies. A good deal of Jacob's work time is devoted to working on Django. Jacob previously worked at World Online, where Django was invented, where he was the lead developer of Ellington, a commercial Web publishing platform for media companies."
+msgstr ""
+
+#: ../../internals/committers.txt:38
+# 22e5a5a71c3d475683263228e0181ff7
+msgid "Jacob lives in Lawrence, Kansas, USA."
+msgstr ""
+
+#: ../../internals/committers.txt:41
+# b690801637524b648dd433801f5c06bd
+msgid "Wilson's design-fu is what makes Django look so nice. He designed the Web site you're looking at right now, as well as Django's acclaimed admin interface. Wilson is the designer for EveryBlock_."
+msgstr ""
+
+#: ../../internals/committers.txt:45
+# b2d86b4f079340d69b97a9851ee86b20
+msgid "Wilson lives in San Francisco, USA."
+msgstr ""
+
+#: ../../internals/committers.txt:57
+# c318244839cc48adb6965852fbec4354
+msgid "Current developers"
+msgstr ""
+
+#: ../../internals/committers.txt:59
+# afb1d5281b214705ba6a066fa40a9f8e
+msgid "Currently, Django is led by a team of volunteers from around the globe."
+msgstr ""
+
+#: ../../internals/committers.txt:64
+# cb3452856cb8426691dcbe006196b9a2
+msgid "BDFLs"
+msgstr ""
+
+#: ../../internals/committers.txt:66
+# 940eaea1bcc14403978dd2f35cf4f417
+msgid "Adrian and Jacob are the Co-`Benevolent Dictators for Life`_ of Django. When \"rough consensus and working code\" fails, they're the ones who make the tough decisions."
+msgstr ""
+
+#: ../../internals/committers.txt:73
+# bbead39bfc85419b8bbc1638e2aa4bbe
+msgid "Core developers"
+msgstr ""
+
+#: ../../internals/committers.txt:75
+# 96487b3a2b984d00811face48c77201d
+msgid "These are the folks who have a long history of contributions, a solid track record of being helpful on the mailing lists, and a proven desire to dedicate serious time to Django. In return, they've been granted the coveted commit bit, and have free rein to hack on all parts of Django."
+msgstr ""
+
+#: ../../internals/committers.txt:81
+# 9d5eee47e8544ff0a71c754f3512d074
+msgid "Malcolm originally wanted to be a mathematician, somehow ended up a software developer. He's contributed to many Open Source projects, has served on the board of the GNOME foundation, and will kick your ass at chess."
+msgstr ""
+
+#: ../../internals/committers.txt:85
+# b85a96d778764cafbdf88f964e8c636c
+msgid "When he's not busy being an International Man of Mystery, Malcolm lives in Sydney, Australia."
+msgstr ""
+
+#: ../../internals/committers.txt:91
+# 95082881da4442b59d8b6d3d82b4b2a5
+msgid "Russell studied physics as an undergraduate, and studied neural networks for his PhD. His first job was with a startup in the defense industry developing simulation frameworks. Over time, mostly through work with Django, he's become more involved in Web development."
+msgstr ""
+
+#: ../../internals/committers.txt:96
+# a16d138a61624bb5bb7663bd9c30dd77
+msgid "Russell has helped with several major aspects of Django, including a couple major internal refactorings, creation of the test system, and more."
+msgstr ""
+
+#: ../../internals/committers.txt:99
+# f9f0b9ca0ad8412ca181a19f4c9a0bab
+msgid "Russell lives in the most isolated capital city in the world — Perth, Australia."
+msgstr ""
+
+#: ../../internals/committers.txt:105
+# 00bde67e1e4f4643b39610e90d5da3a4
+msgid "Joseph is currently a developer at EveryBlock_, and previously worked for the Lawrence Journal-World where he built most of the backend for their Marketplace site. He often disappears for several days into the woods, attempts to teach himself computational linguistics, and annoys his neighbors with his Charango_ playing."
+msgstr ""
+
+#: ../../internals/committers.txt:111
+# c52d0037442d4206b27022e9d8a70ce0
+msgid "Joseph's first contribution to Django was a series of improvements to the authorization system leading up to support for pluggable authorization. Since then, he's worked on the new forms system, its use in the admin, and many other smaller improvements."
+msgstr ""
+
+#: ../../internals/committers.txt:116
+# 9cb57f7fcd25425b9abf9e3554b0ae88
+msgid "Joseph lives in Chicago, USA."
+msgstr ""
+
+#: ../../internals/committers.txt:121
+# c0bc2934c017473191fd6abcd432f5b5
+msgid "At University Luke studied physics and Materials Science and also met `Michael Meeks`_ who introduced him to Linux and Open Source, re-igniting an interest in programming.  Since then he has contributed to a number of Open Source projects and worked professionally as a developer."
+msgstr ""
+
+#: ../../internals/committers.txt:127
+# a6445c88bd8645769892143727c365d9
+msgid "Luke has contributed many excellent improvements to Django, including database-level improvements, the CSRF middleware and many unit tests."
+msgstr ""
+
+#: ../../internals/committers.txt:131
+# 2e59af96619b423f8c46978d0ad3cbae
+msgid "Luke currently works for a church in Bradford, UK, and part-time as a freelance developer."
+msgstr ""
+
+#: ../../internals/committers.txt:138
+# 970f42b3fc6040f4b399284b0e61f75f
+msgid "Brian is currently the tech lead at Eldarion_ managing and developing Django / Pinax_ based Web sites. He enjoys learning more about programming languages and system architectures and contributing to open source projects. Brian is the host of the `Django Dose`_ podcasts."
+msgstr ""
+
+#: ../../internals/committers.txt:143
+# c7aca8988f754badbde961fb18c1ff55
+msgid "Brian helped immensely in getting Django's \"newforms-admin\" branch finished in time for Django 1.0; he's now a full committer, continuing to improve on the admin and forms system."
+msgstr ""
+
+#: ../../internals/committers.txt:147
+# b8b5dcb27b784ffe907ada0e5d79d122
+msgid "Brian lives in Denver, Colorado, USA."
+msgstr ""
+
+#: ../../internals/committers.txt:154
+# c83dfc47027b46378605469ee0310291
+msgid "Gary starting contributing patches to Django in 2006 while developing Web applications for `The University of Texas`_ (UT).  Since, he has made contributions to the email and forms systems, as well as many other improvements and code cleanups throughout the code base."
+msgstr ""
+
+#: ../../internals/committers.txt:159
+# 2ebac2ede4dd4b05999878f1f18d1b4f
+msgid "Gary is currently a developer and software engineering graduate student at UT, where his dedication to spreading the ways of Python and Django never ceases."
+msgstr ""
+
+#: ../../internals/committers.txt:163
+# b019190501844eb2b5096b8468dc486f
+msgid "Gary lives in Austin, Texas, USA."
+msgstr ""
+
+#: ../../internals/committers.txt:169
+# 5873273a9f1f44f69c30bd6dab77c83f
+msgid "Justin Bronn is a computer scientist and attorney specializing in legal topics related to intellectual property and spatial law."
+msgstr ""
+
+#: ../../internals/committers.txt:172
+# 79a34f5c2df44652925695ce8054c5d4
+msgid "In 2007, Justin began developing ``django.contrib.gis`` in a branch, a.k.a. GeoDjango_, which was merged in time for Django 1.0.  While implementing GeoDjango, Justin obtained a deep knowledge of Django's internals including the ORM, the admin, and Oracle support."
+msgstr ""
+
+#: ../../internals/committers.txt:177
+# 4b1f9c9fc37c4affa7dd694b09346132
+msgid "Justin lives in Houston, Texas."
+msgstr ""
+
+#: ../../internals/committers.txt:182
+# e56ac8a118894084b5d2bbbd9cf108b3
+msgid "Karen has a background in distributed operating systems (graduate school), communications software (industry) and crossword puzzle construction (freelance).  The last of these brought her to Django, in late 2006, when she set out to put a Web front-end on her crossword puzzle database. That done, she stuck around in the community answering questions, debugging problems, etc. -- because coding puzzles are as much fun as word puzzles."
+msgstr ""
+
+#: ../../internals/committers.txt:189
+# 293400b931a74710befeaeec3a336d5a
+msgid "Karen lives in Apex, NC, USA."
+msgstr ""
+
+#: ../../internals/committers.txt:192
+# 541de5f26ef64078bff1f9d8f2d1e01b
+msgid "Jannis graduated in media design from `Bauhaus-University Weimar`_, is the author of a number of pluggable Django apps and likes to contribute to Open Source projects like Pinax_. He currently works as a freelance Web developer and designer."
+msgstr ""
+
+#: ../../internals/committers.txt:197
+# 2a9edff08aba437d9e5290a58f83b9fa
+msgid "Jannis lives in Berlin, Germany."
+msgstr ""
+
+#: ../../internals/committers.txt:204
+# a4969f54843c4e50af7b11d18b3472fa
+msgid "James is the lead developer of Pinax_ and the CEO and founder of Eldarion_. He has been doing open source software since 1993, Python since 1998 and Django since 2006. He serves on the board of the Python Software Foundation and is currently on a leave of absence from a PhD in linguistics."
+msgstr ""
+
+#: ../../internals/committers.txt:210
+# 5277664b364a41cc8cdbb524295f90f8
+msgid "James currently lives in Boston, MA, USA but originally hails from Perth, Western Australia where he attended the same high school as Russell Keith-Magee."
+msgstr ""
+
+#: ../../internals/committers.txt:217
+# db809dfedaa747ccb23fba91f90d39b7
+msgid "Alex is a student at Rensselaer Polytechnic Institute, and is also an independent contractor.  He found Django in 2007 and has been addicted ever since he found out you don't need to write out your forms by hand.  He has a small obsession with compilers.  He's contributed to the ORM, forms, admin, and other components of Django."
+msgstr ""
+
+#: ../../internals/committers.txt:223
+# e57ae6c1b6bf46a9a874c1177ab767e3
+msgid "Alex lives in Chicago, IL, but spends most of his time in Troy, NY."
+msgstr ""
+
+#: ../../internals/committers.txt:228
+# 63421aad3a344f74b0294c758b263336
+msgid "Andrew is a freelance Python developer and tinkerer, and has been developing against Django since 2007. He graduated from Oxford University with a degree in Computer Science, and has become most well known in the Django community for his work on South, the schema migrations library."
+msgstr ""
+
+#: ../../internals/committers.txt:234
+# f2954494ac204b0b82c762f0c9af2220
+msgid "Andrew lives in London, UK."
+msgstr ""
+
+#: ../../internals/committers.txt:239
+# 305c6f2a86634bf5a9e356e403e4dddb
+msgid "Carl has been working with Django since 2007 (long enough to remember queryset-refactor, but not magic-removal), and works as a freelance developer with OddBird_.  He became a Django contributor by accident, because fixing bugs is more interesting than working around them."
+msgstr ""
+
+#: ../../internals/committers.txt:244
+# f7309e72317e4a5ba018919c3707a76c
+msgid "Carl lives in Rapid City, SD, USA."
+msgstr ""
+
+#: ../../internals/committers.txt:250
+# 7ad821316dd54762a7079d71b216a7c3
+msgid "Ramiro has been reading Django source code and submitting patches since mid-2006 after researching for a Python Web tool with matching awesomeness and being pointed to it by an old ninja."
+msgstr ""
+
+#: ../../internals/committers.txt:254
+# 44d4a1fdb5e44a65b81f407ac00f81e3
+msgid "A software developer in the electronic transactions industry, he is a living proof of the fact that anyone with enough enthusiasm can contribute to Django, learning a lot and having fun in the process."
+msgstr ""
+
+#: ../../internals/committers.txt:258
+# 6d8fa19dc28346578b8835e9df873b7e
+msgid "Ramiro lives in Córdoba, Argentina."
+msgstr ""
+
+#: ../../internals/committers.txt:261
+# 58bdd1e13b664eb1bea7daa6b5b3e92e
+msgid "Chris has been submitting patches and suggesting crazy ideas for Django since early 2006. An advocate for community involvement and a long-term triager, he is still often found answering questions in the #django IRC channel."
+msgstr ""
+
+#: ../../internals/committers.txt:266
+# d1438f89251d4f7584d22d5384019377
+msgid "Chris lives in Napier, New Zealand (adding to the pool of Oceanic core developers). He works remotely as a developer for `Lincoln Loop`_."
+msgstr ""
+
+#: ../../internals/committers.txt:273
+# 56927ce5b9c940ffb4d21cd6ba0a3894
+msgid "Honza first discovered Django in 2006 and started using it right away, first for school and personal projects and later in his full time job. He contributed various patches and fixes mostly to the newforms library, newforms admin and, through participation in the Google Summer of Code project, assisted in creating the :ref:`model validation <validating-objects>` functionality."
+msgstr ""
+
+#: ../../internals/committers.txt:280
+# 04cbca517a474ca7b1ab8c412f0142ce
+msgid "He is currently working for `Whiskey Media`_ in San Francisco developing awesome sites running on pure Django."
+msgstr ""
+
+#: ../../internals/committers.txt:286
+# 252c82298a4a4a9b936e54b9c3ab9d77
+msgid "As a self-professed design geek, Idan was initially attracted to Django sometime between magic-removal and queryset-refactor. Formally trained as a software engineer, Idan straddles the worlds of design and code, jack of two trades and master of none. He is passionate about usability and finding novel ways to extract meaning from data, and is a longtime photographer_."
+msgstr ""
+
+#: ../../internals/committers.txt:293
+# f5e9f8d9200240db9c9d8e2c81642fbf
+msgid "Idan previously accepted freelance work under the Pixane_ imprint, but now splits his days between his startup, Skills_, and beautifying all things Django and Python."
+msgstr ""
+
+#: ../../internals/committers.txt:303
+# b341a8dfdf48459d92a0344d4d69364c
+msgid "Paul found Django in 2008 while looking for a more structured approach to web programming. He stuck around after figuring out that the developers of Django had already invented many of the wheels he needed. His passion for breaking (and then fixing) things led to his current role working to maintain and improve the security of Django."
+msgstr ""
+
+#: ../../internals/committers.txt:310
+# 2940b07f7b884b7d8d3359baba8b20b6
+msgid "Paul works in Berkeley, California as a `web developer`_ and `security consultant`_."
+msgstr ""
+
+#: ../../internals/committers.txt:318
+# 296dedcbb3f7471da5f069447a5d7959
+msgid "Julien has a background in software engineering and human-computer interaction. As a Web developer, he enjoys tinkering with the backend as much as designing and coding user interfaces. Julien discovered Django in 2007 while doing his PhD in Computing Sciences. Since then he has contributed patches to various components of the framework, in particular the admin. Julien was a co-founder of the `Interaction Consortium`_. He now works at Odopod_, a digital agency based in San Francisco, CA, USA."
+msgstr ""
+
+#: ../../internals/committers.txt:331
+# bef4b1cf67bb44428b468f59469d43fa
+msgid "Aymeric is an engineer with a background in mathematics and computer science. He chose Django because he believes that software should be simple, explicit and tested. His perfectionist tendencies quickly led him to triage tickets and contribute patches."
+msgstr ""
+
+#: ../../internals/committers.txt:336
+# a9d4aa9cca4c41de982e3644a530b9da
+msgid "Aymeric has a pragmatic approach to software engineering, can't live without a continuous integration server, and likes proving that Django is a good choice for enterprise software."
+msgstr ""
+
+#: ../../internals/committers.txt:340
+# ac6f6bbac9024f8ab1f8c8b2167016c0
+msgid "He works in a `management consulting company`_ in Paris, France."
+msgstr ""
+
+#: ../../internals/committers.txt:346
+# ff907f1dafdf4388aad8475e35e85ff6
+msgid "Claude is a former teacher who fell in love with free software at the beginning of the 21st century. He's now working as freelancer in Web development in his native Switzerland. He has found in Django a perfect match for his needs of a stable, clean, documented and well-maintained Web framework."
+msgstr ""
+
+#: ../../internals/committers.txt:352
+# dbe7c87f5dec440e9a43921d385592c6
+msgid "He's also helping the GNOME Translation Project as maintainer of the Django-based `l10n.gnome.org`_."
+msgstr ""
+
+#: ../../internals/committers.txt:359
+# 86d4eecd4e404ca1ac91a33b70287a4d
+msgid "Specialists"
+msgstr ""
+
+#: ../../internals/committers.txt:362
+# e1eb6dd1e9aa40cf9287ed8ebe02bc2a
+msgid "James is Django's release manager, and also contributes to the documentation and provide the occasional bugfix."
+msgstr ""
+
+#: ../../internals/committers.txt:365
+# 5d2a97a9acca453d81568e0126b4ea19
+msgid "James came to Web development from philosophy when he discovered that programmers get to argue just as much while collecting much better pay. He lives in Lawrence, Kansas and previously worked at World Online; currently, he's part of the Web development team at Mozilla."
+msgstr ""
+
+#: ../../internals/committers.txt:371
+# e14e0af7913443a08c9f9dc2eb3c0109
+msgid "He `keeps a blog`_, and enjoys fine port and talking to his car."
+msgstr ""
+
+#: ../../internals/committers.txt:377
+# 0815d06db4704e338b7c6a30792439c1
+msgid "Ian is responsible for Django's support for Oracle."
+msgstr ""
+
+#: ../../internals/committers.txt:380
+# 649d3d80b4724c2cacfb84c47eea69c9
+msgid "Matt is also responsible for Django's Oracle support."
+msgstr ""
+
+#: ../../internals/committers.txt:383
+# 76f13e0da41444419651b7521d6d064b
+msgid "Jeremy is the lead developer of Pegasus News, a personalized local site based in Dallas, Texas. An early contributor to Greasemonkey and Django, he sees technology as a tool for communication and access to knowledge."
+msgstr ""
+
+#: ../../internals/committers.txt:387
+# 4c6e5f3124924dceaab52a08b30bab48
+msgid "Jeremy helped kick off GeoDjango development, and is mostly responsible for the serious speed improvements that signals received in Django 1.0."
+msgstr ""
+
+#: ../../internals/committers.txt:390
+# 18042ab489dc43bf8cd32ff5df8233f1
+msgid "Jeremy lives in Dallas, Texas, USA."
+msgstr ""
+
+#: ../../internals/committers.txt:393
+# 167c886feee246f984e47985ba95f194
+msgid "Simon discovered Django 0.96 during his Computer Science PhD research and has been developing with it full-time ever since. His core code contributions are mostly in Django's admin application. He is also helping to improve Django's documentation."
+msgstr ""
+
+#: ../../internals/committers.txt:398
+# e8316000e1624795afbb401784fdad5a
+msgid "Simon works as a freelance developer based in Wollongong, Australia."
+msgstr ""
+
+#: ../../internals/committers.txt:403
+# e920b70676ba4b7e9b9475919bd1ac2d
+msgid "Gabriel has been working with Django since 2008, shortly after the 1.0 release. Convinced by his business partner that Python and Django were the right direction for the company, he couldn't have been more happy with the decision. His contributions range across many areas in Django, but years of copy-editing and an eye for detail lead him to be particularly at home while working on Django's documentation."
+msgstr ""
+
+#: ../../internals/committers.txt:410
+# f819732a75bc43e5ab4282b4392e84e7
+msgid "Gabriel works as a web developer in Berkeley, CA, USA."
+msgstr ""
+
+#: ../../internals/committers.txt:415
+# 74475ee5a2da43b8af7d32f37c21ad54
+msgid "When exploring Web frameworks for an independent study project in the fall of 2008, Tim discovered Django and was lured to it by the documentation. He enjoys contributing to the docs because they're awesome."
+msgstr ""
+
+#: ../../internals/committers.txt:419
+# 11c6591faa824de1a3d6de28cd1d063d
+msgid "Tim works as a software engineer and lives in Philadelphia, PA, USA."
+msgstr ""
+
+#: ../../internals/committers.txt:422
+# 83b2d65d31644bc9a50a21b562ef4d9c
+msgid "Developers Emeritus"
+msgstr ""
+
+#: ../../internals/committers.txt:425
+# 3314a8a59c1244e9a5022c7a67a632ac
+msgid "Georg created Django's internationalization system, managed i18n contributions and made a ton of excellent tweaks, feature additions and bug fixes."
+msgstr ""
+
+#: ../../internals/committers.txt:430
+# 210c35b1a7f7436a963ef995246699df
+msgid "Robert was responsible for the *first* refactoring of Django's admin application to allow for easier reuse and has made a ton of excellent tweaks, feature additions and bug fixes."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:3
+# b7adc603a4c04dfabc635c513cd2628d
+msgid "Reporting bugs and requesting features"
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:5
+# 3c75b58acba24e0ab0ce41a3c718388b
+msgid "Before reporting a bug or requesting a new feature, please consider these general points:"
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:8
+# 36b8fc690f8e4fb0a39ada5161b45900
+msgid "Check that someone hasn't already filed the bug or feature request by `searching`_ or running `custom queries`_ in the ticket tracker."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:11
+# 61d0f813b11f48ffa1337658e7ecb3ed
+msgid "Don't use the ticket system to ask support questions. Use the `django-users`_ list or the `#django`_ IRC channel for that."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:14
+# 5a03c09f45ea48fcab46020f1dad5383
+msgid "Don't reopen issues that have been marked \"wontfix\" by a core developer. This mark means that the decision has been made that we can't or won't fix this particular issue. If you're not sure why, please ask on `django-developers`_."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:19
+# 8f3ab8e7a1014350bbf1bfa32b253e03
+msgid "Don't use the ticket tracker for lengthy discussions, because they're likely to get lost. If a particular ticket is controversial, please move the discussion to `django-developers`_."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:26
+# 4ab7140fd80944f2b6e87aa19b03081c
+msgid "Reporting bugs"
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:28
+# 2e6ba21a926243f38f41efa114506784
+msgid "Well-written bug reports are *incredibly* helpful. However, there's a certain amount of overhead involved in working with any bug tracking system so your help in keeping our ticket tracker as useful as possible is appreciated. In particular:"
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:33
+# d3bf4f8340a545e88493260240f281b0
+msgid "**Do** read the :doc:`FAQ </faq/index>` to see if your issue might be a well-known question."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:36
+# 10edfe09b9f84c1a94063ba68febebd6
+msgid "**Do** ask on `django-users`_ or `#django`_ *first* if you're not sure if what you're seeing is a bug."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:39
+# 16732c60711c4e9688f0dd23d2b4ccd0
+msgid "**Do** write complete, reproducible, specific bug reports. You must include a clear, concise description of the problem, and a set of instructions for replicating it. Add as much debug information as you can: code snippets, test cases, exception backtraces, screenshots, etc. A nice small test case is the best way to report a bug, as it gives us an easy way to confirm the bug quickly."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:46
+# c4cfb9b3a21f4961a6ef3d11446d9ea6
+msgid "**Don't** post to `django-developers`_ just to announce that you have filed a bug report. All the tickets are mailed to another list, `django-updates`_, which is tracked by developers and interested community members; we see them as they are filed."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:51
+# 75472266da9745978902d0cd21d66b07
+msgid "To understand the lifecycle of your ticket once you have created it, refer to :doc:`triaging-tickets`."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:59
+# b799befbc3dc45cebcc1606f5738a841
+msgid "Reporting security issues"
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:63
+# fe74457e0c21465288eba3d2a135ba88
+msgid "Please report security issues **only** to security@djangoproject.com. This is a private list only open to long-time, highly trusted Django developers, and its archives are not publicly readable."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:67
+# 8604072070ec49e898d0ccbb6f3a38b7
+msgid "In the event of a confirmed vulnerability in Django itself, we will take the following actions:"
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:70
+# 889761258d2d4f708b7880ef3def5f21
+msgid "Acknowledge to the reporter that we've received the report and that a fix is forthcoming. We'll give a rough timeline and ask the reporter to keep the issue confidential until we announce it."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:74
+# 2a8091fa058d481db571e02072f840a4
+msgid "Focus on developing a fix as quickly as possible and produce patches against the current and two previous releases."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:77
+# 2b0ff89b6d3c46b0930b1923a72b0fdf
+msgid "Determine a go-public date for announcing the vulnerability and the fix. To try to mitigate a possible \"arms race\" between those applying the patch and those trying to exploit the hole, we will not announce security problems immediately."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:82
+# 53dce501a7274cf1a440c150722c6568
+msgid "Pre-notify third-party distributors of Django (\"vendors\"). We will send these vendor notifications through private email which will include documentation of the vulnerability, links to the relevant patch(es), and a request to keep the vulnerability confidential until the official go-public date."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:88
+# 459dc89e12aa4862bd7c28c3b0b0d2d9
+msgid "Publicly announce the vulnerability and the fix on the pre-determined go-public date. This will probably mean a new release of Django, but in some cases it may simply be patches against current releases."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:93
+# 074c3cdfcd684559a673b4090507a2f3
+msgid "Reporting user interface bugs and features"
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:95
+# ee9ad5ac0d9341c1916c560ee6cea13d
+msgid "If your bug or feature request touches on anything visual in nature, there are a few additional guidelines to follow:"
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:98
+# 77dc24443dfb4d4dbe136d8c3996cc43
+msgid "Include screenshots in your ticket which are the visual equivalent of a minimal testcase. Show off the issue, not the crazy customizations you've made to your browser."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:102
+# d3068f5e8d94401c8132fde3b4fd6fcf
+msgid "If the issue is difficult to show off using a still image, consider capturing a *brief* screencast. If your software permits it, capture only the relevant area of the screen."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:106
+# 6955a5b6af4940d28214ce42879834c4
+msgid "If you're offering a patch which changes the look or behavior of Django's UI, you **must** attach before *and* after screenshots/screencasts. Tickets lacking these are difficult for triagers and core developers to assess quickly."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:111
+# e0f1665691344aed998ec40368fd2cea
+msgid "Screenshots don't absolve you of other good reporting practices. Make sure to include URLs, code snippets, and step-by-step instructions on how to reproduce the behavior visible in the screenshots."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:115
+# 5bdd623d21694fa88cb11103d8ff8cef
+msgid "Make sure to set the UI/UX flag on the ticket so interested parties can find your ticket."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:119
+# ee8257c930734eec8a2aa5a738101d8a
+msgid "Requesting features"
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:121
+# e966e94037944de6be18473e37e3c054
+msgid "We're always trying to make Django better, and your feature requests are a key part of that. Here are some tips on how to make a request most effectively:"
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:124
+# 370bafaef988429bbc6df2aff919b82c
+msgid "Make sure the feature actually requires changes in Django's core. If your idea can be developed as an independent application or module — for instance, you want to support another database engine — we'll probably suggest that you to develop it independently. Then, if your project gathers sufficient community support, we may consider it for inclusion in Django."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:131
+# 07e05cf5d2e5484ea3456114b516f3f5
+msgid "First request the feature on the `django-developers`_ list, not in the ticket tracker. It'll get read more closely if it's on the mailing list. This is even more important for large-scale feature requests. We like to discuss any big changes to Django's core on the mailing list before actually working on them."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:137
+# a1923a9f0d1742a0930d375c33a92300
+msgid "Describe clearly and concisely what the missing feature is and how you'd like to see it implemented. Include example code (non-functional is OK) if possible."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:141
+# 059f780e53a64319af4af84b66d827e0
+msgid "Explain *why* you'd like the feature. In some cases this is obvious, but since Django is designed to help real developers get real work done, you'll need to explain it, if it isn't obvious why the feature would be useful."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:146
+# fb6e2f0e87d44834841fa234510b2b57
+msgid "If core developers agree on the feature, then it's appropriate to create a ticket. Include a link the discussion on `django-developers`_ in the ticket description."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:150
+# 8decad86bd8c4223a49b349309d13837
+msgid "As with most open-source projects, code talks. If you are willing to write the code for the feature yourself or, even better, if you've already written it, it's much more likely to be accepted. If it's a large feature that might need multiple developers, we're always happy to give you an experimental branch in our repository; see the :doc:`writing-code/branch-policy`."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:156
+# c917e07ea1284283b51498a3c51ff814
+msgid "See also: :ref:`documenting-new-features`."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:161
+# 10460d9074af4f4d8307b2bdc5c05056
+msgid "How we make decisions"
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:163
+# 859878ee2fa5445381440e309e3cb257
+msgid "Whenever possible, we strive for a rough consensus. To that end, we'll often have informal votes on `django-developers`_ about a feature. In these votes we follow the voting style invented by Apache and used on Python itself, where votes are given as +1, +0, -0, or -1. Roughly translated, these votes mean:"
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:168
+# bf13de4b12b64417bba99f55d50f21bd
+msgid "+1: \"I love the idea and I'm strongly committed to it.\""
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:170
+# c36a3abf97f845928ee8e9efe312d289
+msgid "+0: \"Sounds OK to me.\""
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:172
+# a4c9b2ec994b4fd8acd281d33f7707da
+msgid "-0: \"I'm not thrilled, but I won't stand in the way.\""
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:174
+# 76b371fb89a141c59468d1201f8f9056
+msgid "-1: \"I strongly disagree and would be very unhappy to see the idea turn into reality.\""
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:177
+# 006a4b2d5c864257ae29b9afdd563f01
+msgid "Although these votes on `django-developers`_ are informal, they'll be taken very seriously. After a suitable voting period, if an obvious consensus arises we'll follow the votes."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:181
+# 4266c9258a084aaca63109c6d72df9d6
+msgid "However, consensus is not always possible. If consensus cannot be reached, or if the discussion towards a consensus fizzles out without a concrete decision, we use a more formal process."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:185
+# dc568dd497814ec2baadeb2b544b09c6
+msgid "Any :doc:`core committer</internals/committers>` may call for a formal vote using the same voting mechanism above. A proposition will be considered carried by the core team if:"
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:189
+# be83980614cc4ad8914988ac60064f6b
+msgid "There are three \"+1\" votes from members of the core team."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:191
+# 10a66ebaf1754fbfa880b4dd515b3d09
+msgid "There is no \"-1\" vote from any member of the core team."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:193
+# d8a696f0542e4241acc2b970f63c3ba8
+msgid "The :ref:`BDFLs<django-bdfls>` haven't stepped in and executed their positive or negative veto."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:196
+# 118a94ac6235461dbbb9e547bc10f170
+msgid "When calling for a vote, the caller should specify a deadline by which votes must be received. One week is generally suggested as the minimum amount of time."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:200
+# 628bd8bb9af946f4852738f59da7cd45
+msgid "Since this process allows any core committer to veto a proposal, any \"-1\" votes (or BDFL vetos) should be accompanied by an explanation that explains what it would take to convert that \"-1\" into at least a \"+0\"."
+msgstr ""
+
+#: ../../internals/contributing/bugs-and-features.txt:204
+# fb80bda0ec5b435a924d0fe57340a7bc
+msgid "Whenever possible, these formal votes should be announced and held in public on the `django-developers`_ mailing list. However, overly sensitive or contentious issues -- including, most notably, votes on new core committers -- may be held in private."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:3
+# 63c8faf1e32e4f379eb30e4f4ccb775d
+msgid "Committing code"
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:5
+# e3941602eb1446f8a2bb77e1eafc8281
+msgid "This section is addressed to the :doc:`/internals/committers` and to anyone interested in knowing how code gets committed into Django core."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:9
+# 0ce8ce8c1baa4e76acb31d5695b65038
+msgid "Commit access"
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:11
+# 2c4580a457b64fcbacc5ffeb69fec4fb
+msgid "Django has two types of committers:"
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:14
+# 8ece54c946954a49bcd4495264b84f07
+msgid "These are people who have a long history of contributions to Django's codebase, a solid track record of being polite and helpful on the mailing lists, and a proven desire to dedicate serious time to Django's development. The bar is high for full commit access."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:20
+# 498674724b97401c947ccc8e533e7a01
+msgid "These are people who are \"domain experts.\" They have direct check-in access to the subsystems that fall under their jurisdiction, and they're given a formal vote in questions that involve their subsystems. This type of access is likely to be given to someone who contributes a large subframework to Django and wants to continue to maintain it."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:26
+# 51a68644b7aa4232addbda8d1986ebd6
+msgid "Partial commit access is granted by the same process as full committers. However, the bar is set lower; proven expertise in the area in question is likely to be sufficient."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:30
+# 968763f61d884397847097b76767903c
+msgid "Decisions on new committers will follow the process explained in :ref:`how-we-make-decisions`. To request commit access, please contact an existing committer privately. Public requests for commit access are potential flame-war starters, and will be ignored."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:36
+# 27e84d5b2a28447e9a1f4297e16e52f0
+msgid "Committing guidelines"
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:38
+# 8e3d60e12ba74f3087a847aa3b2f2a84
+msgid "Please follow these guidelines when committing code to Django's Subversion repository:"
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:41
+# d163cbe40633455499c93808ace29983
+msgid "For any medium-to-big changes, where \"medium-to-big\" is according to your judgment, please bring things up on the `django-developers`_ mailing list before making the change."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:45
+# 1bcd9d97ce13466d9418f9ee07f6f8b2
+msgid "If you bring something up on `django-developers`_ and nobody responds, please don't take that to mean your idea is great and should be implemented immediately because nobody contested it. Django's lead developers don't have a lot of time to read mailing-list discussions immediately, so you may have to wait a couple of days before getting a response."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:52
+# 9f83d6bc4b4d4b7eb55b0d65ec9d0ef4
+msgid "Write detailed commit messages in the past tense, not present tense."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:54
+# 56ecf7a223fb45388a304fcc17c8aff8
+msgid "Good: \"Fixed Unicode bug in RSS API.\""
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:55
+# ea22127ac4304ee996175838659b1fa8
+msgid "Bad: \"Fixes Unicode bug in RSS API.\""
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:56
+# 510eda3d0d07451188482b51462d8e49
+msgid "Bad: \"Fixing Unicode bug in RSS API.\""
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:58
+# 47376f9aca4d4c1abf654013e8b1ad39
+msgid "For commits to a branch, prefix the commit message with the branch name. For example: \"magic-removal: Added support for mind reading.\""
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:61
+# 6039a6d050e74dfdaa871dc3b5cae854
+msgid "Limit commits to the most granular change that makes sense. This means, use frequent small commits rather than infrequent large commits. For example, if implementing feature X requires a small change to library Y, first commit the change to library Y, then commit feature X in a separate commit. This goes a *long way* in helping all core Django developers follow your changes."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:68
+# 34d952c82bc84811b87f90b614b95cf1
+msgid "Separate bug fixes from feature changes."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:70
+# c741bedbed4241f18fea40a129794b6f
+msgid "Bug fixes need to be added to the current bugfix branch as well as the current trunk."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:73
+# 2f4ebbe3a3314f6c90dbfe0887da8e2d
+msgid "If your commit closes a ticket in the Django `ticket tracker`_, begin your commit message with the text \"Fixed #abc\", where \"abc\" is the number of the ticket your commit fixes. Example: \"Fixed #123 -- Added support for foo\". We've rigged Subversion and Trac so that any commit message in that format will automatically close the referenced ticket and post a comment to it with the full commit message."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:80
+# c4df45ff818b4d18bcf5f2f67aa31526
+msgid "If your commit closes a ticket and is in a branch, use the branch name first, then the \"Fixed #abc.\" For example: \"magic-removal: Fixed #123 -- Added whizbang feature.\""
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:84
+# 5b15deed91bf421db5a2a51bdda0893f
+msgid "For the curious: we're using a `Trac post-commit hook`_ for this."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:88
+# 4254526edf3a47a98b1cf7be5c0d0163
+msgid "If your commit references a ticket in the Django `ticket tracker`_ but does *not* close the ticket, include the phrase \"Refs #abc\", where \"abc\" is the number of the ticket your commit references. We've rigged Subversion and Trac so that any commit message in that format will automatically post a comment to the appropriate ticket."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:94
+# 480b0eab772b4dfa9ed55057780a5f72
+msgid "Write commit messages for backports using this pattern::"
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:100
+# 5ee073fb34b846eeb6c1f49b29a756d0
+msgid "For example::"
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:107
+# 9a0ca99458fc48eb9dedadfc05c44ed5
+msgid "Reverting commits"
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:109
+# d6f3c82c986a4a558a67d603b605f5d2
+msgid "Nobody's perfect; mistakes will be committed. When a mistaken commit is discovered, please follow these guidelines:"
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:112
+# 0cbd8c281b6f44a2a0b66f3b04a73423
+msgid "Try very hard to ensure that mistakes don't happen. Just because we have a reversion policy doesn't relax your responsibility to aim for the highest quality possible. Really: double-check your work before you commit it in the first place!"
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:117
+# 0422eba4a4a3420297169bb347a5c39b
+msgid "If possible, have the original author revert his/her own commit."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:119
+# 8d421d4f12dd4a6fbfaf6c75a1a6e790
+msgid "Don't revert another author's changes without permission from the original author."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:122
+# c3cc08e33c624df9bbe4380f2dc9a9af
+msgid "If the original author can't be reached (within a reasonable amount of time -- a day or so) and the problem is severe -- crashing bug, major test failures, etc -- then ask for objections on the `django-developers`_ mailing list then revert if there are none."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:127
+# e1b83fd02b934aab97126ed94e4c3767
+msgid "If the problem is small (a feature commit after feature freeze, say), wait it out."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:130
+# 91d7354ba9284aea885b681b0b6ea5b8
+msgid "If there's a disagreement between the committer and the reverter-to-be then try to work it out on the `django-developers`_ mailing list. If an agreement can't be reached then it should be put to a vote."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:135
+# c51881afeafb46e2b6d8fe28874bc323
+msgid "If the commit introduced a confirmed, disclosed security vulnerability then the commit may be reverted immediately without permission from anyone."
+msgstr ""
+
+#: ../../internals/contributing/committing-code.txt:139
+# 694a5c3ce72641749d75ba0c9902d468
+msgid "The release branch maintainer may back out commits to the release branch without permission if the commit breaks the release branch."
+msgstr ""
+
+#: ../../internals/contributing/index.txt:3
+# dde8bc959c9f4aeda4ad94342d268f6f
+msgid "Contributing to Django"
+msgstr ""
+
+#: ../../internals/contributing/index.txt:5
+# 4d145c40862c4c32bd71029993ea000e
+msgid "Django is a community that lives on its volunteers. As it keeps growing, we always need more people to help others. As soon as you learn Django, you can contribute in many ways:"
+msgstr ""
+
+#: ../../internals/contributing/index.txt:9
+# 9ee127fad8f74e699bbf85232af9e0d9
+msgid "Join the `django-users`_ mailing list and answer questions. This mailing list has a huge audience, and we really want to maintain a friendly and helpful atmosphere. If you're new to the Django community, you should read the `posting guidelines`_."
+msgstr ""
+
+#: ../../internals/contributing/index.txt:14
+# 921925001f0e44bfb2d43d05417ca709
+msgid "Join the `#django IRC channel`_ on Freenode and answer questions. By explaining Django to other users, you're going to learn a lot about the framework yourself."
+msgstr ""
+
+#: ../../internals/contributing/index.txt:18
+# 87cf965bf54745489b080756edcca9b7
+msgid "Blog about Django. We syndicate all the Django blogs we know about on the `community page`_; if you'd like to see your blog on that page you can `register it here`_."
+msgstr ""
+
+#: ../../internals/contributing/index.txt:22
+# 54b4df57661140fd916c7246c66d6b08
+msgid "Contribute to open-source Django projects, write some documentation, or release your own code as an open-source pluggable application. The ecosystem of pluggable applications is a big strength of Django, help us build it!"
+msgstr ""
+
+#: ../../internals/contributing/index.txt:27
+# 074a997307a74479b394f0be7a18264b
+msgid "If you think working *with* Django is fun, wait until you start working *on* it. We're passionate about helping Django users make the jump to contributing members of the community, so there are several ways you can help Django's development:"
+msgstr ""
+
+#: ../../internals/contributing/index.txt:32
+# b44f21c04e0a4c7fbeaad311b6044342
+msgid ":doc:`Report bugs <bugs-and-features>` in our `ticket tracker`_."
+msgstr ""
+
+#: ../../internals/contributing/index.txt:34
+# dc3f3fe33806461586ada78bdea0d63f
+msgid "Join the `django-developers`_ mailing list and share your ideas for how to improve Django. We're always open to suggestions."
+msgstr ""
+
+#: ../../internals/contributing/index.txt:37
+# 2028ce272b254df592296b26c73f1d93
+msgid ":doc:`Submit patches <writing-code/submitting-patches>` for new and/or fixed behavior. If you're looking for an easy way to start contributing to Django have a look at the `easy pickings`_ tickets."
+msgstr ""
+
+#: ../../internals/contributing/index.txt:41
+# 61f172e1df2f46d495531ae03cd7d0bd
+msgid ":doc:`Improve the documentation <writing-documentation>` or :doc:`write unit tests <writing-code/unit-tests>`."
+msgstr ""
+
+#: ../../internals/contributing/index.txt:44
+# 3acf537d24ba48f1a778a7fa1f1fe59b
+msgid ":doc:`Triage tickets and review patches <triaging-tickets>` created by other users."
+msgstr ""
+
+#: ../../internals/contributing/index.txt:47
+# 5428e2e9ab994cdd938595eb8f0c3c19
+msgid "Really, **ANYONE** can do something to help make Django better and greater!"
+msgstr ""
+
+#: ../../internals/contributing/index.txt:49
+# 6f47ce1af7df4d5383c23856d9c499c5
+msgid "Browse the following sections to find out how:"
+msgstr ""
+
+#: ../../internals/contributing/localizing.txt:3
+# 0bc278d28d7e4a5b911e54576f3dfca4
+msgid "Localizing Django"
+msgstr ""
+
+#: ../../internals/contributing/localizing.txt:5
+# 8d5695b8704344399ac8a4861713ed28
+msgid "Various parts of Django, such as the admin site and validation error messages, are internationalized. This means they display differently depending on each user's language or country. For this, Django uses the same internationalization and localization infrastructure available to Django applications, described in the :doc:`i18n documentation </topics/i18n/index>`."
+msgstr ""
+
+#: ../../internals/contributing/localizing.txt:12
+# 8501469fbeb14b8e97a3975f62df654b
+msgid "Translations"
+msgstr ""
+
+#: ../../internals/contributing/localizing.txt:14
+# 9a9545681f2445e79b8956eab4e911c9
+msgid "Translations are contributed by Django users worldwide. The translation work is coordinated at `Transifex`_."
+msgstr ""
+
+#: ../../internals/contributing/localizing.txt:17
+# eb094cdd826947778da11c6c7c63ac32
+msgid "If you find an incorrect translation or want to discuss specific translations, go to the `Django project page`_. If you would like to help out with translating or add a language that isn't yet translated, here's what to do:"
+msgstr ""
+
+#: ../../internals/contributing/localizing.txt:21
+# ec3ae97808ad42419d75402552e189e1
+msgid "Join the `Django i18n mailing list`_ and introduce yourself."
+msgstr ""
+
+#: ../../internals/contributing/localizing.txt:23
+# 21c8a8bf573d46d38c8e40871a3ed313
+msgid "Make sure you read the notes about :ref:`specialties-of-django-i18n`."
+msgstr ""
+
+#: ../../internals/contributing/localizing.txt:25
+# bd1279fa5f974b799fae035bf2b9006b
+msgid "Signup at `Transifex`_ and visit the `Django project page`_."
+msgstr ""
+
+#: ../../internals/contributing/localizing.txt:27
+# e900eed9a71b46e998ef52b5c0246297
+msgid "On the `Django project page`_, choose the language you want to work on, **or** -- in case the language doesn't exist yet -- request a new language team by clicking on the \"Request language\" link and selecting the appropriate language."
+msgstr ""
+
+#: ../../internals/contributing/localizing.txt:32
+# 17753f966cee488fa96e5267242e00a6
+msgid "Then, click the \"Join this Team\" button to become a member of this team. Every team has at least one coordinator who is responsible to review your membership request. You can of course also contact the team coordinator to clarify procedural problems and handle the actual translation process."
+msgstr ""
+
+#: ../../internals/contributing/localizing.txt:38
+# 1d1578cee3f048908dfa449c6e43fc53
+msgid "Once you are a member of a team choose the translation resource you want to update on the team page. For example the \"core\" resource refers to the translation catalogue that contains all non-contrib translations. Each of the contrib apps also have a resource (prefixed with \"contrib\")."
+msgstr ""
+
+#: ../../internals/contributing/localizing.txt:44
+# 547b11fc64874b1890c84be66214c5d9
+msgid "For more information about how to use Transifex, read the `Transifex User Guide`_."
+msgstr ""
+
+#: ../../internals/contributing/localizing.txt:48
+# 3364447f92354ebdab2374df83dbe838
+msgid "Formats"
+msgstr ""
+
+#: ../../internals/contributing/localizing.txt:50
+# ecd3b8e46d514d638ac87075a4f28e16
+msgid "You can also review ``conf/locale/<locale>/formats.py``. This file describes the date, time and numbers formatting particularities of your locale. See :ref:`format-localization` for details."
+msgstr ""
+
+#: ../../internals/contributing/localizing.txt:54
+# ff2bb3429ab544df8ce07a4f5bfd440f
+msgid "The format files aren't managed by the use of Transifex. To change them, you must :doc:`create a patch<writing-code/submitting-patches>` against the Django source tree, as for any code change:"
+msgstr ""
+
+#: ../../internals/contributing/localizing.txt:58
+# 1aafafc532b8462e984ea07b22a4732d
+msgid "Create a diff against the current Subversion trunk."
+msgstr ""
+
+#: ../../internals/contributing/localizing.txt:60
+# f8753ba53537441a93c5afc86894ab1c
+msgid "Open a ticket in Django's ticket system, set its ``Component`` field to ``Translations``, and attach the patch to it."
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:3
+# 583146399c1947ab81a6ca8f4cedc80f
+msgid "Advice for new contributors"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:5
+# 427abcc794624a379bee1672ae13835e
+msgid "New contributor and not sure what to do? Want to help but just don't know how to get started? This is the section for you."
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:9
+# b16cee566bd94da38bf711151af744cb
+msgid "First steps"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:11
+# 74a1faae36b140748f9b5ec750c3af6f
+msgid "Start with these easy tasks to discover Django's development process."
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:13
+# a882fecdb4da4b27943672120aa20033
+msgid "**Triage tickets**"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:15
+# f1376ed2f1764be0abce1f07e37725ea
+msgid "If an `unreviewed ticket`_ reports a bug, try and reproduce it. If you can reproduce it and it seems valid, make a note that you confirmed the bug and accept the ticket. Make sure the ticket is filed under the correct component area. Consider writing a patch that adds a test for the bug's behavior, even if you don't fix the bug itself. See more at :ref:`how-can-i-help-with-triaging`"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:22
+# 12ec36daa01c45c7acde54117bb43bfc
+msgid "**Look for tickets that are accepted and review patches to build familiarity with the codebase and the process**"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:25
+# 057c302d1bb64e42aeafd4125f766f28
+msgid "Mark the appropriate flags if a patch needs docs or tests. Look through the changes a patch makes, and keep an eye out for syntax that is incompatible with older but still supported versions of Python. Run the tests and make sure they pass on your system.  Where possible and relevant, try them out on a database other than SQLite. Leave comments and feedback!"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:31
+# 358fdf94ecb44f8c8ac5ab42820bda90
+msgid "**Keep old patches up to date**"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:33
+# 95a856effdf1412eab19f1f6b3cb33fe
+msgid "Oftentimes the codebase will change between a patch being submitted and the time it gets reviewed. Make sure it still applies cleanly and functions as expected. Simply updating a patch is both useful and important! See more on :doc:`writing-code/submitting-patches`."
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:38
+# ad7107c9559a411cb087b6224b57da00
+msgid "**Write some documentation**"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:40
+# a74f67ed5f8540a5a829e7d15f348ea6
+msgid "Django's documentation is great but it can always be improved. Did you find a typo? Do you think that something should be clarified? Go ahead and suggest a documentation patch! See also the guide on :doc:`writing-documentation`, in particular the tips for :ref:`improving-the-documentation`."
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:48
+# 8d35794cf47b4ec3844e50ac2d9c456d
+msgid "The `reports page`_ contains links to many useful Trac queries, including several that are useful for triaging tickets and reviewing patches as suggested above."
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:58
+# 99c85bcbba964da5a1cf558ec5b661c3
+msgid "Guidelines"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:60
+# 51f5c10f89d84f4082f285f091fcc62e
+msgid "As a newcomer on a large project, it's easy to experience frustration. Here's some advice to make your work on Django more useful and rewarding."
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:63
+# 5915f810948c43bdbc30c047fabd9df4
+msgid "**Pick a subject area that you care about, that you are familiar with, or that you want to learn about**"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:66
+# e0f7ee5f0acf4ed5b215a98fd6424c36
+msgid "You don't already have to be an expert on the area you want to work on; you become an expert through your ongoing contributions to the code."
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:69
+# ca111d210366484186f947dc217ffca8
+msgid "**Analyze tickets' context and history**"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:71
+# 2dca2997a3444b8f977ddaf3f24b1b77
+msgid "Trac isn't an absolute; the context is just as important as the words. When reading Trac, you need to take into account who says things, and when they were said. Support for an idea two years ago doesn't necessarily mean that the idea will still have support. You also need to pay attention to who *hasn't* spoken -- for example, if a core team member hasn't been recently involved in a discussion, then a ticket may not have the support required to get into trunk."
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:79
+# fd109f4bcfae4c94a399f036e113e941
+msgid "**Start small**"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:81
+# 3d77ac73fc134e6f8d94cb687fcf1c24
+msgid "It's easier to get feedback on a little issue than on a big one. See the `easy pickings`_."
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:84
+# 0e4cb5ba74464be09c1dc0ad68b36687
+msgid "**If you're going to engage in a big task, make sure that your idea has support first**"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:87
+# 82f4bda06080445ca096d2af7f5cbd18
+msgid "This means getting someone else to confirm that a bug is real before you fix the issue, and ensuring that the core team supports a proposed feature before you go implementing it."
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:91
+# dd3caab1778342b88f5b4fc12255a03c
+msgid "**Be bold! Leave feedback!**"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:93
+# ed899ca8376c46cbbb9d52b24832f3a9
+msgid "Sometimes it can be scary to put your opinion out to the world and say \"this ticket is correct\" or \"this patch needs work\", but it's the only way the project moves forward. The contributions of the broad Django community ultimately have a much greater impact than that of the core developers. We can't do it without YOU!"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:99
+# a2260d2a692e4bbfb8fa0b62f5e6e21c
+msgid "**Err on the side of caution when marking things Ready For Check-in**"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:101
+# 8e921aba25c5479faaa53b385e548dc2
+msgid "If you're really not certain if a ticket is ready, don't mark it as such. Leave a comment instead, letting others know your thoughts.  If you're mostly certain, but not completely certain, you might also try asking on IRC to see if someone else can confirm your suspicions."
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:106
+# 7f92d6035e4e43a9a6aa279330a5310d
+msgid "**Wait for feedback, and respond to feedback that you receive**"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:108
+# a8be1f9565a1491d929562a3dd9ae65e
+msgid "Focus on one or two tickets, see them through from start to finish, and repeat. The shotgun approach of taking on lots of tickets and letting some fall by the wayside ends up doing more harm than good."
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:112
+# 9c4f1645e37a404ea1a836174a25c24d
+msgid "**Be rigorous**"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:114
+# 21b90c725ccb46d0852657ccb3e3b6ce
+msgid "When we say \":pep:`8`, and must have docs and tests\", we mean it. If a patch doesn't have docs and tests, there had better be a good reason. Arguments like \"I couldn't find any existing tests of this feature\" don't carry much weight--while it may be true, that means you have the extra-important job of writing the very first tests for that feature, not that you get a pass from writing tests altogether."
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:126
+# dc0050a471d24ad68e1d69563460eecb
+msgid "FAQ"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:128
+# 36a9b52a58aa40fdae94bf094980313f
+msgid "**This ticket I care about has been ignored for days/weeks/months! What can I do to get it committed?**"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:131
+# 3f3e83c606614b7db79592884b95fdf8
+msgid "First off, it's not personal. Django is entirely developed by volunteers (even the core developers), and sometimes folks just don't have time. The best thing to do is to send a gentle reminder to the django-developers mailing list asking for review on the ticket, or to bring it up in the #django-dev IRC channel."
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:137
+# 92fca76d1911419f919b72c3060b187f
+msgid "**I'm sure my ticket is absolutely 100% perfect, can I mark it as RFC myself?**"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:140
+# b78db77b456b4eaf88f3fe1cb5eae086
+msgid "Short answer: No. It's always better to get another set of eyes on a ticket. If you're having trouble getting that second set of eyes, see question 1, above."
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:144
+# d4976c0fd6cc481f858e72d610568c2e
+msgid "**My ticket has been in DDN forever! What should I do?**"
+msgstr ""
+
+#: ../../internals/contributing/new-contributors.txt:146
+# 5c10713032a84bc59112e1381ea0ec80
+msgid "Design Decision Needed requires consensus about the right solution.  At the very least it needs consensus among the core developers, and ideally it has consensus from the community as well. The best way to accomplish this is to start a thread on the django-developers mailing list, and for very complex issues to start a wiki page summarizing the problem and the possible solutions."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:3
+# 63b68a599e7d427688eb19599671ba7a
+msgid "Triaging tickets"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:5
+# 7a4883bd3cf448c490dd38bd14b02d21
+msgid "Django uses Trac_ for managing the work on the code base. Trac is a community-tended garden of the bugs people have found and the features people would like to see added. As in any garden, sometimes there are weeds to be pulled and sometimes there are flowers and vegetables that need picking. We need your help to sort out one from the other, and in the end we all benefit together."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:12
+# a7cd6fb171c64fe08c4ff455f4abe667
+msgid "Like all gardens, we can aspire to perfection but in reality there's no such thing. Even in the most pristine garden there are still snails and insects. In a community garden there are also helpful people who -- with the best of intentions -- fertilize the weeds and poison the roses. It's the job of the community as a whole to self-manage, keep the problems to a minimum, and educate those coming into the community so that they can become valuable contributing members."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:20
+# 563a62d802c643e08f074da1970e7e99
+msgid "Similarly, while we aim for Trac to be a perfect representation of the state of Django's progress, we acknowledge that this simply will not happen. By distributing the load of Trac maintenance to the community, we accept that there will be mistakes. Trac is \"mostly accurate\", and we give allowances for the fact that sometimes it will be wrong. That's okay. We're perfectionists with deadlines."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:27
+# 8143902447be406386092e60d1cd6666
+msgid "We rely on the community to keep participating, keep tickets as accurate as possible, and raise issues for discussion on our mailing lists when there is confusion or disagreement."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:31
+# fa798df9f3064041847fe9f1a02cea4b
+msgid "Django is a community project, and every contribution helps. We can't do this without YOU!"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:35
+# 31be0a81649d4a0483a63de453416f57
+msgid "Triage workflow"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:37
+# 62a8cb996385411480e5625c2f40246c
+msgid "Unfortunately, not all bug reports and feature requests in the ticket tracker provide all the :doc:`required details<bugs-and-features>`. A number of tickets have patches, but those patches don't meet all the requirements of a :ref:`good patch<patch-style>`."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:42
+# 9f3fa7ada4dc4d2cacc65c4cb8b99fae
+msgid "One way to help out is to *triage* tickets that have been created by other users. The core team and several community members work on this regularly, but more help is always appreciated."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:46
+# af4d7e44fda644afb3dfb66cae7f4473
+msgid "Most of the workflow is based around the concept of a ticket's :ref:`triage stages <triage-stages>`. Each stage describes where in its lifetime a given ticket is at any time. Along with a handful of flags, this attribute easily tells us what and who each ticket is waiting on."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:51
+# 4566f9db064a4b50bf5c81fc6b4fc413
+msgid "Since a picture is worth a thousand words, let's start there:"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:58
+# 62b1dd1bb7da42299f4c3ff8313e234c
+msgid "We've got two roles in this diagram:"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:60
+# 4e1fafe5961543568d9c0076bd6451e4
+msgid ":doc:`Committers</internals/committers>` (also called core developers): people with commit access who are responsible for making the big decisions, writing large portions of the code and integrating the contributions of the community."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:65
+# 9d62962030a84e1aa91418233c8d2ceb
+msgid "Ticket triagers: anyone in the Django community who chooses to become involved in Django's development process. Our Trac installation is intentionally left open to the public, and anyone can triage tickets. Django is a community project, and we encourage :ref:`triage by the community<how-can-i-help-with-triaging>`."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:71
+# d655f62e7fd342aaa665e1d226415ed2
+msgid "By way of example, here we see the lifecycle of an average ticket:"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:73
+# 4ef37b3bec8f4cb485d8179b06c8fac0
+msgid "Alice creates a ticket, and uploads an incomplete patch (no tests, incorrect implementation)."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:76
+# eaa8609f47ee43f78e99d538725e784b
+msgid "Bob reviews the patch, marks it \"Accepted\", \"needs tests\", and \"patch needs improvement\", and leaves a comment telling Alice how the patch could be improved."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:80
+# c5de70ad42a7495f81595ecd97218937
+msgid "Alice updates the patch, adding tests (but not changing the implementation). She removes the two flags."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:83
+# 0f7f341fee6a48618c290e7dfff7b217
+msgid "Charlie reviews the patch and resets the \"patch needs improvement\" flag with another comment about improving the implementation."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:86
+# d8b8f5d74a9048ac9007a2265a73620b
+msgid "Alice updates the patch, fixing the implementation. She removes the \"patch needs improvement\" flag."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:89
+# cb4a576df8c7469382d1e255c2f84b16
+msgid "Daisy reviews the patch, and marks it RFC."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:91
+# fee9521d1d884a9e9cb2c70d965827ef
+msgid "Jacob, a core developer, reviews the RFC patch, applies it to his checkout, and commits it."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:94
+# deeadf6a497d44199c77607a53de996c
+msgid "Some tickets require much less feedback than this, but then again some tickets require much much more."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:100
+# 6b0cdb862d7d499cbed1eee704f5deca
+msgid "Triage stages"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:102
+# 62109ea00fec4a478145901eac4a6a3a
+msgid "Below we describe in more detail the various stages that a ticket may flow through during its lifetime."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:106
+# 49b88b6458b24e809d7edb6e838d24b7
+msgid "Unreviewed"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:108
+# e5a68fd037294a6baa83cfb00d85a736
+msgid "The ticket has not been reviewed by anyone who felt qualified to make a judgment about whether the ticket contained a valid issue, a viable feature, or ought to be closed for any of the various reasons."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:113
+# 9a7a6f70020f4bbb922b6f6ac5077bf7
+msgid "Accepted"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:115
+# a2658f21e4c64fc3968eb1e5e2d8feaa
+msgid "The big grey area! The absolute meaning of \"accepted\" is that the issue described in the ticket is valid and is in some stage of being worked on. Beyond that there are several considerations:"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:119
+# e1f8ac169f52484789c1577bd0575fe4
+msgid "**Accepted + No Flags**"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:121
+# 92507e108e914b3f88708961e2acfe3f
+msgid "The ticket is valid, but no one has submitted a patch for it yet. Often this means you could safely start writing a patch for it."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:124
+# 1eb1842e754f48328a0a2a68c5de8c37
+msgid "**Accepted + Has Patch**"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:126
+# e2319829cca241818547b42fba094fdd
+msgid "The ticket is waiting for people to review the supplied patch. This means downloading the patch and trying it out, verifying that it contains tests and docs, running the test suite with the included patch, and leaving feedback on the ticket."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:131
+# 8e3d9de4f6784ae882f746ebc8c853ea
+msgid "**Accepted + Has Patch + (any other flag)**"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:133
+# 60ef43ed2bc24e7e88b139ea1c9ca871
+msgid "This means the ticket has been reviewed, and has been found to need further work. \"Needs tests\" and \"Needs documentation\" are self-explanatory. \"Patch needs improvement\" will generally be accompanied by a comment on the ticket explaining what is needed to improve the code."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:139
+# 299038db023f4bdabf8d45b3a3427a9d
+msgid "Design Decision Needed"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:141
+# 015ab596445c4bbcaf5c1aefd6c3a161
+msgid "This stage is for issues which may be contentious, may be backwards incompatible, or otherwise involve high-level design decisions. These issues should be discussed either in the ticket comments or on `django-developers`_."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:145
+# ab5ce5ccede8424597b4c1588a624a65
+msgid "If a ticket has been marked as \"DDN\", decisions are generally eventually made by the core committers, however that is not a requirement. See the :ref:`New contributors' FAQ<new-contributors-faq>` for \"My ticket has been in DDN forever! What should I do?\""
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:150
+# 24ecffd0fbdf445680f001d13d343376
+msgid "This stage will often be used for feature requests. It can also be used for issues that *might* be bugs, depending on opinion or interpretation. Obvious bugs (such as crashes, incorrect query results, or non-compliance with a standard) skip this stage and move straight to \"Accepted\"."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:156
+# 3367570a31d34daeb8a1a0c609aff6b7
+msgid "Ready For Checkin"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:158
+# 6e39440ffbab44a3be5f36c97492771b
+msgid "The ticket was reviewed by any member of the community other than the person who supplied the patch and found to meet all the requirements for a commit-ready patch. A core committer now needs to give the patch a final review prior to being committed. See the :ref:`New contributors' FAQ<new-contributors-faq>` for \"My ticket has been in RFC forever! What should I do?\""
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:166
+# 2d0a82b92c934f2f9e6c8cea52ce2ef6
+msgid "Someday/Maybe"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:168
+# df3e9b8d2434445c95c92da26198f54a
+msgid "Generally only used for vague/high-level features or design ideas. These tickets are uncommon and overall less useful since they don't describe concrete actionable issues. They are enhancement requests that we might consider adding someday to the framework if an excellent patch is submitted. These tickets are not a high priority."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:175
+# 7edd21f49c594b2eac7c9f4eadd092dc
+msgid "Fixed on a branch"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:177
+# 38f35122fedf47b68333dd5abebff466
+msgid "Used to indicate that a ticket is resolved as part of a major body of work that will eventually be merged to trunk. Tickets in this stage generally don't need further work. This may happen in the case of major features/refactors in each release cycle, or as part of the annual Google Summer of Code efforts."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:184
+# d0fa70f0e0424be995e3a7da4a8b1f06
+msgid "Other triage attributes"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:186
+# ebdeb954b40344638c6609efd7eef012
+msgid "A number of flags, appearing as checkboxes in Trac, can be set on a ticket:"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:189
+# 57200d7d5d1a4df49e086c2203aada0d
+msgid "This means the ticket has an associated :doc:`patch<writing-code/submitting-patches>`. These will be reviewed to see if the patch is \"good\"."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:194
+# 9260e61cccc04e77af691e5bf27b0d26
+msgid "This flag is used for tickets with patches that need associated documentation. Complete documentation of features is a prerequisite before we can check them into the codebase."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:199
+# 229cf8b475f848a1866eee1418cfd397
+msgid "This flags the patch as needing associated unit tests. Again, this is a required part of a valid patch."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:203
+# a10140e0252a415fa2b39f353e7cf47b
+msgid "This flag means that although the ticket *has* a patch, it's not quite ready for checkin. This could mean the patch no longer applies cleanly, there is a flaw in the implementation, or that the code doesn't meet our standards."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:209
+# 596de9d69f2a4909aa89b1eb6de216db
+msgid "Tickets that would require small, easy, patches."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:211
+# b12e26da42004e9e9c2682282a4e5400
+msgid "Tickets should be categorized by *type* between:"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:214
+# 1d7d92092a554d0a8bc6a27e442d203b
+msgid "For adding something new."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:217
+# aa9de5c099ed4f37b0d2f448ac098084
+msgid "For when an existing thing is broken or not behaving as expected."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:220
+# afa39f478a6e4031bac0c8a9380e4e61
+msgid "For when nothing is broken but something could be made cleaner, better, faster, stronger."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:223
+# 287abba5a37849a18a369c2179d5101c
+msgid "Tickets should also be classified into *components* indicating which area of the Django codebase they belong to. This makes tickets better organized and easier to find."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:227
+# 1b2e7619daf1461b9513d707fc13d693
+msgid "The *severity* attribute is used to identify blockers, that is, issues which should get fixed before releasing the next version of Django. Typically those issues are bugs causing regressions from earlier versions or potentially causing severe data losses. This attribute is quite rarely used and the vast majority of tickets have a severity of \"Normal\"."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:233
+# efd42588b03843d5b02506c815f53049
+msgid "Finally, it is possible to use the *version* attribute to indicate in which version the reported bug was identified."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:239
+# 545df1784c264f339802236cf3d7a85a
+msgid "Closing Tickets"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:241
+# ddac9e39a05d45ad834040ff86198315
+msgid "When a ticket has completed its useful lifecycle, it's time for it to be closed. Closing a ticket is a big responsibility, though. You have to be sure that the issue is really resolved, and you need to keep in mind that the reporter of the ticket may not be happy to have their ticket closed (unless it's fixed, of course). If you're not certain about closing a ticket, just leave a comment with your thoughts instead."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:248
+# 1fdc957553b246ae8367c7f694672d5d
+msgid "If you do close a ticket, you should always make sure of the following:"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:250
+# 257fd3b9ceb641548d626816c5942a0c
+msgid "Be certain that the issue is resolved."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:252
+# 3921fb2ebceb4a4db2c30ff104aee739
+msgid "Leave a comment explaining the decision to close the ticket."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:254
+# bda7b48aeb7d4dc9ae376b38f4ab2ec1
+msgid "If there is a way they can improve the ticket to reopen it, let them know."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:256
+# e76e6ccc3ee644e880eff7797aaa3937
+msgid "If the ticket is a duplicate, reference the original ticket. Also cross-reference the closed ticket by leaving a comment in the original one -- this allows to access more related information about the reported bug or requested feature."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:261
+# a20b4c2aa51849cba23b79cf6bc9d182
+msgid "**Be polite.** No one likes having their ticket closed. It can be frustrating or even discouraging. The best way to avoid turning people off from contributing to Django is to be polite and friendly and to offer suggestions for how they could improve this ticket and other tickets in the future."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:267
+# 0714b2f56a904731ad8ad410cf917710
+msgid "A ticket can be resolved in a number of ways:"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:270
+# 6253d879f73e4aa38046d81becdd582a
+msgid "Used by the core developers once a patch has been rolled into Django and the issue is fixed."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:274
+# be2d4cfd63ae4b868a8dcf73712c7684
+msgid "Used if the ticket is found to be incorrect. This means that the issue in the ticket is actually the result of a user error, or describes a problem with something other than Django, or isn't a bug report or feature request at all (for example, some new users submit support queries as tickets)."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:281
+# 5233105ad7644f159a30c19b35c38251
+msgid "Used when a core developer decides that this request is not appropriate for consideration in Django. This is usually chosen after discussion in the `django-developers`_ mailing list. Feel free to start or join in discussions of \"wontfix\" tickets on the django-developers_ mailing list, but please do not reopen tickets closed as \"wontfix\" by a :doc:`core developer</internals/committers>`."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:289
+# 53e936cbe292419fa2161e1c9e770789
+msgid "Used when another ticket covers the same issue. By closing duplicate tickets, we keep all the discussion in one place, which helps everyone."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:294
+# a7936f6c1a884b62873a43e9e2fc73d2
+msgid "Used when the ticket doesn't contain enough detail to replicate the original bug."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:298
+# c56b0038bbbc467cbaa016dae93dbe1c
+msgid "Used when the ticket does not contain enough information to replicate the reported issue but is potentially still valid. The ticket should be reopened when more information is supplied."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:302
+# d875ce8411234124b70a74e90725fbe1
+msgid "If you believe that the ticket was closed in error -- because you're still having the issue, or it's popped up somewhere else, or the triagers have made a mistake -- please reopen the ticket and provide further information. Again, please do not reopen tickets that have been marked as \"wontfix\" by core developers and bring the issue to django-developers_ instead."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:311
+# c973a5c6f9e5458f8f2af124faf77386
+msgid "How can I help with triaging?"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:313
+# 6992472506c448b391066ff6be252f4a
+msgid "Although the core developers make the big decisions in the ticket triage process, there's a lot that general community members can do to help the triage process. Really, **ANYONE** can help."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:317
+# 853629c7b3564fc9b05eb831d0c66584
+msgid "Start by `creating an account on Trac`_. If you have an account but have forgotten your password, you can reset it using the `password reset page`_."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:320
+# 689ff97aa66b4b53a7dcbcdd6834bba0
+msgid "Then, you can help out by:"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:322
+# 46271962905b4a519f537f6b522c3d7f
+msgid "Closing \"Unreviewed\" tickets as \"invalid\", \"worksforme\" or \"duplicate.\""
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:324
+# a855a9eb9e6d4d36bfa22a36795eef7a
+msgid "Promoting \"Unreviewed\" tickets to \"Design decision needed\" if a design decision needs to be made, or \"Accepted\" in case of obvious bugs or sensible, clearly defined, feature requests."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:328
+# 1b5e2774f6cd4fac9cdd7a22d5795718
+msgid "Correcting the \"Needs tests\", \"Needs documentation\", or \"Has patch\" flags for tickets where they are incorrectly set."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:331
+# 4b870338fa1e49c38da7ea037bfdc941
+msgid "Setting the \"`Easy pickings`_\" flag for tickets that are small and relatively straightforward."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:334
+# f65b3cf6c6724941a6b7898d1210637d
+msgid "Checking that old tickets are still valid. If a ticket hasn't seen any activity in a long time, it's possible that the problem has been fixed but the ticket hasn't yet been closed."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:338
+# fa7a907d50954840a4bba6d50f99173a
+msgid "Contacting the owners of tickets that have been claimed but have not seen any recent activity. If the owner doesn't respond after a week or so, remove the owner's claim on the ticket."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:342
+# 6db6699027554572aee770f168961be0
+msgid "Identifying trends and themes in the tickets. If there a lot of bug reports about a particular part of Django, it may indicate we should consider refactoring that part of the code. If a trend is emerging, you should raise it for discussion (referencing the relevant tickets) on `django-developers`_."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:348
+# c867ddfb0a744529b898b4cae38fac47
+msgid "Set the *type* of tickets that are still uncategorized."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:350
+# 990ba4a23d4b42b996cae28130fe56c2
+msgid "Verify if patches submitted by other users are correct. If they do and also contain appropriate documentation and tests then move them to the \"Ready for Checkin\" stage. If they don't then leave a comment to explain why and set the corresponding flags (\"Patch needs improvement\", \"Needs tests\" etc.)."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:358
+# 36c98321656b46f5a39901e4b7d343bd
+msgid "The `Reports page`_ contains links to many useful Trac queries, including several that are useful for triaging tickets and reviewing patches as suggested above."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:362
+# d0f7db3636064d319e538a5de05c4626
+msgid "You can also find more :doc:`new-contributors`."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:366
+# cc00a8935b654104a906d6a1a3057c79
+msgid "However, we do ask the following of all general community members working in the ticket database:"
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:369
+# 2ba1e6df351a41689e15dc8c80a278de
+msgid "Please **don't** close tickets as \"wontfix.\" The core developers will make the final determination of the fate of a ticket, usually after consultation with the community."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:373
+# a01ed22c64874c96a285fb3f669036a1
+msgid "Please **don't** promote your own tickets to \"Ready for checkin\". You may mark other people's tickets which you've reviewed as \"Ready for checkin\", but you should get at minimum one other community member to review a patch that you submit."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:378
+# 594a2cafd3d149c88d6e58a403263b5f
+msgid "Please **don't** reverse a decision that has been made by a :doc:`core developer</internals/committers>`. If you disagree with a decision that has been made, please post a message to `django-developers`_."
+msgstr ""
+
+#: ../../internals/contributing/triaging-tickets.txt:382
+# faecf9c5dfad4316bf9000a37eb5c0d2
+msgid "If you're unsure if you should be making a change, don't make the change but instead leave a comment with your concerns on the ticket, or post a message to `django-developers`_. It's okay to be unsure, but your input is still valuable."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:3
+# 5731c3aa16d54b1cba45838d79b45f43
+msgid "Branch policy"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:5
+# ebd753b319f6459b9e9b915d46dfab22
+msgid "In general, the trunk must be kept stable. People should be able to run production sites against the trunk at any time. Additionally, commits to trunk ought to be as atomic as possible -- smaller changes are better. Thus, large feature changes -- that is, changes too large to be encapsulated in a single patch, or changes that need multiple eyes on them -- must happen on dedicated branches."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:12
+# bbbb77a5669a4d79bad2fc1e825016a5
+msgid "This means that if you want to work on a large feature -- anything that would take more than a single patch, or requires large-scale refactoring -- you need to do it on a feature branch. Our development process recognizes two options for feature branches:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:17
+# 86d1e82f75094d60b0b32d922441cb89
+msgid "Feature branches using a distributed revision control system like Git_, Mercurial_, Bazaar_, etc."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:20
+# 4fcd92f3189c4bca864f7fe8533baf00
+msgid "If you're familiar with one of these tools, this is probably your best option since it doesn't require any support or buy-in from the Django core developers."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:24
+# a2da77b670664fce92d4fedfafed0935
+msgid "However, do keep in mind that Django will continue to use Subversion for the foreseeable future, and this will naturally limit the recognition of your branch. Further, if your branch becomes eligible for merging to trunk you'll need to find a core developer familiar with your DVCS of choice who'll actually perform the merge."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:30
+# 1f2ad0409d4546f3a4bb9630970810a4
+msgid "If you do decided to start a distributed branch of Django and choose to make it public, please add the branch to the `Django branches`_ wiki page."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:34
+# 662f56fdd3914d2e82204e2c68c5d74a
+msgid "Feature branches using SVN have a higher bar. If you want a branch in SVN itself, you'll need a \"mentor\" among the :doc:`core committers </internals/committers>`. This person is responsible for actually creating the branch, monitoring your process (see below), and ultimately merging the branch into trunk."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:40
+# df4792e7fdc44908a85eef0c1e109597
+msgid "If you want a feature branch in SVN, you'll need to ask in `django-developers`_ for a mentor."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:49
+# b7bc530333fc40c0a4d6dd2853b530f8
+msgid "Branch rules"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:51
+# efb66bd492f642fd90bec154877c5972
+msgid "We've got a few rules for branches born out of experience with what makes a successful Django branch."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:54
+# 7dbf0691a6d146a3b7b6225d2ab0a446
+msgid "DVCS branches are obviously not under central control, so we have no way of enforcing these rules. However, if you're using a DVCS, following these rules will give you the best chance of having a successful branch (read: merged back to trunk)."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:59
+# 1311ea16eb1e46318ef9e0cd00295b57
+msgid "Developers with branches in SVN, however, **must** follow these rules. The branch mentor will keep on eye on the branch and **will delete it** if these rules are broken."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:63
+# e7fedcbb401846a0bc77ad644c32bb8b
+msgid "Only branch entire copies of the Django tree, even if work is only happening on part of that tree. This makes it painless to switch to a branch."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:67
+# 664d679f09214a18a5ad620be6951d99
+msgid "Merge changes from trunk no less than once a week, and preferably every couple-three days."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:70
+# 2ceb51815c604a5fb959c2bf99d70088
+msgid "In our experience, doing regular trunk merges is often the difference between a successful branch and one that fizzles and dies."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:73
+# 77f233f831ab4e7eaa1310687f3a4444
+msgid "If you're working on an SVN branch, you should be using `svnmerge.py`_ to track merges from trunk."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:76
+# 159e14411f784144953257821db7b1e4
+msgid "Keep tests passing and documentation up-to-date. As with patches, we'll only merge a branch that comes with tests and documentation."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:81
+# 3a377f1828094bd38982c8b5f77b2860
+msgid "Once the branch is stable and ready to be merged into the trunk, alert `django-developers`_."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:84
+# 9332a42e0ab24184b38bedd201b4e191
+msgid "After a branch has been merged, it should be considered \"dead\"; write access to it will be disabled, and old branches will be periodically \"trimmed.\" To keep our SVN wrangling to a minimum, we won't be merging from a given branch into the trunk more than once."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:90
+# 7117a8c232c6452c9d7c52fd353256dd
+msgid "Using branches"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:92
+# 61a320620a2247a4ba7bf740594e47ca
+msgid "To use a branch, you'll need to do two things:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:94
+# a2eacc53c847401c85bdb95a21aee69d
+msgid "Get the branch's code through Subversion."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:96
+# 271369728f01450e8896437f44516b9d
+msgid "Point your Python ``site-packages`` directory at the branch's version of the ``django`` package rather than the version you already have installed."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:101
+# 103b594de42249f0ae5424a63128d97a
+msgid "Getting the code from Subversion"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:103
+# 3702777333194f2bb35b17192c5dfb06
+msgid "To get the latest version of a branch's code, check it out using Subversion:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:109
+# 69382981846948dcb3ef6346ae534fef
+msgid "...where ``<branch>`` is the branch's name. See the `list of branch names`_."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:111
+# b95003af91c74718b96c2ff5eddcd5f7
+msgid "Alternatively, you can automatically convert an existing directory of the Django source code as long as you've checked it out via Subversion. To do the conversion, execute this command from within your ``django`` directory:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:119
+# 7e431f1d0c2e4ad49b8a4153b9811a6b
+msgid "The advantage of using ``svn switch`` instead of ``svn co`` is that the ``switch`` command retains any changes you might have made to your local copy of the code. It attempts to merge those changes into the \"switched\" code. The disadvantage is that it may cause conflicts with your local changes if the \"switched\" code has altered the same lines of code."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:125
+# 49f0e3c8700948c3ba29ebb1511636e0
+msgid "(Note that if you use ``svn switch``, you don't need to point Python at the new version, as explained in the next section.)"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:133
+# def02745e7e6458eb6d498f3a1207a47
+msgid "Pointing Python at the new Django version"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:135
+# bb034d89549f460fa6be413cb58ec759
+msgid "Once you've retrieved the branch's code, you'll need to change your Python ``site-packages`` directory so that it points to the branch version of the ``django`` directory. (The ``site-packages`` directory is somewhere such as ``/usr/lib/python2.7/site-packages`` or ``/usr/local/lib/python2.7/site-packages`` or ``C:\\Python\\site-packages``.)"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:141
+# 6703c31ca6dd47e084dc2684ae6ac05e
+msgid "The simplest way to do this is by renaming the old ``django`` directory to ``django.OLD`` and moving the trunk version of the code into the directory and calling it ``django``."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:145
+# 767bd23c9be14eb7abbc48642434d537
+msgid "Alternatively, you can use a symlink called ``django`` that points to the location of the branch's ``django`` package. If you want to switch back, just change the symlink to point to the old code."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/branch-policy.txt:149
+# 6df3a91ded0a402baba3c96f2dec1205
+msgid "A third option is to use a path file (``<something>.pth``). This is a feature of the :mod:`site` module. First, make sure there are no files, directories or symlinks named ``django`` in your ``site-packages`` directory. Then create a text file named ``django.pth`` and save it to your ``site-packages`` directory. That file should contain a path to your copy of Django on a single line and optional comments. Here is an example that points to multiple branches. Just uncomment the line for the branch you want to use ('trunk' in this example) and make sure all other lines are commented::"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:3
+# 8b0eb2c8f93e4479b0be5fb45fb460f7
+msgid "Coding style"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:5
+# 52a837699568421080f58a64e7745e6f
+msgid "Please follow these coding standards when writing code for inclusion in Django."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:8
+# 1662d4fda9ad4cff882bd7d4b95713e6
+msgid "Python style"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:10
+# e56bc9dc4ed54377bfeada38d491826f
+msgid "Unless otherwise specified, follow :pep:`8`."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:12
+# 38992774da5b4886a05624c1efa990df
+msgid "You could use a tool like `pep8`_ to check for some problems in this area, but remember that :pep:`8` is only a guide, so respect the style of the surrounding code as a primary goal."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:16
+# e517898266814158b9d3d2bccad89d33
+msgid "One big exception to :pep:`8` is our preference of longer line lengths. We're well into the 21st Century, and we have high-resolution computer screens that can fit way more than 79 characters on a screen. Don't limit lines of code to 79 characters if it means the code looks significantly uglier or is harder to read."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:22
+# 65347b5393894253876118df17519b56
+msgid "Use four spaces for indentation."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:24
+# 3c716d21630b42239999704fd3f95cb1
+msgid "Use underscores, not camelCase, for variable, function and method names (i.e. ``poll.get_unique_voters()``, not ``poll.getUniqueVoters``)."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:27
+# fbbca68a358147d988a5e231eaf79cb1
+msgid "Use ``InitialCaps`` for class names (or for factory functions that return classes)."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:30
+# 4d28d5aaeea549849e4ce9485c6fc240
+msgid "In docstrings, use \"action words\" such as::"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:38
+# 6401d967d95b4a48900246158acb86e0
+msgid "Here's an example of what not to do::"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:47
+# ade71c9991a147e9a41797829bea4d7f
+msgid "Template style"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:49
+# 70d1396afcfe4694932b28ae5de5bccd
+msgid "In Django template code, put one (and only one) space between the curly brackets and the tag contents."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:52
+# 4c8ea518f92b4c8b8389cf23c1f9d343
+msgid "Do this:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:58
+# 7707db5ae7a847029e07783f36a17f7a
+msgid "Don't do this:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:65
+# 196ca0b77501455a8c8828d5a59efc2a
+msgid "View style"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:67
+# d57cc963f7814af49cf379a0b2aa369e
+msgid "In Django views, the first parameter in a view function should be called ``request``."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:70
+#: ../../internals/contributing/writing-code/coding-style.txt:86
+#: ../../internals/contributing/writing-code/coding-style.txt:101
+# d8e750bfdf4a44338a579e213f57931f
+# 1af65ca2ff694629bf02e996582d0545
+# 22da99991e694322902069f55b8d607d
+msgid "Do this::"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:75
+#: ../../internals/contributing/writing-code/coding-style.txt:92
+#: ../../internals/contributing/writing-code/coding-style.txt:110
+# a244183188884b15ac2fec2472b299da
+# c9c127fd02974823842bb644651cee01
+# d12af0502d474087804effd3459a0103
+msgid "Don't do this::"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:81
+# e61cd2064793486099bdd492136fca1a
+msgid "Model style"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:83
+# 2d1478a8a07e4bf88c574e438c6f6365
+msgid "Field names should be all lowercase, using underscores instead of camelCase."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:98
+# 53431a60d83d42a784da66d061c130d3
+msgid "The ``class Meta`` should appear *after* the fields are defined, with a single blank line separating the fields and the class definition."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:118
+# a9430100f88f4eff8826d642e7e4ea4e
+msgid "Don't do this, either::"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:127
+# 3427fff1a8db4711b0e590d803c28e58
+msgid "The order of model inner classes and standard methods should be as follows (noting that these are not all required):"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:130
+# f6f8ea422d064c1bbf217da8e92b06e3
+msgid "All database fields"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:131
+# eb6c46bb8d2e428b89038eb3972fee37
+msgid "Custom manager attributes"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:132
+# eabdf090fb7742da928246d8158b4ac5
+msgid "``class Meta``"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:133
+# af8d051694504f7182aaec0182cf8ed4
+msgid "``def __unicode__()``"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:134
+# c8709097e812450497bba23d48072eb6
+msgid "``def __str__()``"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:135
+# 413b0b2d38524c43b54319041f528b35
+msgid "``def save()``"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:136
+# edaa9ed75d544fd3b6dde170008c03a6
+msgid "``def get_absolute_url()``"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:137
+# a800ddd028724be6a32c3bdcc0795b2d
+msgid "Any custom methods"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:139
+# 3bdc3286085346d6afd7a5e4e1cd743a
+msgid "If ``choices`` is defined for a given model field, define the choices as a tuple of tuples, with an all-uppercase name, either near the top of the model module or just above the model class. Example::"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:149
+# 46ff78d0dd5f42349023d123edf3f51a
+msgid "Use of ``django.conf.settings``"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:151
+# 96527d0891844fae89819f46ebced469
+msgid "Modules should not in general use settings stored in ``django.conf.settings`` at the top level (i.e. evaluated when the module is imported). The explanation for this is as follows:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:155
+# 2a1c956d055f4c95b38ba253a2995759
+msgid "Manual configuration of settings (i.e. not relying on the ``DJANGO_SETTINGS_MODULE`` environment variable) is allowed and possible as follows::"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:163
+# 534d67f5c3864d1bafd11aed779bc9f7
+msgid "However, if any setting is accessed before the ``settings.configure`` line, this will not work. (Internally, ``settings`` is a ``LazyObject`` which configures itself automatically when the settings are accessed if it has not already been configured)."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:168
+# 3e9c0a05a80d415eaf97848d510e4844
+msgid "So, if there is a module containing some code as follows::"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:175
+# 0629c03625d64e439768785dae99d523
+msgid "...then importing this module will cause the settings object to be configured. That means that the ability for third parties to import the module at the top level is incompatible with the ability to configure the settings object manually, or makes it very difficult in some circumstances."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:180
+# 525895fbce9a4c5faf6bd4f9ac777a2a
+msgid "Instead of the above code, a level of laziness or indirection must be used, such as :class:`django.utils.functional.LazyObject`, :func:`django.utils.functional.lazy` or ``lambda``."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:185
+# 8b6536cb88344f939e4cc6d73057142e
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:187
+# 61ea0a2df0b641b3bfa0a9d434cc6241
+msgid "Mark all strings for internationalization; see the :doc:`i18n documentation </topics/i18n/index>` for details."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:190
+# 13805cea45604d8c868facde8208b05a
+msgid "Remove ``import`` statements that are no longer used when you change code. The most common tools for this task are `pyflakes`_ and `pylint`_."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:193
+# cead067872ab4597b71d6e99d6c7a439
+msgid "Systematically remove all trailing whitespaces from your code as those add unnecessary bytes, add visual clutter to the patches and can also occasionally cause unnecessary merge conflicts. Some IDE's can be configured to automatically remove them and most VCS tools can be set to highlight them in diff outputs. Note, however, that patches which only remove whitespace (or only make changes for nominal :pep:`8` conformance) are likely to be rejected, since they only introduce noise rather than code improvement. Tidy up when you're next changing code in the area."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/coding-style.txt:202
+# 2369c5979cde46138f00a35fbf4c895f
+msgid "Please don't put your name in the code you contribute. Our policy is to keep contributors' names in the ``AUTHORS`` file distributed with Django -- not scattered throughout the codebase itself. Feel free to include a change to the ``AUTHORS`` file in your patch if you make more than a single trivial change."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/index.txt:3
+# 4d4ead5930e34c028bd978304ba814de
+msgid "Writing code"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/index.txt:5
+# 0c0eaa547ec4491a912f74630330e2b1
+msgid "So you'd like to write some code to improve Django. Awesome! Browse the following sections to find out how to give your code patches the best chances to be included in Django core:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:3
+# 5ad94b761acd4fccab19ab56c198af0a
+msgid "Submitting patches"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:5
+# 63d7eac74ff747738d1795606d5b2c39
+msgid "We're always grateful for patches to Django's code. Indeed, bug reports with associated patches will get fixed *far* more quickly than those without patches."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:10
+# 95d5aeb7694648b6976d7a9e18939f77
+msgid "\"Claiming\" tickets"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:12
+# e11f98a44e82451fa10a898d55ec9554
+msgid "In an open-source project with hundreds of contributors around the world, it's important to manage communication efficiently so that work doesn't get duplicated and contributors can be as effective as possible. Hence, our policy is for contributors to \"claim\" tickets in order to let other developers know that a particular bug or feature is being worked on."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:18
+# 10c12b3fd0b2485fbebdc78f282d2875
+msgid "If you have identified a contribution you want to make and you're capable of fixing it (as measured by your coding ability, knowledge of Django internals and time availability), claim it by following these steps:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:22
+# 19352a459abb47c8902cd82c85a86e0d
+msgid "`Create an account`_ to use in our ticket system. If you have an account but have forgotten your password, you can reset it using the `password reset page`_."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:26
+# d1a409180765410f8eecb7941a4630fb
+msgid "If a ticket for this issue doesn't exist yet, create one in our `ticket tracker`_."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:29
+# 3ca770b705e142ddb9e56a958cad5946
+msgid "If a ticket for this issue already exists, make sure nobody else has claimed it. To do this, look at the \"Assigned to\" section of the ticket. If it's assigned to \"nobody,\" then it's available to be claimed. Otherwise, somebody else is working on this ticket, and you either find another bug/feature to work on, or contact the developer working on the ticket to offer your help."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:36
+# 7ea224965a6a4d1087b078b47073b53c
+msgid "Log into your account, if you haven't already, by clicking \"Login\" in the upper right of the ticket page."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:39
+# 0dc961d1f6954d1d9bea9f10ac31a466
+msgid "Claim the ticket:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:41
+# c817f2e283974dbcaa2c3f66be6f136b
+msgid "click the \"accept\" radio button under \"Action\" near the bottom of the page,"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:43
+# cff7096c167246c9a6be82511d890049
+msgid "then click \"Submit changes.\""
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:49
+# 38b26aaaecf24dd2b4d74525d0c71fad
+msgid "Ticket claimers' responsibility"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:51
+# 9824a869105c4beaba87b0c1eeb51655
+msgid "Once you've claimed a ticket, you have a responsibility to work on that ticket in a reasonably timely fashion. If you don't have time to work on it, either unclaim it or don't claim it in the first place!"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:55
+# 0b918af939cb40ed9422a5922414ce87
+msgid "If there's no sign of progress on a particular claimed ticket for a week or two, another developer may ask you to relinquish the ticket claim so that it's no longer monopolized and somebody else can claim it."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:59
+# c04a93a91ec04583a29cc5872608df04
+msgid "If you've claimed a ticket and it's taking a long time (days or weeks) to code, keep everybody updated by posting comments on the ticket. If you don't provide regular updates, and you don't respond to a request for a progress report, your claim on the ticket may be revoked. As always, more communication is better than less communication!"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:66
+# 29c93b81116246f0ad51b2e8a1d8b9b3
+msgid "Which tickets should be claimed?"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:68
+# 164e17f1fb044b2a965b0ae3f41754ad
+msgid "Of course, going through the steps of claiming tickets is overkill in some cases. In the case of small changes, such as typos in the documentation or small bugs that will only take a few minutes to fix, you don't need to jump through the hoops of claiming tickets. Just submit your patch and be done with it."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:77
+# d940324801e74db09975c0de42b3165d
+msgid "Patch style"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:79
+# 01c0a00713374d91bfea271b165fdb68
+msgid "Make sure your code matches our :doc:`coding-style`."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:81
+# a2371442872444deaf073169dc28df2f
+msgid "Submit patches in the format returned by the ``svn diff`` command. An exception is for code changes that are described more clearly in plain English than in code. Indentation is the most common example; it's hard to read patches when the only difference in code is that it's indented."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:87
+# 86b86d0ee1c64cc8980718ea65e8801c
+msgid "Patches in ``git diff`` format are also acceptable."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:89
+# 8d1a48584e074ab29a31c8f3c0248a8f
+msgid "When creating patches, always run ``svn diff`` from the top-level ``trunk`` directory -- i.e. the one that contains ``django``, ``docs``, ``tests``, ``AUTHORS``, etc. This makes it easy for other people to apply your patches."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:94
+# eb07ccba4f2b401284d39d0db3fe9383
+msgid "Attach patches to a ticket in the `ticket tracker`_, using the \"attach file\" button. Please *don't* put the patch in the ticket description or comment unless it's a single line patch."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:98
+# 975b605b1ae14938bd8c858f6554f176
+msgid "Name the patch file with a ``.diff`` extension; this will let the ticket tracker apply correct syntax highlighting, which is quite helpful."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:101
+# 884f5f0205444233bd8227551c27d88d
+msgid "Check the \"Has patch\" box on the ticket details. This will make it obvious that the ticket includes a patch, and it will add the ticket to the `list of tickets with patches`_."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:105
+# ad6bd609ce034ddc82de8d72180f3652
+msgid "The code required to fix a problem or add a feature is an essential part of a patch, but it is not the only part. A good patch should also include a regression test to validate the behavior that has been fixed and to prevent the problem from arising again. Also, if some tickets are relevant to the code that you've written, mention the ticket numbers in some comments in the test so that one can easily trace back the relevant discussions after your patch gets committed and the tickets get closed."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:113
+# f6af03ec468143a0919af42b11423e85
+msgid "If the code associated with a patch adds a new feature, or modifies behavior of an existing feature, the patch should also contain documentation."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:118
+# c6df82c5a8b6422b82e2ddb99639e126
+msgid "Non-trivial patches"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:120
+# 769befe17b7841a3889ea048cd76ba89
+msgid "A \"non-trivial\" patch is one that is more than a simple bug fix. It's a patch that introduces Django functionality and makes some sort of design decision."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:123
+# afc877bcdedb4b02bae262557fd8f224
+msgid "If you provide a non-trivial patch, include evidence that alternatives have been discussed on `django-developers`_. If you're not sure whether your patch should be considered non-trivial, just ask."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:128
+# d88560865dd0425f92b9602b897f6918
+msgid "Javascript patches"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:132
+# a168a95b7988495fb801475ac6425a99
+msgid "Django's admin system leverages the jQuery framework to increase the capabilities of the admin interface. In conjunction, there is an emphasis on admin javascript performance and minimizing overall admin media file size. Serving compressed or \"minified\" versions of javascript files is considered best practice in this regard."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:138
+# 77bbf520a7a745cab6a3c289ae480192
+msgid "To that end, patches for javascript files should include both the original code for future development (e.g. ``foo.js``), and a compressed version for production use (e.g. ``foo.min.js``). Any links to the file in the codebase should point to the compressed version."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:143
+# 345ab13dc514404d95807a52f586dea1
+msgid "To simplify the process of providing optimized javascript code, Django includes a handy script which should be used to create a \"minified\" version. This script is located at ``django/contrib/admin/static/js/compress.py``."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:147
+# 3489c55f350e4860a3f3578e081f5c1c
+msgid "Behind the scenes, ``compress.py`` is a front-end for Google's `Closure Compiler`_ which is written in Java. However, the Closure Compiler library is not bundled with Django directly, so those wishing to contribute complete javascript patches will need to download and install the library independently."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:153
+# 1d5eccf9f5354a3790731ef272ae9ba3
+msgid "The Closure Compiler library requires Java version 6 or higher (Java 1.6 or higher on Mac OS X). Note that Mac OS X 10.5 and earlier did not ship with Java 1.6 by default, so it may be necessary to upgrade your Java installation before the tool will be functional. Also note that even after upgrading Java, the default ``/usr/bin/java`` command may remain linked to the previous Java binary, so relinking that command may be necessary as well."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/submitting-patches.txt:160
+# 894e998410bf422f9c7b918dba892b03
+msgid "Please don't forget to run ``compress.py`` and include the ``diff`` of the minified scripts when submitting patches for Django's javascript."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:3
+# fdccf451d75d45598d34e682e6b9355b
+msgid "Unit tests"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:5
+# 52eabbd6c56e42eb8bd2ff37f8dc51d5
+msgid "Django comes with a test suite of its own, in the ``tests`` directory of the code base. It's our policy to make sure all tests pass at all times."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:8
+# bded4137199b458faef2bc3231663f3f
+msgid "The tests cover:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:10
+# 929aa058846843889565b874b38f8d89
+msgid "Models and the database API (``tests/modeltests``),"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:11
+# 2b8be1c2d1104faabe9f77e3155e96e2
+msgid "Everything else in core Django code (``tests/regressiontests``),"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:12
+# 42ace57fcb0f4b7083aff629821fd3b5
+msgid ":ref:`contrib-apps` (``django/contrib/<app>/tests``)."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:14
+# 0f065028a2e844b9bc0b0054e5f97638
+msgid "We appreciate any and all contributions to the test suite!"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:16
+# fd0831e359954d0eb717c225df6de596
+msgid "The Django tests all use the testing infrastructure that ships with Django for testing applications. See :doc:`Testing Django applications </topics/testing>` for an explanation of how to write new tests."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:23
+# 9a0be333c9f6485384b9d70cb1d8ee4d
+msgid "Running the unit tests"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:26
+# bc8772d37ae441fcbb67834028d02831
+msgid "Quickstart"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:28
+# 10bb4a241fb54fc2a50f85da9bd4e9cc
+msgid "Running the tests requires a Django settings module that defines the databases to use. To make it easy to get started, Django provides a sample settings module that uses the SQLite database. To run the tests with this sample ``settings`` module, ``cd`` into the Django ``tests/`` directory and run:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:38
+# abd67f596a2c47b2a45b31133c048f9b
+msgid "If you get an ``ImportError: No module named django.contrib`` error, you need to add your install of Django to your ``PYTHONPATH``. For more details on how to do this, read :ref:`pointing-python-at-the-new-django-version`."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:44
+# 29007016e00d4c22b431131d3b240602
+msgid "Using another ``settings`` module"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:46
+# 37157e60463148f5b138cc8d17d30f31
+msgid "The included settings module allows you to run the test suite using SQLite. If you want to test behavior using a different database (and if you're proposing patches for Django, it's a good idea to test across databases), you may need to define your own settings file."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:51
+# 276efd45c34c4664a3cffa1b0e0c6749
+msgid "To run the tests with different settings, ``cd`` to the ``tests/`` directory and type:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:58
+# 2f876645fab94ad5971f6a605725583c
+msgid "The :setting:`DATABASES` setting in this test settings module needs to define two databases:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:61
+# 9ede8a76034847a69b4a2fb97f752f66
+msgid "A ``default`` database. This database should use the backend that you want to use for primary testing"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:64
+# 26ce58b5fc4540428d2b830de07041e0
+msgid "A database with the alias ``other``. The ``other`` database is used to establish that queries can be directed to different databases. As a result, this database can use any backend you want. It doesn't need to use the same backend as the ``default`` database (although it can use the same backend if you want to)."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:70
+# f82830150f084bd8855c50d82367e5f5
+msgid "If you're using a backend that isn't SQLite, you will need to provide other details for each database:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:73
+# b475da7478f042a5931dea57fb7495d4
+msgid "The :setting:`USER` option for each of your databases needs to specify an existing user account for the database."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:76
+# d962e1b6f85a4e05a39c6f0a274b5b1c
+msgid "The :setting:`PASSWORD` option needs to provide the password for the :setting:`USER` that has been specified."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:79
+# 0dc51b03b5264c029a8c674d0dd1f3b8
+msgid "The :setting:`NAME` option must be the name of an existing database to which the given user has permission to connect. The unit tests will not touch this database; the test runner creates a new database whose name is :setting:`NAME` prefixed with ``test_``, and this test database is deleted when the tests are finished. This means your user account needs permission to execute ``CREATE DATABASE``."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:86
+# 1c96215228f447b28777ecddd121ba30
+msgid "You will also need to ensure that your database uses UTF-8 as the default character set. If your database server doesn't use UTF-8 as a default charset, you will need to include a value for :setting:`TEST_CHARSET` in the settings dictionary for the applicable database."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:92
+# 3028bd418bd74feabc5b5cd693c79995
+msgid "Running only some of the tests"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:94
+# 2e3e55db5f3c435e90f1495f8dfce33b
+msgid "Django's entire test suite takes a while to run, and running every single test could be redundant if, say, you just added a test to Django that you want to run quickly without running everything else. You can run a subset of the unit tests by appending the names of the test modules to ``runtests.py`` on the command line."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:100
+# f9c24fe3381244498420421c4a5ef9d8
+msgid "For example, if you'd like to run tests only for generic relations and internationalization, type:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:107
+# bb59c7009ff249d4b8238f6419a883d4
+msgid "How do you find out the names of individual tests? Look in ``tests/modeltests`` and ``tests/regressiontests`` — each directory name there is the name of a test. Contrib app names are also valid test names."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:111
+# ba54743ad8744de3993e815576923074
+msgid "If you just want to run a particular class of tests, you can specify a list of paths to individual test classes. For example, to run the ``TranslationTests`` of the ``i18n`` module, type:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:119
+# d4c0b52ce9e4485ba103e2218f0db811
+msgid "Going beyond that, you can specify an individual test method like this:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:126
+# 0b1f07782eaf4059b8e5f3d85b6a99db
+msgid "Running the Selenium tests"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:128
+# 5f25b2d047434246aca4513a7c01ab49
+msgid "Some admin tests require Selenium 2, Firefox and Python >= 2.6 to work via a real Web browser. To allow those tests to run and not be skipped, you must install the selenium_ package (version > 2.13) into your Python path."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:132
+# 6b16a809a32a4414be310629b6b414f4
+msgid "Then, run the tests normally, for example:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:139
+# 190a4755a7524cd0935ef544f14de269
+msgid "Running all the tests"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:141
+# 97d4ab78c5ec41fc9751bc771e88a14c
+msgid "If you want to run the full suite of tests, you'll need to install a number of dependencies:"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:144
+# 863f38e331564d019ca628815015f4a4
+msgid "PyYAML_"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:145
+# 7be07e81791e4ef7b5731cf1e6f7bd3e
+msgid "Markdown_"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:146
+# b870feaed42f4eb4af0bcf1ff19adc3d
+msgid "Textile_"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:147
+# f5430c5e8e7444078c0074c792efcd9b
+msgid "Docutils_"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:148
+# c09f197e4d2347a58105adc94bc991a4
+msgid "setuptools_"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:149
+# 379ac81de95747629da13dec4deb8362
+msgid "memcached_, plus a :ref:`supported Python binding <memcached>`"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:150
+# 3843ab68102e4713af1a1a2d94268e69
+msgid "gettext_ (:ref:`gettext_on_windows`)"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:151
+# e37a43e1262140f092fe0d8347b3187a
+msgid "selenium_ (if also using Python >= 2.6)"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:153
+# e04cf148759c4243aad7810919d154d2
+msgid "If you want to test the memcached cache backend, you'll also need to define a :setting:`CACHES` setting that points at your memcached instance."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:156
+# b5bc8fb462e44771b9a4e30ea587b8a7
+msgid "Each of these dependencies is optional. If you're missing any of them, the associated tests will be skipped."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:171
+# 30ee15315b854cb0b5fd03f32eaea33a
+msgid "Contrib apps"
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:173
+# b858af3063574d6d9b6e6dba1d06b295
+msgid "Tests for contrib apps go in their respective directories under ``django/contrib``, in a ``tests.py`` file. You can split the tests over multiple modules by using a ``tests`` directory in the normal Python way."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:177
+# 193c88fa891e414598651313f34e93bf
+msgid "For the tests to be found, a ``models.py`` file must exist, even if it's empty. If you have URLs that need to be mapped, put them in ``tests/urls.py``."
+msgstr ""
+
+#: ../../internals/contributing/writing-code/unit-tests.txt:180
+# 3a954fe2c6254a46a9104dd8fb5b74c4
+msgid "To run tests for just one contrib app (e.g. ``markup``), use the same method as above::"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:3
+# dc1cacf561cd4cc4af993bba5310ad30
+msgid "Writing documentation"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:5
+# ac5947eef39a43e8bb522423c7314df2
+msgid "We place a high importance on consistency and readability of documentation. After all, Django was created in a journalism environment! So we treat our documentation like we treat our code: we aim to improve it as often as possible."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:10
+# c22a3d32c7574e0ca6ae3f2d234a90bc
+msgid "Documentation changes generally come in two forms:"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:12
+# 270b9861430b4cc584147154526b8c12
+msgid "General improvements: typo corrections, error fixes and better explanations through clearer writing and more examples."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:15
+# aaaa7111b7e94c45a9e617b3cf3979fc
+msgid "New features: documentation of features that have been added to the framework since the last release."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:18
+# bf828874a56f4c04b31afbca6baa2bc2
+msgid "This section explains how writers can craft their documentation changes in the most useful and least error-prone ways."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:22
+# 3b0271ba4d584f4996fbc47c67a5444a
+msgid "Getting started with Sphinx"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:24
+# 5a55dccd59c14fa18ec124ea95a58e45
+msgid "Django's documentation uses the Sphinx__ documentation system, which in turn is based on docutils__. The basic idea is that lightly-formatted plain-text documentation is transformed into HTML, PDF, and any other output format."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:31
+# 076ad4004be74e9ab49439029870000c
+msgid "To actually build the documentation locally, you'll currently need to install Sphinx -- ``sudo pip install Sphinx`` should do the trick."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:36
+# 38714703982b4bffb9ed9a51c0bec3ea
+msgid "Building the Django documentation requires Sphinx 1.0.2 or newer. Sphinx also requires the Pygments__ library for syntax highlighting; building the Django documentation requires Pygments 1.1 or newer (a new-enough version should automatically be installed along with Sphinx)."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:43
+# afb65ea48eb74ae48956d3d617e93876
+msgid "Then, building the HTML is easy; just ``make html`` (or ``make.bat html`` on Windows) from the ``docs`` directory."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:46
+# 540a49b6b7784abc80345e0789b4597a
+msgid "To get started contributing, you'll want to read the :ref:`reStructuredText Primer <sphinx:rst-primer>`. After that, you'll want to read about the :ref:`Sphinx-specific markup <sphinx:sphinxmarkup>` that's used to manage metadata, indexing, and cross-references."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:52
+# 64fe2c1235b14769920fa59dcf977b52
+msgid "Commonly used terms"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:54
+# e49d998cce6e467098459008ab794055
+msgid "Here are some style guidelines on commonly used terms throughout the documentation:"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:57
+# c0a3dfa849b94d9fa5771304a4107fd8
+msgid "**Django** -- when referring to the framework, capitalize Django. It is lowercase only in Python code and in the djangoproject.com logo."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:60
+# 023ad519af604305a019f869e1aaa95d
+msgid "**email** -- no hyphen."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:62
+# 90faa3659a1e4f8c86ab5b579a2c177f
+msgid "**MySQL**, **PostgreSQL**, **SQLite**"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:64
+# b60a7c8fc394413ab8691e7d39e3b5e7
+msgid "**Python** -- when referring to the language, capitalize Python."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:66
+# 44baa079c3964a639a5d027f828ac6eb
+msgid "**realize**, **customize**, **initialize**, etc. -- use the American \"ize\" suffix, not \"ise.\""
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:69
+# 33fdf2b4ef0047658319489a63f54a04
+msgid "**subclass** -- it's a single word without a hyphen, both as a verb (\"subclass that model\") and as a noun (\"create a subclass\")."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:72
+# 93ebfec6aa964cc0bfbc9756f7652ffb
+msgid "**Web**, **World Wide Web**, **the Web** -- note Web is always capitalized when referring to the World Wide Web."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:75
+# 94e6b90b7ad147b5b23b1154411bb010
+msgid "**Web site** -- use two words, with Web capitalized."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:78
+# 3e90d76ca6824fda8b0c76fb5f794146
+msgid "Django-specific terminology"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:80
+# 3c9d3a6672e44e9bbee524f15e969310
+msgid "**model** -- it's not capitalized."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:82
+# d6a3fa926d0b4805a62ef0382fb5b3f0
+msgid "**template** -- it's not capitalized."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:84
+# 27a0bfe6c740445285ff7873c6c7238d
+msgid "**URLconf** -- use three capitalized letters, with no space before \"conf.\""
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:87
+# 07358100a73e4dbe80d68caee8f84fcf
+msgid "**view** -- it's not capitalized."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:90
+# 6eaa0a8c64e741238476dc9c7f51d9e5
+msgid "Guidelines for reStructuredText files"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:92
+# ed19d43079234166a89a8c5146b9c39e
+msgid "These guidelines regulate the format of our reST (reStructuredText) documentation:"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:95
+# 04ede7fb399e4dfc994a408e0006d1a5
+msgid "In section titles, capitalize only initial words and proper nouns."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:97
+# 8e657c5783c6427aaddc661f90de5720
+msgid "Wrap the documentation at 80 characters wide, unless a code example is significantly less readable when split over two lines, or for another good reason."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:101
+# fd714b6a6bf145208e6c95dbd05c3126
+msgid "The main thing to keep in mind as you write and edit docs is that the more semantic markup you can add the better. So::"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:106
+# 7583a9e27b3a4ab8bf3eb79b2e2cbfd2
+msgid "Isn't nearly as helpful as::"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:110
+# 11f1769f95fc4b6580adb5591f2182c1
+msgid "This is because Sphinx will generate proper links for the latter, which greatly helps readers. There's basically no limit to the amount of useful markup you can add."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:114
+# 3e70592364894f39aa72cad2365ae438
+msgid "Use :mod:`~sphinx.ext.intersphinx` to reference Python's and Sphinx' documentation."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:118
+# 058c4f964b424547bf25c55382f79d0e
+msgid "Django-specific markup"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:120
+# 082da795a3ba438583c8092d267a1b22
+msgid "Besides the `Sphinx built-in markup`__, Django's docs defines some extra description units:"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:125
+# 4209fcd54acb4cb8b30a575044c02204
+msgid "Settings::"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:129
+# 83862f55a68843fe9ce150e04bbd0323
+msgid "To link to a setting, use ``:setting:`INSTALLED_APPS```."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:131
+# 5d99c63321fc4146a37682668163df1d
+msgid "Template tags::"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:135
+# ac44e0920933412194171b760370f816
+msgid "To link, use ``:ttag:`regroup```."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:137
+# febb1e1571af4ce09cb0b85904a00eb0
+msgid "Template filters::"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:141
+# ada7616178ab45a39e88d69a3c55a97b
+msgid "To link, use ``:tfilter:`linebreaksbr```."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:143
+# 35dea325c6734461a6983b7e8d69e8dc
+msgid "Field lookups (i.e. ``Foo.objects.filter(bar__exact=whatever)``)::"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:147
+# 3ca86511655947f19dea454b890f81ad
+msgid "To link, use ``:lookup:`exact```."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:149
+# 62fe6d80c5a740689592a001d11c8fff
+msgid "``django-admin`` commands::"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:153
+# 79d299349179428e956ba9b6f31d4a2f
+msgid "To link, use ``:djadmin:`syncdb```."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:155
+# 6b35c6db4a3246fd9e540f69722cc6ba
+msgid "``django-admin`` command-line options::"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:159
+# 3ec0d8d7763b4ed28f443cde17470006
+msgid "To link, use ``:djadminopt:`--traceback```."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:164
+# 59397315b49c4e639d2e9f1cbca9dd77
+msgid "Documenting new features"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:166
+# 58e175062f95443eb16267d0bb32e2fd
+msgid "Our policy for new features is:"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:168
+# c8df3b67bd7f432bb54f08bec4765a68
+msgid "All documentation of new features should be written in a way that clearly designates the features are only available in the Django development version. Assume documentation readers are using the latest release, not the development version."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:173
+# ebcc18f52bdc4cebb317de81a80d66c1
+msgid "Our preferred way for marking new features is by prefacing the features' documentation with: \"``.. versionadded:: X.Y``\", followed by an optional one line comment and a mandatory blank line."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:177
+# dbb5ebd449a94ad5aa7991151e4139a6
+msgid "General improvements, or other changes to the APIs that should be emphasized should use the \"``.. versionchanged:: X.Y``\" directive (with the same format as the ``versionadded`` mentioned above."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:182
+# e7a24641682b45609b76263a52b825e3
+msgid "An example"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:184
+# c8ebb28ea7b0465b9bb3bbdb665bd267
+msgid "For a quick example of how it all fits together, consider this hypothetical example:"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:187
+# e3a3b598d94d407ca7b5eddf90aba839
+msgid "First, the ``ref/settings.txt`` document could have an overall layout like this:"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:212
+# e08e25eb57974f4684e043d24cacf927
+msgid "Next, the ``topics/settings.txt`` document could contain something like this:"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:224
+# 8acd790b2e144efeb77588990cf43e60
+msgid "We use the Sphinx :rst:role:`doc` cross reference element when we want to link to another document as a whole and the :rst:role:`ref` element when we want to link to an arbitrary location in a document."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:228
+# 365dfe7221784e0ebb07bb7eadc14748
+msgid "Next, notice how the settings are annotated:"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:246
+# a856c744866b4911abb754c26e9ab22e
+msgid "This marks up the following header as the \"canonical\" target for the setting ``ADMIN_FOR`` This means any time I talk about ``ADMIN_FOR``, I can reference it using ``:setting:`ADMIN_FOR```."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:250
+# ccd2d1b1ca3442c3857426059a6cbc82
+msgid "That's basically how everything fits together."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:255
+# d3b91c6408a94e0983b90928ec918c41
+msgid "Improving the documentation"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:257
+# ffcde61844804fb69399bec183db37ab
+msgid "A few small improvements can be made to make the documentation read and look better:"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:260
+# 9b198fd33d6e4f9996a3134bc5611381
+msgid "Most of the various ``index.txt`` documents have *very* short or even non-existent intro text. Each of those documents needs a good short intro the content below that point."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:264
+# abd096d9ed6145848f86e22c0b425b5d
+msgid "The glossary is very perfunctory. It needs to be filled out."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:266
+# fa3f40a3c89b41b4b08e0e7d58d2e1c9
+msgid "Add more metadata targets. Lots of places look like::"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:271
+# a9d39df33feb42f6a9eaed68571f8380
+msgid "\\... these should be::"
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:275
+# 1df53b440a814370877fd2a679f475bc
+msgid "That is, use metadata instead of titles."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:277
+# 1a664da0cca9452189b4d6cee77da434
+msgid "Add more links -- nearly everything that's an inline code literal right now can probably be turned into a xref."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:280
+# 8af38b802e8d44b6a3cb654574232680
+msgid "See the ``literals_to_xrefs.py`` file in ``_ext`` -- it's a shell script to help do this work."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:283
+# cc6f813a01834fa3b7730013caaa7b67
+msgid "This will probably be a continuing, never-ending project."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:285
+# 23c8bfff29fd4f8ab002dd85c887d373
+msgid "Add `info field lists`__ where appropriate."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:289
+# 001c259291bf4716a07fb7419f8779bd
+msgid "Whenever possible, use links. So, use ``:setting:`ADMIN_FOR``` instead of ````ADMIN_FOR````."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:292
+# d132ac6d55ca42d6b6a9ceba15322295
+msgid "Use directives where appropriate. Some directives (e.g. ``.. setting::``) are prefix-style directives; they go *before* the unit they're describing. These are known as \"crossref\" directives. Others (e.g. ``.. class::``) generate their own markup; these should go inside the section they're describing. These are called \"description units\"."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:299
+# e16f1514cfd24036a606433a50d279ce
+msgid "You can tell which are which by looking at in :file:`_ext/djangodocs.py`; it registers roles as one of the other."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:302
+# e1f7f0c5d0e746fc9b8330bfe7ad460b
+msgid "Add ``.. code-block:: <lang>`` to literal blocks so that they get highlighted."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:305
+# 01d7c27f6c7144049d2c2f2ee65840ea
+msgid "When referring to classes/functions/modules, etc., you'll want to use the fully-qualified name of the target (``:class:`django.contrib.contenttypes.models.ContentType```)."
+msgstr ""
+
+#: ../../internals/contributing/writing-documentation.txt:309
+# 1c41cc5cbb3442109d3839bfd8510601
+msgid "Since this doesn't look all that awesome in the output -- it shows the entire path to the object -- you can prefix the target with a ``~`` (that's a tilde) to get just the \"last bit\" of that path. So ``:class:`~django.contrib.contenttypes.models.ContentType``` will just display a link with the title \"ContentType\"."
+msgstr ""
+
+#: ../../internals/deprecation.txt:3
+# f8dd4923428a4506ace7934a7b0b8f97
+msgid "Django Deprecation Timeline"
+msgstr ""
+
+#: ../../internals/deprecation.txt:5
+# eb203e0d8f3d4fc5b19f223d0e3171c9
+msgid "This document outlines when various pieces of Django will be removed or altered in a backward incompatible way, following their deprecation, as per the :ref:`deprecation policy <internal-release-deprecation-policy>`. More details about each item can often be found in the release notes of two versions prior."
+msgstr ""
+
+#: ../../internals/deprecation.txt:11
+# f039fe8b06d64ea4bd1710fc93bc8804
+msgid "1.3"
+msgstr ""
+
+#: ../../internals/deprecation.txt:13
+# d5330bfbff4340e1ac8f4ad3aa5b1ac8
+msgid "See the :doc:`Django 1.1 release notes</releases/1.1>` for more details on these changes."
+msgstr ""
+
+#: ../../internals/deprecation.txt:16
+# 22157d7be140421cbb203e0b7f00380c
+msgid "``AdminSite.root()``.  This method of hooking up the admin URLs will be removed in favor of including ``admin.site.urls``."
+msgstr ""
+
+#: ../../internals/deprecation.txt:19
+# 47cd67ebfac445faa8e656f9e0abe9aa
+msgid "Authentication backends need to define the boolean attributes ``supports_object_permissions`` and ``supports_anonymous_user`` until version 1.4, at which point it will be assumed that all backends will support these options."
+msgstr ""
+
+#: ../../internals/deprecation.txt:25
+# bb271e8ea8974f8aa6e4840886297151
+msgid "1.4"
+msgstr ""
+
+#: ../../internals/deprecation.txt:27
+# 759789e2d2da4adbb55100a6172af5c8
+msgid "See the :doc:`Django 1.2 release notes</releases/1.2>` for more details on these changes."
+msgstr ""
+
+#: ../../internals/deprecation.txt:30
+# 1fd12b5ed9944bd68906c977b8bdfda1
+msgid "``CsrfResponseMiddleware`` and ``CsrfMiddleware`` will be removed.  Use the {% csrf_token %} template tag inside forms to enable CSRF protection. ``CsrfViewMiddleware`` remains and is enabled by default."
+msgstr ""
+
+#: ../../internals/deprecation.txt:34
+# 2dd132adf029419e8d5ea1ecd05d6f38
+msgid "The old imports for CSRF functionality (``django.contrib.csrf.*``), which moved to core in 1.2, will be removed."
+msgstr ""
+
+#: ../../internals/deprecation.txt:37
+# ee821b65b5b44378baa8d2462059f602
+msgid "The :mod:`django.contrib.gis.db.backend` module will be removed in favor of the specific backends."
+msgstr ""
+
+#: ../../internals/deprecation.txt:40
+# e7d17b0e35124e4cb9fd96fd91966f07
+msgid "``SMTPConnection`` will be removed in favor of a generic E-mail backend API."
+msgstr ""
+
+#: ../../internals/deprecation.txt:42
+# e98de9a192ec44f092c3c2923ef91b60
+msgid "The many to many SQL generation functions on the database backends will be removed."
+msgstr ""
+
+#: ../../internals/deprecation.txt:45
+# caac295e5f5c406ba90188bd1de20928
+msgid "The ability to use the ``DATABASE_*`` family of top-level settings to define database connections will be removed."
+msgstr ""
+
+#: ../../internals/deprecation.txt:48
+# 6fd11eeeaf4b4fc9af90e850085213f5
+msgid "The ability to use shorthand notation to specify a database backend (i.e., ``sqlite3`` instead of ``django.db.backends.sqlite3``) will be removed."
+msgstr ""
+
+#: ../../internals/deprecation.txt:52
+# 71f295ec18f54fa6bf4d3b2e03102edd
+msgid "The ``get_db_prep_save``, ``get_db_prep_value`` and ``get_db_prep_lookup`` methods will have to support multiple databases."
+msgstr ""
+
+#: ../../internals/deprecation.txt:55
+# 9f9c8ee141654d98b1061cff0b35d84f
+msgid "The ``Message`` model (in ``django.contrib.auth``), its related manager in the ``User`` model (``user.message_set``), and the associated methods (``user.message_set.create()`` and ``user.get_and_delete_messages()``), will be removed.  The :doc:`messages framework </ref/contrib/messages>` should be used instead. The related ``messages`` variable returned by the auth context processor will also be removed. Note that this means that the admin application will depend on the messages context processor."
+msgstr ""
+
+#: ../../internals/deprecation.txt:65
+# 69e8b2e0885c4caea66f4e58cc8893af
+msgid "Authentication backends will need to support the ``obj`` parameter for permission checking. The ``supports_object_permissions`` attribute will no longer be checked and can be removed from custom backends."
+msgstr ""
+
+#: ../../internals/deprecation.txt:69
+# c050ccf9a62d43979a770b6fe25c1005
+msgid "Authentication backends will need to support the ``AnonymousUser`` class being passed to all methods dealing with permissions.  The ``supports_anonymous_user`` variable will no longer be checked and can be removed from custom backends."
+msgstr ""
+
+#: ../../internals/deprecation.txt:74
+# 942e0c72f8644928bc0b18d27640e9b7
+msgid "The ability to specify a callable template loader rather than a ``Loader`` class will be removed, as will the ``load_template_source`` functions that are included with the built in template loaders for backwards compatibility."
+msgstr ""
+
+#: ../../internals/deprecation.txt:79
+# 9a33147d399f46499290eefb4827dcd4
+msgid "``django.utils.translation.get_date_formats()`` and ``django.utils.translation.get_partial_date_formats()``. These functions will be removed; use the locale-aware ``django.utils.formats.get_format()`` to get the appropriate formats."
+msgstr ""
+
+#: ../../internals/deprecation.txt:84
+# 00e0902ed29147088e877cc015fd417b
+msgid "In ``django.forms.fields``, the constants: ``DEFAULT_DATE_INPUT_FORMATS``, ``DEFAULT_TIME_INPUT_FORMATS`` and ``DEFAULT_DATETIME_INPUT_FORMATS`` will be removed. Use ``django.utils.formats.get_format()`` to get the appropriate formats."
+msgstr ""
+
+#: ../../internals/deprecation.txt:90
+# e7b95b1ef39a414ea31f5c30d44032de
+msgid "The ability to use a function-based test runners will be removed, along with the ``django.test.simple.run_tests()`` test runner."
+msgstr ""
+
+#: ../../internals/deprecation.txt:93
+# d2c43be1052940d49cd32015862a2fbf
+msgid "The ``views.feed()`` view and ``feeds.Feed`` class in ``django.contrib.syndication`` will be removed. The class-based view ``views.Feed`` should be used instead."
+msgstr ""
+
+#: ../../internals/deprecation.txt:97
+# 6acad240486546059f4706b31d8c93c5
+msgid "``django.core.context_processors.auth``.  This release will remove the old method in favor of the new method in ``django.contrib.auth.context_processors.auth``."
+msgstr ""
+
+#: ../../internals/deprecation.txt:101
+# 9db433666fef405b983bd0f728b71bf3
+msgid "The ``postgresql`` database backend will be removed, use the ``postgresql_psycopg2`` backend instead."
+msgstr ""
+
+#: ../../internals/deprecation.txt:104
+# 45a8dfc4aa6a46b1bf1b8da3b991b018
+msgid "The ``no`` language code will be removed and has been replaced by the ``nb`` language code."
+msgstr ""
+
+#: ../../internals/deprecation.txt:107
+# 19ef3fefa989435fa09074c51c4298ee
+msgid "Authentication backends will need to define the boolean attribute ``supports_inactive_user`` until version 1.5 when it will be assumed that all backends will handle inactive users."
+msgstr ""
+
+#: ../../internals/deprecation.txt:111
+# ed18d5ee793a4fbdb9cc57de618cdf1a
+msgid "``django.db.models.fields.XMLField`` will be removed. This was deprecated as part of the 1.3 release. An accelerated deprecation schedule has been used because the field hasn't performed any role beyond that of a simple ``TextField`` since the removal of oldforms. All uses of ``XMLField`` can be replaced with ``TextField``."
+msgstr ""
+
+#: ../../internals/deprecation.txt:117
+# a9b574a45423435f9464383b6b484280
+msgid "The undocumented ``mixin`` parameter to the ``open()`` method of ``django.core.files.storage.Storage`` (and subclasses) will be removed."
+msgstr ""
+
+#: ../../internals/deprecation.txt:122
+# bdb45f4d94d049c79884bf3981ae2fc0
+msgid "1.5"
+msgstr ""
+
+#: ../../internals/deprecation.txt:124
+# fbae2d44598f4e7fb7eb4c1b97d329be
+msgid "See the :doc:`Django 1.3 release notes</releases/1.3>` for more details on these changes."
+msgstr ""
+
+#: ../../internals/deprecation.txt:127
+# c59f521079a34b269e93d682886ed629
+msgid "Starting Django without a :setting:`SECRET_KEY` will result in an exception rather than a `DeprecationWarning`. (This is accelerated from the usual deprecation path; see the :doc:`Django 1.4 release notes</releases/1.4>`.)"
+msgstr ""
+
+#: ../../internals/deprecation.txt:131
+# cdf8a9dade134160b057cafe5e4dbcd5
+msgid "The ``mod_python`` request handler will be removed. The ``mod_wsgi`` handler should be used instead."
+msgstr ""
+
+#: ../../internals/deprecation.txt:134
+# 0e89b165aa07430a839f1d3c810c2396
+msgid "The ``template`` attribute on :class:`~django.test.client.Response` objects returned by the :ref:`test client <test-client>` will be removed. The :attr:`~django.test.client.Response.templates` attribute should be used instead."
+msgstr ""
+
+#: ../../internals/deprecation.txt:139
+# da9b13c7151442ad9ecf0a599f52b4c3
+msgid "The :class:`~django.test.simple.DjangoTestRunner` will be removed. Instead use a unittest-native class.  The features of the :class:`django.test.simple.DjangoTestRunner` (including fail-fast and Ctrl-C test termination) can currently be provided by the unittest-native :class:`TextTestRunner`."
+msgstr ""
+
+#: ../../internals/deprecation.txt:145
+# d60eb17b8000419e97045379fa35e0f3
+msgid "The undocumented function :func:`django.contrib.formtools.utils.security_hash` will be removed, instead use :func:`django.contrib.formtools.utils.form_hmac`"
+msgstr ""
+
+#: ../../internals/deprecation.txt:149
+# 647767fcd4d64ad0a6af331084a9c16f
+msgid "The function-based generic view modules will be removed in favor of their class-based equivalents, outlined :doc:`here </topics/generic-views-migration>`:"
+msgstr ""
+
+#: ../../internals/deprecation.txt:153
+# 243712ad31b0445f9e830c66b3366fba
+msgid "The :class:`~django.core.servers.basehttp.AdminMediaHandler` will be removed.  In its place use :class:`~django.contrib.staticfiles.handlers.StaticFilesHandler`."
+msgstr ""
+
+#: ../../internals/deprecation.txt:157
+# 25cfdcabfc1840ca865e5c6727a531bf
+msgid "The :ttag:`url` and :ttag:`ssi` template tags will be modified so that the first argument to each tag is a template variable, not an implied string. Until then, the new-style behavior is provided in the ``future`` template tag library."
+msgstr ""
+
+#: ../../internals/deprecation.txt:162
+# e34311139cb749c78d86d774ac4c76a5
+msgid "The :djadmin:`reset` and :djadmin:`sqlreset` management commands will be removed."
+msgstr ""
+
+#: ../../internals/deprecation.txt:165
+# 809e86d9d3784458973b61309e18fe31
+msgid "Authentication backends will need to support an inactive user being passed to all methods dealing with permissions. The ``supports_inactive_user`` attribute will no longer be checked and can be removed from custom backends."
+msgstr ""
+
+#: ../../internals/deprecation.txt:170
+# a8d889c3b5f74dbfb2f4f84873b6a242
+msgid ":meth:`~django.contrib.gis.geos.GEOSGeometry.transform` will raise a :class:`~django.contrib.gis.geos.GEOSException` when called on a geometry with no SRID value."
+msgstr ""
+
+#: ../../internals/deprecation.txt:174
+# 6aed5c5322f14f81a3a8d911e71b8b7a
+msgid ":class:`~django.http.CompatCookie` will be removed in favor of :class:`~django.http.SimpleCookie`."
+msgstr ""
+
+#: ../../internals/deprecation.txt:177
+# 074f6a80d5624a7dac14136a2c56a044
+msgid ":class:`django.core.context_processors.PermWrapper` and :class:`django.core.context_processors.PermLookupDict` will be removed in favor of the corresponding :class:`django.contrib.auth.context_processors.PermWrapper` and :class:`django.contrib.auth.context_processors.PermLookupDict`, respectively."
+msgstr ""
+
+#: ../../internals/deprecation.txt:184
+# 1406e1e062304220b7989858010c597e
+msgid "The :setting:`MEDIA_URL` or :setting:`STATIC_URL` settings will be required to end with a trailing slash to ensure there is a consistent way to combine paths in templates."
+msgstr ""
+
+#: ../../internals/deprecation.txt:188
+# 904f5932ae0c45ed8b08e3be1b2c0c22
+msgid "``django.db.models.fields.URLField.verify_exists`` will be removed. The feature was deprecated in 1.3.1 due to intractable security and performance issues and will follow a slightly accelerated deprecation timeframe."
+msgstr ""
+
+#: ../../internals/deprecation.txt:193
+# 73a5786480d24d8fbedb949b23c37f91
+msgid "Translations located under the so-called *project path* will be ignored during the translation building process performed at runtime. The :setting:`LOCALE_PATHS` setting can be used for the same task by including the filesystem path to a ``locale`` directory containing non-app-specific translations in its value."
+msgstr ""
+
+#: ../../internals/deprecation.txt:199
+# 98f4b8383dd542639c8bf44d125dabd7
+msgid "The Markup contrib app will no longer support versions of Python-Markdown library earlier than 2.1. An accelerated timeline was used as this was a security related deprecation."
+msgstr ""
+
+#: ../../internals/deprecation.txt:205
+# 755a9aaace7943c48d735db32d8bf6b1
+msgid "1.6"
+msgstr ""
+
+#: ../../internals/deprecation.txt:207
+# 59d45f59c50e43dd9aff21642ab93709
+msgid "See the :doc:`Django 1.4 release notes</releases/1.4>` for more details on these changes."
+msgstr ""
+
+#: ../../internals/deprecation.txt:210
+# 42f6a7ab63f2408eb0fc1c533127316a
+msgid "The compatibility modules ``django.utils.copycompat`` and ``django.utils.hashcompat`` as well as the functions ``django.utils.itercompat.all`` and ``django.utils.itercompat.any`` will be removed. The Python builtin versions should be used instead."
+msgstr ""
+
+#: ../../internals/deprecation.txt:215
+# 9c11c350aa894140b432d9b26bdcf915
+msgid "The :func:`~django.views.decorators.csrf.csrf_response_exempt` and :func:`~django.views.decorators.csrf.csrf_view_exempt` decorators will be removed. Since 1.4 ``csrf_response_exempt`` has been a no-op (it returns the same function), and ``csrf_view_exempt`` has been a synonym for ``django.views.decorators.csrf.csrf_exempt``, which should be used to replace it."
+msgstr ""
+
+#: ../../internals/deprecation.txt:222
+# 129e238145cb443c88bfc8125b8fb897
+msgid "The :class:`~django.core.cache.backends.memcached.CacheClass` backend was split into two in Django 1.3 in order to introduce support for PyLibMC. The historical :class:`~django.core.cache.backends.memcached.CacheClass` will be removed in favor of :class:`~django.core.cache.backends.memcached.MemcachedCache`."
+msgstr ""
+
+#: ../../internals/deprecation.txt:227
+# c5c677feb02b41638b719b0c4b94438b
+msgid "The UK-prefixed objects of ``django.contrib.localflavor.uk`` will only be accessible through their GB-prefixed names (GB is the correct ISO 3166 code for United Kingdom)."
+msgstr ""
+
+#: ../../internals/deprecation.txt:231
+# 83f9ebd3fd334b2998658638ea354355
+msgid "The :setting:`IGNORABLE_404_STARTS` and :setting:`IGNORABLE_404_ENDS` settings have been superseded by :setting:`IGNORABLE_404_URLS` in the 1.4 release. They will be removed."
+msgstr ""
+
+#: ../../internals/deprecation.txt:235
+# 326941c5c1ba4708ac2c6a42b129caa9
+msgid "The :doc:`form wizard </ref/contrib/formtools/form-wizard>` has been refactored to use class based views with pluggable backends in 1.4. The previous implementation will be removed."
+msgstr ""
+
+#: ../../internals/deprecation.txt:239
+# 86ceb04278694a028e481c4f145338c5
+msgid "Legacy ways of calling :func:`~django.views.decorators.cache.cache_page` will be removed."
+msgstr ""
+
+#: ../../internals/deprecation.txt:242
+# 76117b1be3fb4b6da977fd820a9a8757
+msgid "The backward-compatibility shim to automatically add a debug-false filter to the ``'mail_admins'`` logging handler will be removed. The :setting:`LOGGING` setting should include this filter explicitly if it is desired."
+msgstr ""
+
+#: ../../internals/deprecation.txt:247
+# f783cb0840e148e09c75319922befff9
+msgid "The template tag :func:`django.contrib.admin.templatetags.adminmedia.admin_media_prefix` will be removed in favor of the generic static files handling."
+msgstr ""
+
+#: ../../internals/deprecation.txt:251
+# 319b2205bd8f4a11b3b2cfdd4f24b341
+msgid "The builtin truncation functions :func:`django.utils.text.truncate_words` and :func:`django.utils.text.truncate_html_words` will be removed in favor of the ``django.utils.text.Truncator`` class."
+msgstr ""
+
+#: ../../internals/deprecation.txt:255
+# 2d2639494c84488b888e38b2ecece268
+msgid "The :class:`~django.contrib.gis.geoip.GeoIP` class was moved to :mod:`django.contrib.gis.geoip` in 1.4 -- the shortcut in :mod:`django.contrib.gis.utils` will be removed."
+msgstr ""
+
+#: ../../internals/deprecation.txt:259
+# 515157289a474bb4943b00a9343f1846
+msgid "``django.conf.urls.defaults`` will be removed. The functions :func:`~django.conf.urls.include`, :func:`~django.conf.urls.patterns` and :func:`~django.conf.urls.url` plus :data:`~django.conf.urls.handler404`, :data:`~django.conf.urls.handler500`, are now available through :mod:`django.conf.urls` ."
+msgstr ""
+
+#: ../../internals/deprecation.txt:265
+# ecd6d1a3f57f4f1fa44f338d3d2335f8
+msgid "The Databrowse contrib module will be removed."
+msgstr ""
+
+#: ../../internals/deprecation.txt:267
+# d91c0959129344ab89f3a92f073f0121
+msgid "The functions :func:`~django.core.management.setup_environ` and :func:`~django.core.management.execute_manager` will be removed from :mod:`django.core.management`. This also means that the old (pre-1.4) style of :file:`manage.py` file will no longer work."
+msgstr ""
+
+#: ../../internals/deprecation.txt:272
+# e954cadb11304c62afec6027988956ca
+msgid "Setting the ``is_safe`` and ``needs_autoescape`` flags as attributes of template filter functions will no longer be supported."
+msgstr ""
+
+#: ../../internals/deprecation.txt:275
+# 64bff52edba44d4f8ec2421c2c6ca8f9
+msgid "The attribute ``HttpRequest.raw_post_data`` was renamed to ``HttpRequest.body`` in 1.4. The backward compatibility will be removed -- ``HttpRequest.raw_post_data`` will no longer work."
+msgstr ""
+
+#: ../../internals/deprecation.txt:280
+# e489f05ed57544129e19c94d2cf7a6b0
+msgid "2.0"
+msgstr ""
+
+#: ../../internals/deprecation.txt:282
+# 8d831b656d3e4f3d9d67a2514a0b6bf3
+msgid "``django.views.defaults.shortcut()``. This function has been moved to ``django.contrib.contenttypes.views.shortcut()`` as part of the goal of removing all ``django.contrib`` references from the core Django codebase. The old shortcut will be removed in the 2.0 release."
+msgstr ""
+
+#: ../../internals/index.txt:2
+# 62c44dd9cd7d4b17b0576e4cbaa4c61e
+msgid "Django internals"
+msgstr ""
+
+#: ../../internals/index.txt:4
+# 747b83d78a6a48a09fbad428b0b260e1
+msgid "Documentation for people hacking on Django itself. This is the place to go if you'd like to help improve Django, learn or learn about how Django works \"under the hood\"."
+msgstr ""
+
+#: ../../internals/index.txt:10
+# 8a557a211b5c4760b96fe98854553b87
+msgid "Elsewhere in the Django documentation, coverage of a feature is a sort of a contract: once an API is in the official documentation, we consider it \"stable\" and don't change it without a good reason. APIs covered here, however, are considered \"internal-only\": we reserve the right to change these internals if we must."
+msgstr ""
+
+#: ../../internals/release-process.txt:3
+# c15a3254fc684b9ab5ec7d5f2487dbbc
+msgid "Django's release process"
+msgstr ""
+
+#: ../../internals/release-process.txt:8
+# e505d73e01b94d5fbd8ec32afec55a6f
+msgid "Official releases"
+msgstr ""
+
+#: ../../internals/release-process.txt:10
+# 25e28ad469804776923e358ff89253f0
+msgid "Since version 1.0, Django's release numbering works as follows:"
+msgstr ""
+
+#: ../../internals/release-process.txt:12
+# 33cfa46b6eb94009ae340e616d8e88d4
+msgid "Versions are numbered in the form ``A.B`` or ``A.B.C``."
+msgstr ""
+
+#: ../../internals/release-process.txt:14
+# cbcb670fceda4e9a9f9e3c3c07f543a7
+msgid "``A`` is the *major version* number, which is only incremented for major changes to Django, and these changes are not necessarily backwards-compatible. That is, code you wrote for Django 1.2 may break when we release Django 2.0."
+msgstr ""
+
+#: ../../internals/release-process.txt:19
+# d62f1ad9736245a29be635360fc7e343
+msgid "``B`` is the *minor version* number, which is incremented for large yet backwards compatible changes.  Code written for Django 1.2 will continue to work under Django 1.3. Exceptions to this rule will be listed in the release notes."
+msgstr ""
+
+#: ../../internals/release-process.txt:24
+# a120bbfd2cb04feb8b4db58dc66bf3f1
+msgid "``C`` is the *micro version* number, which is incremented for bug and security fixes. A new micro-release will be 100% backwards-compatible with the previous micro-release. The only exception is when a security issue can't be fixed without breaking backwards-compatibility. If this happens, the release notes will provide detailed upgrade instructions."
+msgstr ""
+
+#: ../../internals/release-process.txt:30
+# d55484fe49d4489dbd1c979da755b934
+msgid "In some cases, we'll make alpha, beta, or release candidate releases. These are of the form ``A.B alpha/beta/rc N``, which means the ``Nth`` alpha/beta/release candidate of version ``A.B``."
+msgstr ""
+
+#: ../../internals/release-process.txt:34
+# eef4ee77589541b9a085a1917dc65d6e
+msgid "In Subversion, each Django release will be tagged under ``tags/releases``.  If it's necessary to release a bug fix release or a security release that doesn't come from the trunk, we'll copy that tag to ``branches/releases`` to make the bug fix release."
+msgstr ""
+
+#: ../../internals/release-process.txt:40
+# c878cfcc129b455dbfa3d14120f0c552
+msgid "Major releases"
+msgstr ""
+
+#: ../../internals/release-process.txt:42
+# 75c8726ab9d84a3c8aa1f12e493efe31
+msgid "Major releases (1.0, 2.0, etc.) will happen very infrequently (think \"years\", not \"months\"), and will probably represent major, sweeping changes to Django."
+msgstr ""
+
+#: ../../internals/release-process.txt:46
+# a3394caeee304409b77a1bdacc9fc580
+msgid "Minor releases"
+msgstr ""
+
+#: ../../internals/release-process.txt:48
+# 40b003ee39dc4eacb6928095ffad5a16
+msgid "Minor release (1.1, 1.2, etc.) will happen roughly every nine months -- see `release process`_, below for details."
+msgstr ""
+
+#: ../../internals/release-process.txt:53
+# db62115038dd4bf3849ee5b55fa9797e
+msgid "These releases will contain new features, improvements to existing features, and such. A minor release may deprecate certain features from previous releases. If a feature in version ``A.B`` is deprecated, it will continue to work in version ``A.B+1``. In version ``A.B+2``, use of the feature will raise a ``DeprecationWarning`` but will continue to work. Version ``A.B+3`` will remove the feature entirely."
+msgstr ""
+
+#: ../../internals/release-process.txt:60
+# ff51bdecefbb4c428e68c8541193f8ad
+msgid "So, for example, if we decided to remove a function that existed in Django 1.0:"
+msgstr ""
+
+#: ../../internals/release-process.txt:62
+# 74fbb4a52ead43a59e5c71fd0ef58c3b
+msgid "Django 1.1 will contain a backwards-compatible replica of the function which will raise a ``PendingDeprecationWarning``. This warning is silent by default; you need to explicitly turn on display of these warnings."
+msgstr ""
+
+#: ../../internals/release-process.txt:66
+# 445fb7ea181d446fb918ca5dc812d393
+msgid "Django 1.2 will contain the backwards-compatible replica, but the warning will be promoted to a full-fledged ``DeprecationWarning``. This warning is *loud* by default, and will likely be quite annoying."
+msgstr ""
+
+#: ../../internals/release-process.txt:70
+# fc7dd3ee83764948a8e97b70031b6841
+msgid "Django 1.3 will remove the feature outright."
+msgstr ""
+
+#: ../../internals/release-process.txt:73
+# 11b662ad9a634988a8158a7044fb11c8
+msgid "Micro releases"
+msgstr ""
+
+#: ../../internals/release-process.txt:75
+# 38b2c0e92ab94716ae85f00314916ade
+msgid "Micro releases (1.0.1, 1.0.2, 1.1.1, etc.) will be issued at least once half-way between minor releases, and probably more often as needed."
+msgstr ""
+
+#: ../../internals/release-process.txt:78
+# e5e7b71b4b3a440287cc1e9536e9583c
+msgid "These releases will be 100% compatible with the associated minor release, unless this is impossible for security reasons. So the answer to \"should I upgrade to the latest micro release?\" will always be \"yes.\""
+msgstr ""
+
+#: ../../internals/release-process.txt:82
+# cb4561139c474f60987d9deebfd0e222
+msgid "Each minor release of Django will have a \"release maintainer\" appointed. This person will be responsible for making sure that bug fixes are applied to both trunk and the maintained micro-release branch. This person will also work with the release manager to decide when to release the micro releases."
+msgstr ""
+
+#: ../../internals/release-process.txt:88
+# 2656cfeb2ab541129c2477d27218d6ce
+msgid "Supported versions"
+msgstr ""
+
+#: ../../internals/release-process.txt:90
+# 0f43a9910abd4f8cab5036bf53944400
+msgid "At any moment in time, Django's developer team will support a set of releases to varying levels:"
+msgstr ""
+
+#: ../../internals/release-process.txt:93
+# 7a946b28905e499193f947e2a2b174d1
+msgid "The current development trunk will get new features and bug fixes requiring major refactoring."
+msgstr ""
+
+#: ../../internals/release-process.txt:96
+# 6424426b52674da9b63321aaa813ae63
+msgid "Patches applied to the trunk will also be applied to the last minor release, to be released as the next micro release, when they fix critical problems:"
+msgstr ""
+
+#: ../../internals/release-process.txt:100
+# 83ed2b8324a5446ea872677055a4aeeb
+msgid "Security issues."
+msgstr ""
+
+#: ../../internals/release-process.txt:102
+# 8812b9b6b38b46649f511f4123764e96
+msgid "Data-loss bugs."
+msgstr ""
+
+#: ../../internals/release-process.txt:104
+# 5019f17c8ecf4249b4ca7509617985c7
+msgid "Crashing bugs."
+msgstr ""
+
+#: ../../internals/release-process.txt:106
+# 47dc5193c0f7441b9b0cc58f6068a3c6
+msgid "Major functionality bugs in newly-introduced features."
+msgstr ""
+
+#: ../../internals/release-process.txt:108
+# 857b97127c5c40ec9a99ffb3bdd6fee0
+msgid "The rule of thumb is that fixes will be backported to the last minor release for bugs that would have prevented a release in the first place."
+msgstr ""
+
+#: ../../internals/release-process.txt:111
+# 6cfee03e97f845beab60a7e1e221a135
+msgid "Security fixes will be applied to the current trunk and the previous two minor releases."
+msgstr ""
+
+#: ../../internals/release-process.txt:114
+# 900a194928964c32b44eb476fb577d38
+msgid "Documentation fixes generally will be more freely backported to the last release branch, at the discretion of the committer, and they don't need to meet the \"critical fixes only\" bar. That's because it's highly advantageous to have the docs for the last release be up-to-date and correct, and the downside of backporting (risk of introducing regressions) is much less of a concern."
+msgstr ""
+
+#: ../../internals/release-process.txt:121
+# 3cb610d53bb84e3eb0c8a7f01a07e713
+msgid "As a concrete example, consider a moment in time halfway between the release of Django 1.3 and 1.4. At this point in time:"
+msgstr ""
+
+#: ../../internals/release-process.txt:124
+# 1cb93ee235284c35865552f52dc845ff
+msgid "Features will be added to development trunk, to be released as Django 1.4."
+msgstr ""
+
+#: ../../internals/release-process.txt:126
+# db0cd1479c4443cfa4979572ebe5af67
+msgid "Critical bug fixes will be applied to a ``1.3.X`` branch, and released as 1.3.1, 1.3.2, etc."
+msgstr ""
+
+#: ../../internals/release-process.txt:129
+# a8e479fe2adc43c687b7e8458dbcd49c
+msgid "Security fixes will be applied to trunk, a ``1.3.X`` branch and a ``1.2.X`` branch. They will trigger the release of ``1.3.1``, ``1.2.1``, etc."
+msgstr ""
+
+#: ../../internals/release-process.txt:133
+# fc2ad00f8dde427cbfad015c294f7656
+msgid "Documentation fixes will be applied to trunk, and, if easily backported, to the ``1.3.X`` branch."
+msgstr ""
+
+#: ../../internals/release-process.txt:139
+# f0b297a16ed949938b108a38762bb431
+msgid "Release process"
+msgstr ""
+
+#: ../../internals/release-process.txt:141
+# 8c02bca7ecf441249e0a858a7a6da837
+msgid "Django uses a time-based release schedule, with minor (i.e. 1.1, 1.2, etc.) releases every nine months, or more, depending on features."
+msgstr ""
+
+#: ../../internals/release-process.txt:144
+# c653d6442cb743438f13a8098627ff16
+msgid "After each release, and after a suitable cooling-off period of a few weeks, the core development team will examine the landscape and announce a timeline for the next release. Most releases will be scheduled in the 6-9 month range, but if we have bigger features to development we might schedule a longer period to allow for more ambitious work."
+msgstr ""
+
+#: ../../internals/release-process.txt:151
+# 0c5c95c36cad4bb8987043775d274c3e
+msgid "Release cycle"
+msgstr ""
+
+#: ../../internals/release-process.txt:153
+# 029f01137c964336a0e737261bf785cb
+msgid "Each release cycle will be split into three periods, each lasting roughly one-third of the cycle:"
+msgstr ""
+
+#: ../../internals/release-process.txt:157
+# b3c5414b8e1944c6afe4fbec58dbe557
+msgid "Phase one: feature proposal"
+msgstr ""
+
+#: ../../internals/release-process.txt:159
+# 2c0593b0f7184979bde513d08c11c6a9
+msgid "The first phase of the release process will be devoted to figuring out what features to include in the next version. This should include a good deal of preliminary work on those features -- working code trumps grand design."
+msgstr ""
+
+#: ../../internals/release-process.txt:163
+# 2729a2aaf0894a3e9c358310fe5c2667
+msgid "At the end of part one, the core developers will propose a feature list for the upcoming release. This will be broken into:"
+msgstr ""
+
+#: ../../internals/release-process.txt:166
+# 13a674e341bc4daabb80dc0f2f2bbfb3
+msgid "\"Must-have\": critical features that will delay the release if not finished"
+msgstr ""
+
+#: ../../internals/release-process.txt:167
+# 23ecae21bcb94b9aa0923298ee769226
+msgid "\"Maybe\" features: that will be pushed to the next release if not finished"
+msgstr ""
+
+#: ../../internals/release-process.txt:168
+# 13fd7bdace0340a8b82edbe3a79091ec
+msgid "\"Not going to happen\": features explicitly deferred to a later release."
+msgstr ""
+
+#: ../../internals/release-process.txt:170
+# afe60ac1b591418dbc3ba1d4bc731210
+msgid "Anything that hasn't got at least some work done by the end of the first third isn't eligible for the next release; a design alone isn't sufficient."
+msgstr ""
+
+#: ../../internals/release-process.txt:174
+# dabcfe848a7b43e2a4b0437218789bad
+msgid "Phase two: development"
+msgstr ""
+
+#: ../../internals/release-process.txt:176
+# 2e67251130f94fb6afade4d8c9724b7d
+msgid "The second third of the release schedule is the \"heads-down\" working period. Using the roadmap produced at the end of phase one, we'll all work very hard to get everything on it done."
+msgstr ""
+
+#: ../../internals/release-process.txt:180
+# 69697eb033514de09e10b5ed852534d2
+msgid "Longer release schedules will likely spend more than a third of the time in this phase."
+msgstr ""
+
+#: ../../internals/release-process.txt:183
+# 75e1913a94bd465995200bf2eab5ac56
+msgid "At the end of phase two, any unfinished \"maybe\" features will be postponed until the next release. Though it shouldn't happen, any \"must-have\" features will extend phase two, and thus postpone the final release."
+msgstr ""
+
+#: ../../internals/release-process.txt:187
+# 31fbef98ec1d48c4b4a7ea1b18d27633
+msgid "Phase two will culminate with an alpha release."
+msgstr ""
+
+#: ../../internals/release-process.txt:190
+# e30a72f35cec488e98432c58eeec4950
+msgid "Phase three: bugfixes"
+msgstr ""
+
+#: ../../internals/release-process.txt:192
+# 25a4a2a5ecf14ab3bb58e493a4537195
+msgid "The last third of a release is spent fixing bugs -- no new features will be accepted during this time. We'll release a beta release about halfway through, and an rc complete with string freeze two weeks before the end of the schedule."
+msgstr ""
+
+#: ../../internals/release-process.txt:197
+# 1a115594c19e45b79dd4a06e1cb0295f
+msgid "Bug-fix releases"
+msgstr ""
+
+#: ../../internals/release-process.txt:199
+# ab8c525a4b994dc191670bee61e7911c
+msgid "After a minor release (e.g. 1.1), the previous release will go into bug-fix mode."
+msgstr ""
+
+#: ../../internals/release-process.txt:202
+# 047f0ed86f5d43a98f9fa2f0a6866cc2
+msgid "A branch will be created of the form ``branches/releases/1.0.X`` to track bug-fixes to the previous release. Critical bugs fixed on trunk must *also* be fixed on the bug-fix branch; this means that commits need to cleanly separate bug fixes from feature additions. The developer who commits a fix to trunk will be responsible for also applying the fix to the current bug-fix branch.  Each bug-fix branch will have a maintainer who will work with the committers to keep them honest on backporting bug fixes."
+msgstr ""
+
+#: ../../internals/release-process.txt:211
+# c0401a5f9acf4e36a39abbc42a11e8a6
+msgid "How this all fits together"
+msgstr ""
+
+#: ../../internals/release-process.txt:213
+# e1925615372c46d7954908589cf18f45
+msgid "Let's look at a hypothetical example for how this all first together. Imagine, if you will, a point about halfway between 1.1 and 1.2. At this point, development will be happening in a bunch of places:"
+msgstr ""
+
+#: ../../internals/release-process.txt:217
+# ae2037e89ce1440995a6dd55e00b75ad
+msgid "On trunk, development towards 1.2 proceeds with small additions, bugs fixes, etc. being checked in daily."
+msgstr ""
+
+#: ../../internals/release-process.txt:220
+# 2a72ba3a00ff4684a3f65e9d10ba32f1
+msgid "On the branch \"branches/releases/1.1.X\", fixes for critical bugs found in the 1.1 release are checked in as needed. At some point, this branch will be released as \"1.1.1\", \"1.1.2\", etc."
+msgstr ""
+
+#: ../../internals/release-process.txt:224
+# 2f1e1e93add04bd3a496e484232bc8e1
+msgid "On the branch \"branches/releases/1.0.X\", security fixes are made if needed and released as \"1.0.2\", \"1.0.3\", etc."
+msgstr ""
+
+#: ../../internals/release-process.txt:227
+# 2eaee0f9ccb9444d9ecefbbf67e1423c
+msgid "On feature branches, development of major features is done. These branches will be merged into trunk before the end of phase two."
+msgstr ""
+
+#: ../../internals/svn.txt:3
+# e2d1a7c63ad54b43a9e2bee5e115384d
+msgid "The Django source code repository"
+msgstr ""
+
+#: ../../internals/svn.txt:6
+# 73a49c50c8844b7c83f8d781c3c345f5
+msgid "When deploying a Django application into a real production environment, you will almost always want to use `an official packaged release of Django`_. However, if you'd like to try out in-development code from an upcoming release or contribute to the development of Django, you'll need to obtain a checkout from Django's source code repository. This document covers the way the code repository is laid out and how to work with and find things in it."
+msgstr ""
+
+#: ../../internals/svn.txt:19
+# 9dbdf3e61bb2416d8d5d848ebaa36c5a
+msgid "High-level overview"
+msgstr ""
+
+#: ../../internals/svn.txt:21
+# 0b3c02e8771a4916b4775ad32d101f4d
+msgid "The Django source code repository uses `Subversion`_ to track changes to the code over time, so you'll need a copy of the Subversion client (a program called ``svn``) on your computer, and you'll want to familiarize yourself with the basics of how Subversion works. Subversion's Web site offers downloads for various operating systems, and `a free online book`_ is available to help you get up to speed with using Subversion."
+msgstr ""
+
+#: ../../internals/svn.txt:29
+# a73f921c3ecf419797ab137b77f12c1e
+msgid "The Django Subversion repository is located online at `code.djangoproject.com/svn <https://code.djangoproject.com/svn/>`_. `A friendly Web-based interface for browsing the code`_ is also available, though when using Subversion you'll always want to use the repository address instead. At the top level of the repository are two directories: ``django`` contains the full source code for all Django releases, while ``djangoproject.com`` contains the source code and templates for the `djangoproject.com <https://www.djangoproject.com/>`_ Web site. For trying out in-development Django code, or contributing to Django, you'll always want to check out code from some location in the ``django`` directory."
+msgstr ""
+
+#: ../../internals/svn.txt:41
+# c37f0b84238b463089c9c3a84f1d5cb0
+msgid "Inside the ``django`` directory, Django's source code is organized into three areas:"
+msgstr ""
+
+#: ../../internals/svn.txt:44
+# 05117219f06943f582cf8427e739522d
+msgid "``branches`` contains branched copies of Django's code, which are (or were) maintained for various purposes. Some branches exist to provide a place to develop major or experimental new features without affecting the rest of Django's code, while others serve to provide bug fixes or support for older Django releases."
+msgstr ""
+
+#: ../../internals/svn.txt:50
+# e596ad1ac7424fdeaff00df6a6af4ef2
+msgid "``tags`` contains snapshots of Django's code at various important points in its history; mostly these are the exact revisions from which packaged Django releases were produced."
+msgstr ""
+
+#: ../../internals/svn.txt:54
+# f6ce0c9c2ef443b0880d4421171d1679
+msgid "``trunk`` contains the main in-development code which will become the next packaged release of Django, and is where most development activity is focused."
+msgstr ""
+
+#: ../../internals/svn.txt:65
+# 69d2a6997e174c999b5880c65b67d335
+msgid "Working with Django's trunk"
+msgstr ""
+
+#: ../../internals/svn.txt:67
+# 172f32620e154c7a85176ffc619e2e13
+msgid "If you'd like to try out the in-development code for the next release of Django, or if you'd like to contribute to Django by fixing bugs or developing new features, you'll want to get the code from trunk. You can get a complete copy of this code (a \"Subversion checkout\") by typing::"
+msgstr ""
+
+#: ../../internals/svn.txt:75
+# 3b2862ce75b84bf6ba297ea7bb1d15da
+msgid "Note that this will get *all* of Django: in addition to the top-level ``django`` module containing Python code, you'll also get a copy of Django's documentation, unit-test suite, packaging scripts and other miscellaneous bits. Django's code will be present in your checkout as a directory named ``django``."
+msgstr ""
+
+#: ../../internals/svn.txt:81
+# 2a9d04f0d995412d89ba1f2131d70dc5
+msgid "To try out the in-development trunk code with your own applications, simply place the directory containing your checkout on your Python import path. Then ``import`` statements which look for Django will find the ``django`` module within your checkout."
+msgstr ""
+
+#: ../../internals/svn.txt:86
+# 308b3a5e8da3492b9b5e8b4ca456528d
+msgid "If you're going to be working on Django's code (say, to fix a bug or develop a new feature), you can probably stop reading here and move over to :doc:`the documentation for contributing to Django </internals/contributing/index>`, which covers things like the preferred coding style and how to generate and submit a patch."
+msgstr ""
+
+#: ../../internals/svn.txt:94
+# f2fb871a94b84b5e8fbe143af6cd0953
+msgid "Branches"
+msgstr ""
+
+#: ../../internals/svn.txt:96
+# 2cb6c848c7624d40a98b2a58f6aec849
+msgid "Django uses branches for two main purposes:"
+msgstr ""
+
+#: ../../internals/svn.txt:98
+# 0068cc384abb4281bdcb959b49dcfdc5
+msgid "Development of major or experimental features, to keep them from affecting progress on other work in trunk."
+msgstr ""
+
+#: ../../internals/svn.txt:101
+# 4107541900954da5a3f712fae593b662
+msgid "Security and bug-fix support for older releases of Django, during their support lifetimes."
+msgstr ""
+
+#: ../../internals/svn.txt:106
+# 9a0ca640e0424c2194df16ce4b33dc03
+msgid "Feature-development branches"
+msgstr ""
+
+#: ../../internals/svn.txt:108
+# ba88a7271f2f42c7af89ec725088313b
+msgid "Feature-development branches tend by their nature to be temporary. Some produce successful features which are merged back into Django's trunk to become part of an official release, but others do not; in either case there comes a time when the branch is no longer being actively worked on by any developer. At this point the branch is considered closed."
+msgstr ""
+
+#: ../../internals/svn.txt:115
+# d587ec7fc9e24f75b1173856c1c7e04e
+msgid "Unfortunately, Subversion has no standard way of indicating this. As a workaround, branches of Django which are closed and no longer maintained are moved into the directory ``django/branches/attic``."
+msgstr ""
+
+#: ../../internals/svn.txt:119
+# 3441badfefbf430ca72d94c1e3b063d9
+msgid "For reference, the following are branches whose code eventually became part of Django itself, and so are no longer separately maintained:"
+msgstr ""
+
+#: ../../internals/svn.txt:122
+# 4a5f535c9a3b46f4b995dc79481cf95f
+msgid "``boulder-oracle-sprint``: Added support for Oracle databases to Django's object-relational mapper. This has been part of Django since the 1.0 release."
+msgstr ""
+
+#: ../../internals/svn.txt:126
+# 9e03317128d94bde9d9a1b7dcb5f580c
+msgid "``gis``: Added support for geographic/spatial queries to Django's object-relational mapper. This has been part of Django since the 1.0 release, as the bundled application ``django.contrib.gis``."
+msgstr ""
+
+#: ../../internals/svn.txt:130
+# 27ff4a913d864f87b752d99148a93509
+msgid "``i18n``: Added :doc:`internationalization support </topics/i18n/index>` to Django. This has been part of Django since the 0.90 release."
+msgstr ""
+
+#: ../../internals/svn.txt:133
+# ffa9f7a1805b438c90b1247be9bdd199
+msgid "``magic-removal``: A major refactoring of both the internals and public APIs of Django's object-relational mapper. This has been part of Django since the 0.95 release."
+msgstr ""
+
+#: ../../internals/svn.txt:137
+# 957b9db95d534c0680e1bccdb958518d
+msgid "``multi-auth``: A refactoring of :doc:`Django's bundled authentication framework </topics/auth>` which added support for :ref:`authentication backends <authentication-backends>`. This has been part of Django since the 0.95 release."
+msgstr ""
+
+#: ../../internals/svn.txt:142
+# e72ede164c9645ddabea508b9742fdd6
+msgid "``new-admin``: A refactoring of :doc:`Django's bundled administrative application </ref/contrib/admin/index>`. This became part of Django as of the 0.91 release, but was superseded by another refactoring (see next listing) prior to the Django 1.0 release."
+msgstr ""
+
+#: ../../internals/svn.txt:147
+# 57d55be7141c4c15bcf5691381a76a92
+msgid "``newforms-admin``: The second refactoring of Django's bundled administrative application. This became part of Django as of the 1.0 release, and is the basis of the current incarnation of ``django.contrib.admin``."
+msgstr ""
+
+#: ../../internals/svn.txt:152
+# 5926a49677a4449b88c39229f8ba4b1c
+msgid "``queryset-refactor``: A refactoring of the internals of Django's object-relational mapper. This became part of Django as of the 1.0 release."
+msgstr ""
+
+#: ../../internals/svn.txt:156
+# 2243c23c9ec94ea484920c087c6d9370
+msgid "``unicode``: A refactoring of Django's internals to consistently use Unicode-based strings in most places within Django and Django applications. This became part of Django as of the 1.0 release."
+msgstr ""
+
+#: ../../internals/svn.txt:160
+# 9ea06b26090348adbf9014db1a7cf9ce
+msgid "Additionally, the following branches are closed, but their code was never merged into Django and the features they aimed to implement were never finished:"
+msgstr ""
+
+#: ../../internals/svn.txt:164
+# e29b1d70a92f4ef1be432ecd3d6d9823
+msgid "``full-history``"
+msgstr ""
+
+#: ../../internals/svn.txt:166
+# 157f8109011d4a128175da9ed8ff4514
+msgid "``generic-auth``"
+msgstr ""
+
+#: ../../internals/svn.txt:168
+# dedaddfba27647b8957d25b794753bdb
+msgid "``multiple-db-support``"
+msgstr ""
+
+#: ../../internals/svn.txt:170
+# a0dea5ba327a444f83fcb8a512997c4f
+msgid "``per-object-permissions``"
+msgstr ""
+
+#: ../../internals/svn.txt:172
+# e2a350f933eb4bb2999e26aac5b93fa8
+msgid "``schema-evolution``"
+msgstr ""
+
+#: ../../internals/svn.txt:174
+# cf1dd4561dec423c8b9b6f6f323e47b5
+msgid "``schema-evolution-ng``"
+msgstr ""
+
+#: ../../internals/svn.txt:176
+# 044d56fb62cd4e368682f85e76a7aaa3
+msgid "``search-api``"
+msgstr ""
+
+#: ../../internals/svn.txt:178
+# 36cd7cf8f162486d9278aa14beb2fadb
+msgid "``sqlalchemy``"
+msgstr ""
+
+#: ../../internals/svn.txt:180
+# 43bb5ebe896d4162ad274a9be6305690
+msgid "All of the above-mentioned branches now reside in ``django/branches/attic``."
+msgstr ""
+
+#: ../../internals/svn.txt:185
+# 3cbd9066755c40a69478c601e73e56ee
+msgid "Support and bugfix branches"
+msgstr ""
+
+#: ../../internals/svn.txt:187
+# dc1f578ff3f7457f9b03143ed8a92526
+msgid "In addition to fixing bugs in current trunk, the Django project provides official bug-fix support for the most recent released version of Django, and security support for the two most recently-released versions of Django. This support is provided via branches in which the necessary bug or security fixes are applied; the branches are then used as the basis for issuing bugfix or security releases."
+msgstr ""
+
+#: ../../internals/svn.txt:194
+# 6f1070df420d4b459e164aa7be8f0432
+msgid "As of the Django 1.0 release, these branches can be found in the repository in the directory ``django/branches/releases``, and new branches will be created there approximately one month after each new Django release. For example, shortly after the release of Django 1.0, the branch ``django/branches/releases/1.0.X`` was created to receive bug fixes, and shortly after the release of Django 1.1 the branch ``django/branches/releases/1.1.X`` was created."
+msgstr ""
+
+#: ../../internals/svn.txt:202
+# e6510a61ea224f75a53aba4d756cd1e2
+msgid "Prior to the Django 1.0 release, these branches were maintained within the top-level ``django/branches`` directory, and so the following branches exist there and provided support for older Django releases:"
+msgstr ""
+
+#: ../../internals/svn.txt:206
+# d9a6ed890209401994e8d3a81e42be2b
+msgid "``0.90-bugfixes``"
+msgstr ""
+
+#: ../../internals/svn.txt:208
+# 07bb1d6bbf2e42bfb51667ccfeda93f9
+msgid "``0.91-bugfixes``"
+msgstr ""
+
+#: ../../internals/svn.txt:210
+# 74c30e4787474684906f9d668a9b0f15
+msgid "``0.95-bugfixes``"
+msgstr ""
+
+#: ../../internals/svn.txt:212
+# 28bfaec0285f4e75a11dc2b889550ac4
+msgid "``0.96-bugfixes``"
+msgstr ""
+
+#: ../../internals/svn.txt:214
+# 7a222690e97941828e733839de37c517
+msgid "Official support for those releases has expired, and so they no longer receive direct maintenance from the Django project. However, the branches continue to exist and interested community members have occasionally used them to provide unofficial support for old Django releases."
+msgstr ""
+
+#: ../../internals/svn.txt:222
+# 7039130b569f43e59ea008753760db0f
+msgid "Tags"
+msgstr ""
+
+#: ../../internals/svn.txt:224
+# 3bfe63917ed145aca18b718e5526a2c5
+msgid "The directory ``django/tags`` within the repository contains complete copies of the Django source code as it existed at various points in its history. These \"tagged\" copies of Django are *never* changed or updated; new tags may be added as needed, but once added they are considered read-only and serve as useful guides to Django's development history."
+msgstr ""
+
+#: ../../internals/svn.txt:231
+# d749375d43854ec9b3e41d4a673bee31
+msgid "Within ``django/tags/releases`` are copies of the code which formed each packaged release of Django, and each tag is named with the version number of the release to which it corresponds. So, for example, ``django/tags/releases/1.1`` is a complete copy of the code which was packaged as the Django 1.1 release."
+msgstr ""
+
+#: ../../internals/svn.txt:237
+# acc083e86c8d413894db2ecca686a2e4
+msgid "Within ``django/tags/notable_moments`` are copies of the Django code from points which do not directly correspond to releases, but which are nonetheless important historical milestones for Django development. The current \"notable moments\" marked there are:"
+msgstr ""
+
+#: ../../internals/svn.txt:242
+# 3c9b4dc0fa6046afa7ff845581626d75
+msgid "``ipo``: Django's code as it existed at the moment Django was first publicly announced in 2005."
+msgstr ""
+
+#: ../../internals/svn.txt:245
+# 5c5113b495da43eaab4004e8bf93bef2
+msgid "``pre-magic-removal``: The state of Django's code just before the merging of the ``magic-removal`` branch (described above), which significantly updated Django's object-relational mapper."
+msgstr ""
+
+#: ../../internals/svn.txt:249
+# bc12f43923a64cc692b7956191bbfd59
+msgid "``pre-newforms-admin``: The state of Django's code just before the merging of the ``newforms-admin`` branch (see above), which significantly updated Django's bundled administrative application."
+msgstr ""
+
+#: ../../internals/svn.txt:253
+# 41afc25eac0341baba04325c0e5c71ef
+msgid "Tags corresponding to each of the alpha, beta and release-candidate packages in the run up to the Django 1.0 release."
+msgstr ""
+
