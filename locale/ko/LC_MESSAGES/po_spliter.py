@@ -7,17 +7,7 @@ import re
 from collections import OrderedDict
 
 
-def main():
-    target_file = None
-    if len(sys.argv) < 2:
-        print "need a file name for splitting."
-        return 1
-    else:
-        try:
-            target_file = open(sys.argv[1])
-        except IOError:
-            print "need a file name for spliting"
-            return 1
+def main(target_file):
 
     header = ''
     each_files = {}
@@ -46,11 +36,9 @@ def main():
                     break
                 each_files[file_name][file_line] += msg_line
 
-    target_file.close()
-
     for path, content in each_files.iteritems():
         for mkpath in os.path.dirname(path).split('/'):
-            if not os.path.isdir(os.path.dirname(path)):
+            if not os.path.isdir(os.path.dirname(path)) and os.path.dirname(path) != '':
                 os.mkdir(os.path.dirname(path))
         splited_file = open(path, 'w')
         for po_line in content.itervalues():
@@ -58,4 +46,14 @@ def main():
         splited_file.close()
 
 if __name__ == '__main__':
-    main()
+    if len(sys.argv) < 2:
+        print "need a file name for splitting."
+    else:
+        try:
+            file_list = glob(sys.argv[1])
+            for target_file in file_list:
+                target_file = open(target_file)
+                main(target_file)
+                target_file.close()
+        except IOError:
+            print "need a file name for spliting"
